@@ -1,10 +1,10 @@
 @use "../../config/dims" as *;
-@use "../../../themes/niva/config/dims" as *;
+@use "../../../themes/mizoon/config/dims" as *;
 @use "functions" as *;
 @use'sass:list';
 @use'sass:map';
 
-@mixin generate-total-style-opacity($map-config , $property){
+@mixin generate-total-style-opacity($map-config , $property, $class){
     $factor : map.get($map-config, factor);
     $map:();
     $list:();
@@ -12,11 +12,11 @@
     $value : 0;
     @while ($value < 1){
         $value:$i * $factor;
-        .opacity-#{$i}{
+        .#{$class}-#{$i}{
             #{$property}:$value;
         }
         $i : $i + 1;
     }
 }
 
-@include generate-total-style-opacity($conf-opacity , opacity);
+@include generate-total-style-opacity($conf-opacity , opacity, opacity);

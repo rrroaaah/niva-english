@@ -2,7 +2,7 @@
 @use 'sass:map';
 @use 'sass:string';
 @use "../../config/dims" as *;
-@use "../../../themes/niva/config/dims" as *;
+@use "../../../themes/mizoon/config/dims" as *;
 @use "../responsive/functions/responsive" as *;
 
 @function generate-aspect-ratio-class-name($map-config , $property){

@@ -2,10 +2,6 @@
 
 @mixin reset-file($reset) {
     @if $reset {
-        *{
-            font-family: var(--font-primary);
-        }
-
         *, *::after, *::before {
             box-sizing: border-box;
             margin: 0;
