@@ -1,0 +1,148 @@
+//empty page 1.1
+#shoppingcart .shop-process {
+    background-image: linear-gradient(to right,#FFA30A 1% , #FFF0D8 1% 100%);
+    height: 6px;
+}
+
+#shoppingcart .back-svg {
+    box-shadow: -7px 10px 19px -6px rgba(126, 142, 185, 0.2);
+}
+
+#shoppingcart .back-svg svg path {
+    stroke: #CCD1DE;
+}
+
+#shoppingcart #process .back-svg.variant {
+    background-color: var(--primary);
+    box-shadow: 0px 0px 8px 0px var(--primary);
+}
+
+#shoppingcart .back-svg.variant svg path {
+    stroke: var(--secondary) !important;
+}
+
+#shoppingcart .count {
+    box-shadow: 4px 0px 7px -2px var(--primary) !important;
+}
+
+#shoppingcart .line-height {
+    line-height: 1.2rem;
+}
+
+#shoppingcart .txt-header > div {
+    border-top-color: #F5F7F9;
+    border-right-color: #f5f7f9cb;
+    border-left-color: #f5f7f9d4;
+    border-bottom-color: #f5f7f995;
+}
+
+#shoppingcart .space svg {
+    transition: all 200ms ;
+}
+
+#shoppingcart .space:hover svg {
+    transform: translateX(-6px);
+}
+
+//level 1-full
+#shoppingcart input {
+    outline: unset;
+}
+
+#shoppingcart .product-img {
+    width: 85px;
+}
+
+#shoppingcart .cost-details > div:nth-child(1) .price path {
+    fill: var(--secondary-text);
+}
+
+#shoppingcart .cost-details > div:nth-child(2) .price path {
+    fill: black;
+}
+
+#shoppingcart .sending-card {
+    top: 10rem;
+}
+
+// level 2
+#shoppingcart .wrapper-post{
+    box-shadow: 0px 2px 1px 1px var(--border);
+}
+
+#shoppingcart .btn-date {
+    border: 1px solid var(--border);
+    box-shadow: 0px 3px 1px 0px #EEF2F9;
+}
+
+#shoppingcart .tick{
+    width: 20px;
+    height: 20px;
+}
+
+#shoppingcart #leading-post:checked+label .tick{
+    background-color: var(--primary);
+}
+
+#shoppingcart #leading-post:checked+label {
+    background-color: var(--secondary);
+}
+
+#shoppingcart #leading-post:checked+label p{
+   color: var(--secondary-text);
+}
+
+#shoppingcart #leading-post:checked+label span{
+   color: var(--secondary-text);
+}
+
+#shoppingcart #common-post:checked+label .tick{
+    background-color: var(--primary);
+}
+
+#shoppingcart #common-post:checked+label {
+    background-color: var(--secondary);
+}
+
+#shoppingcart #common-post:checked+label p{
+   color: var(--secondary-text);
+}
+
+#shoppingcart #common-post:checked+label span{
+   color: var(--secondary-text);
+}
+
+#shoppingcart #online-pay:checked+label {
+    background-color: var(--secondary);
+}
+
+#shoppingcart #cash-pay:checked+label {
+    background-color: var(--secondary);
+}
+
+#shoppingcart .total-cost svg path{
+    fill: black;
+}
+
+
+
+@media screen and (width < 1400px) {}
+
+@media screen and (width < 1200px) {}
+
+@media screen and (width < 992px) {
+
+    .p-lg-fixed {
+        position: fixed;
+    }
+}
+
+@media screen and (width < 768px) {
+
+
+    #shoppingcart .wrapper-phases {
+        top: 10rem;
+    }
+}
+
+@media screen and (width < 576px) {}

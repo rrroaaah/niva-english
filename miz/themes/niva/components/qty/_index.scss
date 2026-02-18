@@ -1,0 +1,15 @@
+@use "../../../../sass/kernel/" as *;
+
+
+.qty{
+    .qty-plus{
+        @extend .cursor-pointer, .user-select-none;
+    }
+    .qty-value{
+        width:3rem;
+        @extend .user-select-none, .d-flex, .justify-content-center, .align-items-center;
+    }
+    .qty-minus{
+        @extend .cursor-pointer, .user-select-none;
+    }
+}
