@@ -3,7 +3,7 @@
   --primary: #E80645;
   --on-primary: #FFFFFF;
   --primary-light: #FFFFFF;
-  --primary-dark: #d10202;
+  --primary-dark: #FFFFFF;
   --secondary: #F3F7F9;
   --on-secondary: #021959;
   --secondary-light: #393939;
@@ -34,7 +34,7 @@
   --background: #FFFFFF;
   --section: #262626;
   --hover: #FFFFFF;
-  --button-hover: #d10202;
+  --button-hover: #E40000;
   --bg-list-hover: #F2E0E0;
   --button-text-hover: #FFC6C6;
   --discount-price: #9aa8bc;
@@ -165,7 +165,7 @@
   height: 0vh;
 }
 
-.w-fit-content, .register-comment-box, .dropdown .dropdown-menu, .information-tooltip, .information-tooltip span.box, .product-comment .features-container .show-more, .product-details {
+.w-fit-content, .information-tooltip, .information-tooltip span.box, .product-comment .features-container .show-more, .product-details {
   width: fit-content;
 }
 
@@ -209,7 +209,7 @@
   font-weight: 800;
 }
 
-.font-weight-bold, .range-slider .values, .forign-product .wrapper-text-send .wrapper-send .text, .forign-product .wrapper-text-sale .wrapper-sale .txt-big .text, .forign-product .wrapper-sale-btn .sale-btn, .forign-product .container-price .wrapper-price .price, .forign-product .container-price .wrapper-price-percent .price-percent, .unavailable .wrapper-unavailable .unavailable-text, .unavailable .login-btn, .variable-product .product-main-content .product-main-content-buy .product-main-content-buy-text, .variable-product .product-main-content .product-main-content-buy .product-main-content-buy-text-send, .variable-product .container-sales-per-week .sales-per-week .sales-per-week-text .text, .variable-product .container-variation-color .variation-color-text, .call-product .container-price .last-price, .call-product .container-price .wrapper-date .date, .call-product .container-price .wrapper-date .wrapper-price .price, .call-product .explanation-text, .call-product .wrapper-btn .call-btn, .call-product .wrapper-btn .wrapper-call .text-call, .call-product .wrapper-btn .wrapper-call .phone-number, .product-toolbar .icons-box .label .label-name, .topseller .details .content .number, .topseller .details .content .title, .baner-mobile .title, .devicebanner .title, .countdown, .product-qa .question-container .text-quesiton, .product-qa .question-container .btn .count, .product-qa .answer-container .btn-answer, .product-comment .information-comment .user-name, .product-comment .information-comment .user-type, .product-comment .information-comment .date-time, .product-comment .information-comment .btn .count, .product-comment .text-container .title, .product-comment .text-container .description, .product-comment .features-container .show-more .text-show-more, .product-comment .features-container .features, .weblog-card.newest-row .card-body .title, .weblog-card.newest-column .title, .summary-opinion .title, .summary-opinion mark, .summary-opinion .description, .rating-card .card-header .title, .rating-card .card-header .rating-count .description, .rating-card .card-header .rating-count .number, .rating-card .card-body .percentage-point .description-container .comment-number, .rating-card .card-footer .comments-number .count, .rating-card .card-footer .comments-number .description, .product-details .title, .product-details .description, .product-card .countdown, .product-card .card-body .title, .product-card .card-body .available-number, .product-card .card-body .discount-percentage, .product-card .card-body .discount-box .original-price, .product-card .card-body .discount-box .special-price, .product-card .card-body .credit-purchase-box, button.product-button-feature.check-payment, button.product-button-feature.original, button.product-button-feature.fake, button.product-button-feature.warranty, button.product-button-feature.payable-credit, button.product-button-feature.installments, .feature-description-box.text-type .description, .accordion-group .accordion .accordion-box .accordion-body, .contact-us-information .title, .contact-us-information .direction, .biography .content, .biography .content .title, .article-banner-weblog .banner-content .title {
+.font-weight-bold, .forign-product .wrapper-text-send .wrapper-send .text, .forign-product .wrapper-text-sale .wrapper-sale .txt-big .text, .forign-product .wrapper-sale-btn .sale-btn, .forign-product .container-price .wrapper-price .price, .forign-product .container-price .wrapper-price-percent .price-percent, .unavailable .wrapper-unavailable .unavailable-text, .unavailable .login-btn, .variable-product .product-main-content .product-main-content-buy .product-main-content-buy-text, .variable-product .product-main-content .product-main-content-buy .product-main-content-buy-text-send, .variable-product .container-sales-per-week .sales-per-week .sales-per-week-text .text, .variable-product .container-variation-color .variation-color-text, .call-product .container-price .last-price, .call-product .container-price .wrapper-date .date, .call-product .container-price .wrapper-date .wrapper-price .price, .call-product .explanation-text, .call-product .wrapper-btn .call-btn, .call-product .wrapper-btn .wrapper-call .text-call, .call-product .wrapper-btn .wrapper-call .phone-number, .product-toolbar .icons-box .label .label-name, .topseller .details .content .number, .topseller .details .content .title, .baner-mobile .title, .devicebanner .title, .countdown, .product-qa .question-container .text-quesiton, .product-qa .question-container .btn .count, .product-qa .answer-container .btn-answer, .product-comment .information-comment .user-name, .product-comment .information-comment .user-type, .product-comment .information-comment .date-time, .product-comment .information-comment .btn .count, .product-comment .text-container .title, .product-comment .text-container .description, .product-comment .features-container .show-more .text-show-more, .product-comment .features-container .features, .weblog-card.newest-row .card-body .title, .weblog-card.newest-column .title, .summary-opinion .title, .summary-opinion mark, .summary-opinion .description, .rating-card .card-header .title, .rating-card .card-header .rating-count .description, .rating-card .card-header .rating-count .number, .rating-card .card-body .percentage-point .description-container .comment-number, .rating-card .card-footer .comments-number .count, .rating-card .card-footer .comments-number .description, .product-details .title, .product-details .description, .product-card .countdown, .product-card .card-body .title, .product-card .card-body .available-number, .product-card .card-body .discount-box .original-price, .product-card .card-body .discount-box .discount-percentage, .product-card .card-body .discount-box .special-price, .product-card .card-body .credit-purchase-box, button.product-button-feature.check-payment, button.product-button-feature.original, button.product-button-feature.fake, button.product-button-feature.warranty, button.product-button-feature.payable-credit, button.product-button-feature.installments, .feature-description-box.text-type .description, .accordion-group .accordion .accordion-box .accordion-body, .contact-us-information .title, .contact-us-information .direction, .biography .content, .biography .content .title, .article-banner-weblog .banner-content .title {
   font-weight: 700;
 }
 
@@ -217,7 +217,7 @@
   font-weight: 600;
 }
 
-.font-weight-medium, .product-toolbar .rate-box, .iphone-banner .product .text-box .name, .air-banner .content .product .text-box .description, .product-qa .answer-container .answer-description, .product-card .card-body .btn-add-to-cart, .product-card .card-body .discount-percentage, .accordion-group .accordion .accordion-box .accordion-header, .article-banner-weblog {
+.font-weight-medium, .product-toolbar .rate-box, .iphone-banner .product .text-box .name, .air-banner .content .product .text-box .description, .product-qa .answer-container .answer-description, .product-card .card-body .btn-add-to-cart, .product-card .card-body .discount-box .discount-percentage, .accordion-group .accordion .accordion-box .accordion-header, .article-banner-weblog {
   font-weight: 500;
 }
 
@@ -334,23 +334,23 @@ html {
     --html-font-size: 0.7rem;
   }
 }
-.border-primary-color, .range-slider .values .value-min:focus, .range-slider .values .value-max:focus, .product-card .logo-container {
+.border-primary-color, .product-card .logo-container {
   border-color: var(--primary);
 }
 
-.primary-color, .modal-container.story-modal .slider-content .story-content .like-story.active i, .product-card .countdown {
+.primary-color, .product-card .countdown {
   color: var(--primary);
 }
 
-.bg-primary-color, .dropdown .dropdown-box, .dropdown .dropdown-menu > li > :not(:has(*)):hover, .dropdown .dropdown-menu > li a:hover, .dropdown .dropdown-menu .dropdown-submenu .dropdown-submenu-toggle:hover, .dropdown .dropdown-menu .dropdown-submenu.active > .dropdown-submenu-toggle, .range-slider .values .value-min:focus, .range-slider .values .value-max:focus, .range-slider .range-wrapper .range-progress, .unavailable .login-btn, .baner-mobile, .exclusive-sale-banner, .banner, .countdown, .product-comment .information-comment .user-type, .progress-bar, .product-card .card-body .btn-add-to-cart, .product-card .card-body .discount-percentage, button.product-button-feature.warranty {
+.bg-primary-color, .unavailable .login-btn, .baner-mobile, .exclusive-sale-banner, .banner, .countdown, .product-comment .information-comment .user-type, .progress-bar, .product-card .card-body .btn-add-to-cart, .product-card .card-body .discount-box .discount-percentage, button.product-button-feature.warranty {
   background-color: var(--primary);
 }
 
-.border-on-primary-color, .dropdown .dropdown-menu {
+.border-on-primary-color {
   border-color: var(--on-primary);
 }
 
-.on-primary-color, .dropdown .dropdown-menu > li > :not(:has(*)):hover, .dropdown .dropdown-menu > li a:hover, .dropdown .dropdown-menu .dropdown-submenu .dropdown-submenu-toggle:hover, .dropdown .dropdown-menu .dropdown-submenu.active > .dropdown-submenu-toggle, .sort-by li.active, .unavailable .login-btn, .product-toolbar .icons-box .label .label-name, .baner-mobile .title, .devicebanner .title, .labeld-card .content .product-name, .exclusive-sale-banner .view-all, .banner .cantainer-text p, .countdown, .information-tooltip span.box, .product-qa .answer-container .answer-description .user-name .user-type, .product-comment .information-comment .user-type, .product-card .card-body .btn-add-to-cart, .product-card .card-body .discount-percentage, button.product-button-feature.check-payment, button.product-button-feature.original, button.product-button-feature.fake, button.product-button-feature.warranty, button.product-button-feature.installments, .article-banner-weblog {
+.on-primary-color, .sort-by li.active, .unavailable .login-btn, .product-toolbar .icons-box .label .label-name, .baner-mobile .title, .devicebanner .title, .labeld-card .content .product-name, .exclusive-sale-banner .view-all, .banner .cantainer-text p, .countdown, .information-tooltip span.box, .product-qa .answer-container .answer-description .user-name .user-type, .product-comment .information-comment .user-type, .product-card .card-body .btn-add-to-cart, .product-card .card-body .discount-box .discount-percentage, button.product-button-feature.check-payment, button.product-button-feature.original, button.product-button-feature.fake, button.product-button-feature.warranty, button.product-button-feature.installments, .article-banner-weblog {
   color: var(--on-primary);
 }
 
@@ -366,23 +366,19 @@ html {
   background-color: var(--primary-light);
 }
 
-.primary-dark-color {
-  color: var(--primary-dark);
-}
-
 .bg-primary-dark-color {
   background-color: var(--primary-dark);
 }
 
-.secondary-color, .dropdown .dropdown-box, .range-slider .values .value-min:focus, .range-slider .values .value-max:focus, .accordion-group .accordion, .accordion-group.accordion-zebra .accordion:nth-child(2n-1) {
+.secondary-color, .accordion-group .accordion, .accordion-group.accordion-zebra .accordion:nth-child(2n-1) {
   color: var(--secondary);
 }
 
-.bg-secondary-color, .dropdown .dropdown-menu, .product-qa .question-container .btn, .product-comment .information-comment .btn, .summary-opinion, .product-category {
+.bg-secondary-color, .product-qa .question-container .btn, .product-comment .information-comment .btn, .summary-opinion, .product-category {
   background-color: var(--secondary);
 }
 
-.on-secondary-color, .dropdown .dropdown-menu, .dropdown .dropdown-menu > li > :not(:has(*)), .dropdown .dropdown-menu > li a, .dropdown .dropdown-menu .dropdown-submenu .dropdown-submenu-toggle, .information-tooltip span.box, .product-category, button.product-button-feature.payable-credit {
+.on-secondary-color, .information-tooltip span.box, .product-category, button.product-button-feature.payable-credit {
   color: var(--on-secondary);
 }
 
@@ -426,7 +422,7 @@ html {
   background-color: var(--text);
 }
 
-.title-text-color, .weblog-card.newest-row .card-body .description, .weblog-card.newest-column .card-body .description, .accordion-group .accordion .accordion-box .accordion-header, .contact-us-information .title {
+.title-text-color, .weblog-card.newest-row .card-body .description, .weblog-card.newest-column .card-body .description, .logo-banner .under-banner .icon-download-banner, .accordion-group .accordion .accordion-box .accordion-header, .contact-us-information .title {
   color: var(--title-text);
 }
 
@@ -450,7 +446,7 @@ html {
   background-color: var(--section-title-text);
 }
 
-.border-color, .button-date, .range-slider .values .value-min, .range-slider .values .value-max, .unavailable, .unavailable .wrapper-unavailable, .variable-product .container-sales-per-week .sales-per-week, .topseller, .topseller .details .content .number::after, .product-gallery.slider .slider-wrapper, .weblog-card.newest-column, .modal-container.story-modal .slider-content .story-content .story-timelines .timeline:has(~ .timeline.active), .modal-container.story-modal .slider-content .story-content .story-timelines .timeline.active, .modal-container.story-modal .slider-content.active .timeline.active, .return-condition-box, .rating-card .card-footer .comments-number, .product-details, .product-details.rating, .product-card, button.product-button-feature.payable-credit {
+.border-color, .unavailable, .unavailable .wrapper-unavailable, .variable-product .container-sales-per-week .sales-per-week, .topseller, .topseller .details .content .number::after, .product-gallery.slider .slider-wrapper, .weblog-card.newest-column, .modal-container.story-modal .slider-content .story-content .story-timelines .timeline:has(~ .timeline.active), .modal-container.story-modal .slider-content .story-content .story-timelines .timeline.active, .return-condition-box, .rating-card .card-footer .comments-number, .product-details, .product-details.rating, .product-card, button.product-button-feature.payable-credit {
   border-color: var(--border);
 }
 
@@ -594,7 +590,7 @@ html {
   background-color: var(--unCommon);
 }
 
-.bg-transparent-color, .modal-container, .modal-container.share-modal, .modal-container.cart-modal, .modal-container.story-modal, .accordion-group.comment-show-more .accordion {
+.bg-transparent-color, .modal-container, .modal-container.story-modal, .accordion-group.comment-show-more .accordion {
   background-color: var(--transparent);
 }
 
@@ -602,7 +598,7 @@ html {
   --primary: #E80645;
   --on-primary: #FFFFFF;
   --primary-light: #FFFFFF;
-  --primary-dark: #d10202;
+  --primary-dark: #FFFFFF;
   --secondary: #F3F7F9;
   --on-secondary: #021959;
   --secondary-light: #393939;
@@ -633,7 +629,7 @@ html {
   --background: #FFFFFF;
   --section: #262626;
   --hover: #FFFFFF;
-  --button-hover: #d10202;
+  --button-hover: #E40000;
   --bg-list-hover: #F2E0E0;
   --button-text-hover: #FFC6C6;
   --discount-price: #9aa8bc;
@@ -668,7 +664,7 @@ html {
   border-width: 0px;
 }
 
-.bw-1, .button-date, .dropdown .dropdown-menu, .range-slider .values .value-min, .range-slider .values .value-max, .unavailable, .unavailable .wrapper-unavailable, .variable-product .container-sales-per-week .sales-per-week, .product-gallery.slider .slider-wrapper, .weblog-card.newest-column, .product-details, .product-details.rating, .product-card, button.product-button-feature.payable-credit {
+.bw-1, .unavailable, .unavailable .wrapper-unavailable, .variable-product .container-sales-per-week .sales-per-week, .product-gallery.slider .slider-wrapper, .weblog-card.newest-column, .product-details, .product-details.rating, .product-card, button.product-button-feature.payable-credit {
   border-width: 1px;
 }
 
@@ -747,19 +743,19 @@ html {
   border-bottom-right-radius: 4px;
 }
 
-.radius-tl-small, .dropdown .dropdown-menu > li:first-child:not(.dropdown-submenu), .dropdown .dropdown-menu > li:first-child.dropdown-submenu > *:not(.dropdown-menu) {
+.radius-tl-small {
   border-top-left-radius: 8px;
 }
 
-.radius-tr-small, .dropdown .dropdown-menu > li:first-child:not(.dropdown-submenu), .dropdown .dropdown-menu > li:first-child.dropdown-submenu > *:not(.dropdown-menu) {
+.radius-tr-small {
   border-top-right-radius: 8px;
 }
 
-.radius-bl-small, .dropdown .dropdown-menu > li:last-child:not(.dropdown-submenu), .dropdown .dropdown-menu > li:last-child.dropdown-submenu > *:not(.dropdown-menu) {
+.radius-bl-small {
   border-bottom-left-radius: 8px;
 }
 
-.radius-br-small, .dropdown .dropdown-menu > li:last-child:not(.dropdown-submenu), .dropdown .dropdown-menu > li:last-child.dropdown-submenu > *:not(.dropdown-menu) {
+.radius-br-small {
   border-bottom-right-radius: 8px;
 }
 
@@ -779,7 +775,7 @@ html {
   border-end-end-radius: 8px;
 }
 
-.radius-all-small, .dropdown .dropdown-box, .dropdown .dropdown-menu, .range-slider .values .value-min, .range-slider .values .value-max, .range-slider .range-wrapper .range-track, .sort-by li, .forign-product .wrapper-sale-btn .sale-btn, .unavailable .login-btn, .call-product .wrapper-btn .call-btn, .product-toolbar .icons-box .label .label-name, .information-tooltip span.box, .product-qa .answer-container .btn-answer, .product-comment .features-container .show-more .btn, .product-comment .comment-gallery img, .weblog-card.newest-row .cover-image, .weblog-card.newest-column, .product-details, .product-details.rating, .product-card .card-body .btn-add-to-cart, .product-card .card-body .discount-percentage, .product-card .card-body .credit-purchase-box img, button.product-button-feature.check-payment, button.product-button-feature.original, button.product-button-feature.fake, button.product-button-feature.warranty, button.product-button-feature.payable-credit, button.product-button-feature.installments, .accordion-group .accordion, .article-banner-weblog::after {
+.radius-all-small, .sort-by li, .forign-product .wrapper-sale-btn .sale-btn, .unavailable .login-btn, .call-product .wrapper-btn .call-btn, .product-toolbar .icons-box .label .label-name, .information-tooltip span.box, .product-qa .answer-container .btn-answer, .product-comment .features-container .show-more .btn, .product-comment .comment-gallery img, .weblog-card.newest-row .cover-image, .weblog-card.newest-column, .product-details, .product-details.rating, .product-card .card-body .btn-add-to-cart, .product-card .card-body .discount-box .discount-percentage, .product-card .card-body .credit-purchase-box img, button.product-button-feature.check-payment, button.product-button-feature.original, button.product-button-feature.fake, button.product-button-feature.warranty, button.product-button-feature.payable-credit, button.product-button-feature.installments, .accordion-group .accordion, .article-banner-weblog::after {
   border-top-left-radius: 8px;
   border-top-right-radius: 8px;
   border-bottom-left-radius: 8px;
@@ -857,7 +853,7 @@ html {
   border-end-end-radius: 17px;
 }
 
-.radius-all-medium, .unavailable, .variable-product, .call-product, .topseller, .labeld-card, .focused-card, .iphone-banner, .air-banner, .exclusive-sale-banner, .product-gallery.slider .slider-wrapper, .return-condition-box, .rating-card, .product-category, .product-card, .accordion-group .accordion .accordion-box, .accordion-group.shop-filter .accordion, .privilege, .biography, .biography img, .article-banner-weblog {
+.radius-all-medium, .unavailable, .variable-product, .call-product, .topseller, .labeld-card, .focused-card, .iphone-banner, .air-banner, .exclusive-sale-banner, .product-gallery.slider .slider-wrapper, .return-condition-box, .rating-card, .product-category, .product-card, .logo-banner img, .accordion-group .accordion .accordion-box, .accordion-group.shop-filter .accordion, .privilege, .biography, .biography img, .article-banner-weblog {
   border-top-left-radius: 17px;
   border-top-right-radius: 17px;
   border-bottom-left-radius: 17px;
@@ -974,7 +970,7 @@ html {
   border-end-end-radius: 2000px;
 }
 
-.radius-all-full, .range-slider .range-wrapper .range-progress, .range-slider .range-wrapper .range-min::-webkit-slider-thumb, .range-slider .range-wrapper .range-min::-moz-range-thumb, .range-slider .range-wrapper .range-max::-webkit-slider-thumb, .range-slider .range-wrapper .range-max::-moz-range-thumb, .product-qa .question-container .btn, .product-qa .answer-container .answer-description .user-name .user-type, .product-comment .information-comment .user-type, .product-comment .information-comment .btn, .story-line::after, .modal-container.story-modal .slider-content .story-content .story-timelines .timeline, .progress, .product-card .product-colors span {
+.radius-all-full, .product-qa .question-container .btn, .product-qa .answer-container .answer-description .user-name .user-type, .product-comment .information-comment .user-type, .product-comment .information-comment .btn, .modal-container.story-modal .slider-content .story-content .story-timelines .timeline, .progress, .product-card .product-colors span {
   border-top-left-radius: 2000px;
   border-top-right-radius: 2000px;
   border-bottom-left-radius: 2000px;
@@ -1044,7 +1040,7 @@ html {
   border-inline-end-style: solid;
 }
 
-.border-style-solid, .button-date, .dropdown .dropdown-menu, .range-slider .values .value-min, .range-slider .values .value-max, .unavailable, .topseller, .product-gallery.slider .slider-wrapper, .weblog-card.newest-column, .product-details, .product-details.rating, .product-card, button.product-button-feature.payable-credit {
+.border-style-solid, .unavailable, .topseller, .product-gallery.slider .slider-wrapper, .weblog-card.newest-column, .product-details, .product-details.rating, .product-card, button.product-button-feature.payable-credit {
   border-top-style: solid;
   border-left-style: solid;
   border-bottom-style: solid;
@@ -1442,28 +1438,28 @@ html {
   }
 }
 .section {
-  --padding-top: 1rem;
-  --padding-bottom: 1rem;
+  --padding-top: 2rem;
+  --padding-bottom: 2rem;
   padding-top: var(--padding-top);
   padding-bottom: var(--padding-bottom);
 }
 
 @media screen and (max-width: 1200px) {
   .section {
-    --padding-top: 1rem;
-    --padding-bottom: 1rem;
+    --padding-top: 2rem;
+    --padding-bottom: 2rem;
   }
 }
 @media screen and (max-width: 992px) {
   .section {
-    --padding-top: 1rem;
-    --padding-bottom: 1rem;
+    --padding-top: 2rem;
+    --padding-bottom: 2rem;
   }
 }
 @media screen and (max-width: 768px) {
   .section {
-    --padding-top: 1rem;
-    --padding-bottom: 1rem;
+    --padding-top: 2rem;
+    --padding-bottom: 2rem;
   }
 }
 @media screen and (max-width: 576px) {
@@ -1485,7 +1481,7 @@ html {
   display: block;
 }
 
-.d-none, .modal-container, .modal-container .modal-content, .product-toolbar .icons-box .label .label-name {
+.d-none, .modal-container, .modal-container .modal-content, .product-toolbar .icons-box .label .label-name, .modal-container.story-modal, .modal-container.story-modal .modal-content {
   display: none;
 }
 
@@ -1493,7 +1489,7 @@ html {
   display: none;
 }
 
-.d-flex, .register-comment-box, .dropdown .dropdown-box, .dropdown .dropdown-menu > li > :not(:has(*)), .dropdown .dropdown-menu > li a, .dropdown .dropdown-menu .dropdown-submenu .dropdown-submenu-toggle, .range-slider .values, .range-slider .range-wrapper, .qty .qty-value, .modal-container::after, .modal-container .modal-content, .modal-container.share-modal::after, .modal-container.share-modal .modal-content, .modal-container.video-modal .modal-content, .modal-container.cart-modal::after, .modal-container.cart-modal .modal-content, .forign-product, .forign-product .wrapper-text-send, .forign-product .wrapper-text-send .wrapper-send, .forign-product .wrapper-text-sale, .forign-product .wrapper-text-sale .wrapper-sale, .forign-product .wrapper-sale-btn, .forign-product .container-price, .forign-product .container-price .wrapper-price, .forign-product .container-price .wrapper-price-percent, .unavailable, .unavailable .wrapper-unavailable, .unavailable .filter, .unavailable .login-btn, .variable-product, .variable-product .product-main-content, .variable-product .product-main-content .product-main-content-buy, .variable-product .container-sales-per-week, .variable-product .container-sales-per-week .sales-per-week, .variable-product .container-variation-color, .call-product, .call-product .container-price .wrapper-date, .call-product .container-price .wrapper-date .wrapper-price, .product-toolbar, .product-toolbar .rate-box, .product-toolbar .icons-box, .product-toolbar .icons-box .label:hover .label-name, .topseller .details, .topseller .details .content, .topseller .details .content .number, .baner-mobile, .devicebanner, .labeld-card, .labeld-card .content, .focused-card, .focused-card .content, .iphone-banner, .iphone-banner .product, .iphone-banner .product .text-box, .iphone-banner .contain-button, .air-banner .content .product, .air-banner .content .product .text-box, .air-banner .content .contain-button, .exclusive-sale-banner, .countdown, .badge-wrapper .badge, .badge-wrapper .badge-inside, .commodity-pack, .slider, .slider .slider-wrapper .slider-content, .slider .slider-wrapper.slider-column, .slider .slider-arrows, .slider .slider-toggles, .slider .slider-container, .information-tooltip, .product-gallery.slider, .product-qa, .product-qa .question-container, .product-qa .question-container .btn, .product-qa .answer-container, .product-qa .answer-container .answer-description, .product-qa .answer-container .answer-description .user-name, .product-comment, .product-comment .information-comment, .product-comment .information-comment .rating-star, .product-comment .information-comment .btn, .product-comment .text-container, .product-comment .features-container, .product-comment .features-container .show-more, .product-comment .features-container .show-more .btn, .product-comment .features-container .features .feature, .weblog-card.newest-row, .weblog-card.newest-row .cover-image, .weblog-card.newest-row .card-body, .weblog-card.newest-column, .weblog-card.newest-column .card-body, .summary-opinion, .modal-container.story-modal .modal-content, .return-condition-box, .rating-card, .rating-card .card-header, .rating-card .card-header .rating-star, .rating-card .card-header .rating-count, .rating-card .card-body, .rating-card .card-body .percentage-point, .rating-card .card-body .percentage-point .description-container, .rating-card .card-footer, .rating-card .card-footer .comments-number, .progress, .progress-bar, .product-details, .product-category, .product-card .logo-container, .product-card .image-container, .product-card .image-container .image-box, .product-card .card-body, .product-card .card-body .fast-shipping, .product-card .card-body .discount-percentage, .product-card .card-body .discount-box, .feature-description-box.text-type, .accordion-group, .accordion-group .accordion .accordion-box .accordion-header, .contact-us-social-media, .contact-us-information, .privilege, .biography, .biography .content, .article-banner-weblog {
+.d-flex, .qty .qty-value, .modal-container .modal-content, .modal-container.sharing-modal .modal-content, .modal-container.video-modal .modal-content, .modal-container.cart-modal::after, .modal-container.cart-modal .modal-content, .forign-product, .forign-product .wrapper-text-send, .forign-product .wrapper-text-send .wrapper-send, .forign-product .wrapper-text-sale, .forign-product .wrapper-text-sale .wrapper-sale, .forign-product .wrapper-sale-btn, .forign-product .container-price, .forign-product .container-price .wrapper-price, .forign-product .container-price .wrapper-price-percent, .unavailable, .unavailable .wrapper-unavailable, .unavailable .filter, .unavailable .login-btn, .variable-product, .variable-product .product-main-content, .variable-product .product-main-content .product-main-content-buy, .variable-product .container-sales-per-week, .variable-product .container-sales-per-week .sales-per-week, .variable-product .container-variation-color, .call-product, .call-product .container-price .wrapper-date, .call-product .container-price .wrapper-date .wrapper-price, .product-toolbar, .product-toolbar .rate-box, .product-toolbar .icons-box, .product-toolbar .icons-box .label:hover .label-name, .topseller .details, .topseller .details .content, .topseller .details .content .number, .baner-mobile, .devicebanner, .labeld-card, .labeld-card .content, .focused-card, .focused-card .content, .iphone-banner, .iphone-banner .product, .iphone-banner .product .text-box, .iphone-banner .contain-button, .air-banner .content .product, .air-banner .content .product .text-box, .air-banner .content .contain-button, .exclusive-sale-banner, .countdown, .badge-wrapper .badge, .badge-wrapper .badge-inside, .commodity-pack, .slider, .slider .slider-wrapper .slider-content, .slider .slider-wrapper.slider-column, .slider .slider-arrows, .slider .slider-toggles, .slider .slider-container, .information-tooltip, .product-gallery.slider, .product-qa, .product-qa .question-container, .product-qa .question-container .btn, .product-qa .answer-container, .product-qa .answer-container .answer-description, .product-qa .answer-container .answer-description .user-name, .product-comment, .product-comment .information-comment, .product-comment .information-comment .rating-star, .product-comment .information-comment .btn, .product-comment .text-container, .product-comment .features-container, .product-comment .features-container .show-more, .product-comment .features-container .show-more .btn, .product-comment .features-container .features .feature, .weblog-card.newest-row, .weblog-card.newest-row .cover-image, .weblog-card.newest-row .card-body, .weblog-card.newest-column, .weblog-card.newest-column .card-body, .summary-opinion, .modal-container.story-modal .modal-content, .return-condition-box, .rating-card, .rating-card .card-header, .rating-card .card-header .rating-star, .rating-card .card-header .rating-count, .rating-card .card-body, .rating-card .card-body .percentage-point, .rating-card .card-body .percentage-point .description-container, .rating-card .card-footer, .rating-card .card-footer .comments-number, .progress, .progress-bar, .product-details, .product-category, .product-card .logo-container, .product-card .image-container, .product-card .image-container .image-box, .product-card .card-body, .product-card .card-body .fast-shipping, .product-card .card-body .discount-box, .product-card .card-body .discount-box .discount-percentage, .logo-banner, .logo-banner .under-banner, .feature-description-box.text-type, .accordion-group, .accordion-group .accordion .accordion-box .accordion-header, .contact-us-social-media, .contact-us-information, .privilege, .biography, .biography .content, .article-banner-weblog {
   display: flex;
 }
 
@@ -1509,7 +1505,7 @@ html {
   display: grid;
 }
 
-.d-inline-block, .dropdown {
+.d-inline-block {
   display: inline-block;
 }
 
@@ -1693,7 +1689,7 @@ html {
   width: 9%;
 }
 
-.w-10, .product-card .logo-container .logo {
+.w-10 {
   width: 10%;
 }
 
@@ -1773,7 +1769,7 @@ html {
   width: 19%;
 }
 
-.w-20, .iphone-banner .contain-button, .air-banner .content .contain-button, .banner .cantainer-image .image-product {
+.w-20, .iphone-banner .contain-button, .air-banner .content .contain-button, .banner .cantainer-image .image-product, .product-card .logo-container .logo {
   width: 20%;
 }
 
@@ -2413,7 +2409,7 @@ html {
   width: 99%;
 }
 
-.w-100, .register-comment-box, .dropdown .dropdown-menu .dropdown-submenu .dropdown-submenu-toggle, .range-slider, .range-slider .values .value-min, .range-slider .values .value-max, .range-slider .range-wrapper, .range-slider .range-wrapper .range-track, .range-slider .range-wrapper .range-min, .range-slider .range-wrapper .range-max, .modal-container::after, .modal-container .modal-content, .modal-container.share-modal::after, .modal-container.share-modal .modal-content, .modal-container.video-modal .modal-content, .modal-container.cart-modal::after, .modal-container.cart-modal .modal-content, .forign-product, .unavailable, .unavailable .wrapper-unavailable, .unavailable .login-btn, .variable-product, .call-product .container-price, .call-product .wrapper-btn, .topseller::before, .topseller::after, .labeld-card::before, .labeld-card::after, .labeld-card .content, .focused-card, .focused-card::before, .focused-card::after, .focused-card .content, .iphone-banner, .iphone-banner::after, .iphone-banner::before, .air-banner, .air-banner .cover, .air-banner .content, .air-banner::before, .air-banner::after, .exclusive-sale-banner, .exclusive-sale-banner .wrapper-image, .banner, .banner .cantainer-image, .banner .cantainer-image .waterfall, .banner .cantainer-image .red-caver, .commodity-pack, .slider .slider-wrapper, .slider .slider-wrapper .slider-content, .slider .slider-toggles .slider-toggle, .slider .slider-container, .product-gallery.slider, .product-gallery.slider .slider-wrapper, .product-gallery.slider .slider-wrapper .slider-content img, .product-gallery.slider .slider-toggles .slider-toggle, .product-comment, .product-comment .comment-gallery img, .weblog-card.newest-row .cover-image::after, .weblog-card.newest-row .cover-image img, .story-line::after, .modal-container.story-modal .modal-content, .modal-container.story-modal .slider-content .story-content .story-timelines .timeline, .rating-card, .progress, .product-details, .product-category img, .product-card, .product-card .image-container .image-box, .product-card .card-body .btn-add-to-cart .vector, .product-card .card-body .btn-add-to-cart img, .accordion-group .accordion, .accordion-group .accordion .accordion-box .accordion-header, .privilege, .biography img, .article-banner-weblog, .article-banner-weblog img, .article-banner-weblog::after {
+.w-100, .modal-container .modal-content, .modal-container.sharing-modal .modal-content, .modal-container.video-modal .modal-content, .modal-container.cart-modal::after, .modal-container.cart-modal .modal-content, .forign-product, .unavailable, .unavailable .wrapper-unavailable, .unavailable .login-btn, .variable-product, .call-product .container-price, .call-product .wrapper-btn, .topseller::before, .topseller::after, .labeld-card::before, .labeld-card::after, .labeld-card .content, .focused-card, .focused-card::before, .focused-card::after, .focused-card .content, .iphone-banner, .iphone-banner::after, .iphone-banner::before, .air-banner, .air-banner .cover, .air-banner .content, .air-banner::before, .air-banner::after, .exclusive-sale-banner, .exclusive-sale-banner .wrapper-image, .banner, .banner .cantainer-image, .banner .cantainer-image .waterfall, .banner .cantainer-image .red-caver, .commodity-pack, .slider .slider-wrapper, .slider .slider-wrapper .slider-content, .slider .slider-toggles .slider-toggle, .slider .slider-container, .product-gallery.slider, .product-gallery.slider .slider-wrapper, .product-gallery.slider .slider-wrapper .slider-content img, .product-gallery.slider .slider-toggles .slider-toggle, .product-comment, .product-comment .comment-gallery img, .weblog-card.newest-row .cover-image::after, .weblog-card.newest-row .cover-image img, .modal-container.story-modal .modal-content, .modal-container.story-modal .slider-content .story-content .story-timelines .timeline, .rating-card, .progress, .product-details, .product-category img, .product-card, .product-card .image-container .image-box, .product-card .card-body .btn-add-to-cart .vector, .product-card .card-body .btn-add-to-cart img, .logo-banner img, .accordion-group .accordion, .accordion-group .accordion .accordion-box .accordion-header, .privilege, .biography img, .article-banner-weblog, .article-banner-weblog img, .article-banner-weblog::after {
   width: 100%;
 }
 
@@ -2805,7 +2801,7 @@ html {
   height: 94%;
 }
 
-.h-96, .range-slider .range-wrapper .range-progress {
+.h-96 {
   height: 96%;
 }
 
@@ -2821,7 +2817,7 @@ html {
   height: 98%;
 }
 
-.h-100, .range-slider .range-wrapper .range-track, .modal-container::after, .modal-container .modal-content, .modal-container.share-modal::after, .modal-container.share-modal .modal-content, .modal-container.video-modal .modal-content, .modal-container.cart-modal::after, .modal-container.cart-modal .modal-content, .topseller::before, .topseller::after, .labeld-card, .labeld-card::before, .labeld-card::after, .focused-card, .focused-card::before, .focused-card::after, .iphone-banner::after, .iphone-banner::before, .air-banner::before, .air-banner::after, .slider .slider-wrapper .slider-content, .slider .slider-container, .product-gallery.slider .slider-wrapper .slider-content img, .weblog-card.newest-row .cover-image::after, .modal-container.story-modal .modal-content, .product-card .card-body .btn-add-to-cart .vector, .product-card .card-body .btn-add-to-cart img, .biography img, .article-banner-weblog, .article-banner-weblog img, .article-banner-weblog::after {
+.h-100, .modal-container .modal-content, .modal-container.sharing-modal .modal-content, .modal-container.video-modal .modal-content, .modal-container.cart-modal::after, .modal-container.cart-modal .modal-content, .topseller::before, .topseller::after, .labeld-card, .labeld-card::before, .labeld-card::after, .focused-card, .focused-card::before, .focused-card::after, .iphone-banner::after, .iphone-banner::before, .air-banner::before, .air-banner::after, .slider .slider-wrapper .slider-content, .slider .slider-container, .product-gallery.slider .slider-wrapper .slider-content img, .weblog-card.newest-row .cover-image::after, .modal-container.story-modal .modal-content, .product-card .card-body .btn-add-to-cart .vector, .product-card .card-body .btn-add-to-cart img, .biography img, .article-banner-weblog, .article-banner-weblog img, .article-banner-weblog::after {
   height: 100%;
 }
 
@@ -2845,7 +2841,7 @@ html {
   flex-direction: row-reverse;
 }
 
-.flex-column, .register-comment-box, .modal-container .modal-content, .modal-container.share-modal .modal-content, .modal-container.video-modal .modal-content, .modal-container.cart-modal .modal-content, .forign-product, .forign-product .wrapper-text-send, .forign-product .wrapper-text-sale, .forign-product .wrapper-text-sale .wrapper-sale, .forign-product .wrapper-sale-btn, .forign-product .container-price, .unavailable, .unavailable .filter, .variable-product, .variable-product .product-main-content, .variable-product .container-sales-per-week, .variable-product .container-sales-per-week .sales-per-week, .variable-product .container-variation-color, .call-product, .call-product .container-price .wrapper-date, .call-product .wrapper-btn .wrapper-call, .product-toolbar, .product-toolbar .rate-box, .product-toolbar .icons-box, .baner-mobile, .devicebanner, .labeld-card .content, .focused-card .content, .iphone-banner .product .text-box, .air-banner .content .product .text-box, .exclusive-sale-banner, .slider, .slider .slider-wrapper.slider-column, .slider.slider-column .slider-container, .product-gallery.slider, .product-qa, .product-qa .answer-container .answer-description, .product-comment, .product-comment .text-container, .weblog-card.newest-row .card-body, .weblog-card.newest-column, .weblog-card.newest-column .card-body, .summary-opinion, .modal-container.story-modal .modal-content, .rating-card, .rating-card .card-header, .rating-card .card-body, .rating-card .card-body .percentage-point, .rating-card .card-footer .comments-number, .product-details, .product-category, .product-card .card-body, .product-card .card-body .discount-box, .feature-description-box.text-type, .accordion-group, .contact-us-social-media, .privilege, .biography, .biography .content, .article-banner-weblog {
+.flex-column, .modal-container .modal-content, .modal-container.sharing-modal .modal-content, .modal-container.video-modal .modal-content, .modal-container.cart-modal .modal-content, .forign-product, .forign-product .wrapper-text-send, .forign-product .wrapper-text-sale, .forign-product .wrapper-text-sale .wrapper-sale, .forign-product .wrapper-sale-btn, .forign-product .container-price, .unavailable, .unavailable .filter, .variable-product, .variable-product .product-main-content, .variable-product .container-sales-per-week, .variable-product .container-sales-per-week .sales-per-week, .variable-product .container-variation-color, .call-product, .call-product .container-price .wrapper-date, .call-product .wrapper-btn .wrapper-call, .product-toolbar, .product-toolbar .rate-box, .product-toolbar .icons-box, .baner-mobile, .devicebanner, .labeld-card .content, .focused-card .content, .iphone-banner .product .text-box, .air-banner .content .product .text-box, .exclusive-sale-banner, .slider, .slider .slider-wrapper.slider-column, .slider.slider-column .slider-container, .product-gallery.slider, .product-qa, .product-qa .answer-container .answer-description, .product-comment, .product-comment .text-container, .weblog-card.newest-row .card-body, .weblog-card.newest-column, .weblog-card.newest-column .card-body, .summary-opinion, .modal-container.story-modal .modal-content, .rating-card, .rating-card .card-header, .rating-card .card-body, .rating-card .card-body .percentage-point, .rating-card .card-footer .comments-number, .product-details, .product-category, .product-card .card-body, .product-card .card-body .discount-box, .logo-banner, .feature-description-box.text-type, .accordion-group, .contact-us-social-media, .privilege, .biography, .biography .content, .article-banner-weblog {
   flex-direction: column;
 }
 
@@ -2869,7 +2865,7 @@ html {
   justify-content: flex-start;
 }
 
-.justify-content-center, .qty .qty-value, .modal-container, .modal-container.share-modal, .modal-container.cart-modal, .unavailable .login-btn, .baner-mobile, .devicebanner, .labeld-card .content, .focused-card .content, .iphone-banner .contain-button, .air-banner .content .contain-button, .badge-wrapper .badge, .badge-wrapper .badge-inside, .information-tooltip, .product-comment .features-container .show-more .btn, .modal-container.story-modal, .rating-card, .rating-card .card-footer, .progress-bar, .product-category, .product-card .image-container, .product-card .image-container .image-box, .logo-container {
+.justify-content-center, .qty .qty-value, .modal-container, .unavailable .login-btn, .baner-mobile, .devicebanner, .labeld-card .content, .focused-card .content, .iphone-banner .contain-button, .air-banner .content .contain-button, .badge-wrapper .badge, .badge-wrapper .badge-inside, .information-tooltip, .product-comment .features-container .show-more .btn, .modal-container.story-modal, .rating-card, .rating-card .card-footer, .progress-bar, .product-category, .product-card .image-container, .product-card .image-container .image-box, .logo-container {
   justify-content: center;
 }
 
@@ -2901,7 +2897,7 @@ html {
   justify-content: end;
 }
 
-.justify-content-space-between, .dropdown .dropdown-menu .dropdown-submenu .dropdown-submenu-toggle, .range-slider .values, .forign-product .wrapper-text-send .wrapper-send, .unavailable .wrapper-unavailable, .variable-product .product-main-content .product-main-content-buy, .call-product .container-price, .call-product .wrapper-btn, .call-product .wrapper-btn .wrapper-call, .topseller .details, .air-banner .content .product, .product-qa .question-container, .product-comment .information-comment, .product-comment .features-container, .rating-card .card-header .rating-count, .rating-card .card-body .percentage-point .description-container, .product-details.rating, .product-card .logo-container, .accordion-group .accordion .accordion-box .accordion-header, .contact-us-information {
+.justify-content-space-between, .forign-product .wrapper-text-send .wrapper-send, .unavailable .wrapper-unavailable, .variable-product .product-main-content .product-main-content-buy, .call-product .container-price, .call-product .wrapper-btn, .call-product .wrapper-btn .wrapper-call, .topseller .details, .air-banner .content .product, .product-qa .question-container, .product-comment .information-comment, .product-comment .features-container, .rating-card .card-header .rating-count, .rating-card .card-body .percentage-point .description-container, .product-details.rating, .product-card .logo-container, .logo-banner .under-banner, .accordion-group .accordion .accordion-box .accordion-header, .contact-us-information {
   justify-content: space-between;
 }
 
@@ -3149,7 +3145,7 @@ html {
   align-items: flex-start;
 }
 
-.align-items-center, .dropdown .dropdown-box, .dropdown .dropdown-menu .dropdown-submenu .dropdown-submenu-toggle, .range-slider .values, .range-slider .range-wrapper, .qty .qty-value, .modal-container, .modal-container .modal-content, .modal-container.share-modal, .modal-container.share-modal .modal-content, .modal-container.video-modal .modal-content, .modal-container.cart-modal, .modal-container.cart-modal .modal-content, .forign-product .container-price .wrapper-price, .forign-product .container-price .wrapper-price-percent, .unavailable .wrapper-unavailable, .call-product, .call-product .container-price .wrapper-date .wrapper-price, .product-toolbar, .product-toolbar .rate-box, .product-toolbar .icons-box, .topseller .details .content, .topseller .details .content .number, .baner-mobile, .devicebanner, .labeld-card .content, .focused-card .content, .iphone-banner .product, .iphone-banner .contain-button, .air-banner .content .product, .air-banner .content .contain-button, .exclusive-sale-banner, .badge-wrapper .badge, .badge-wrapper .badge-inside, .commodity-pack, .slider, .information-tooltip, .product-gallery.slider, .product-qa .question-container, .product-qa .question-container .btn, .product-qa .answer-container .answer-description .user-name, .product-comment .information-comment .btn, .product-comment .features-container .show-more, .product-comment .features-container .show-more .btn, .product-comment .features-container .features .feature, .modal-container.story-modal, .modal-container.story-modal .modal-content, .rating-card .card-header, .rating-card .card-body .percentage-point .description-container, .rating-card .card-footer, .rating-card .card-footer .comments-number, .progress-bar, .product-details.rating, .product-category, .product-card .logo-container, .product-card .card-body .fast-shipping, .product-card .card-body .discount-percentage, .accordion-group .accordion .accordion-box .accordion-header, .contact-us-social-media, .privilege, .article-banner-weblog .banner-content .details {
+.align-items-center, .qty .qty-value, .modal-container, .modal-container .modal-content, .modal-container.sharing-modal .modal-content, .modal-container.video-modal .modal-content, .modal-container.cart-modal .modal-content, .forign-product .container-price .wrapper-price, .forign-product .container-price .wrapper-price-percent, .unavailable .wrapper-unavailable, .call-product, .call-product .container-price .wrapper-date .wrapper-price, .product-toolbar, .product-toolbar .rate-box, .product-toolbar .icons-box, .topseller .details .content, .topseller .details .content .number, .baner-mobile, .devicebanner, .labeld-card .content, .focused-card .content, .iphone-banner .product, .iphone-banner .contain-button, .air-banner .content .product, .air-banner .content .contain-button, .exclusive-sale-banner, .badge-wrapper .badge, .badge-wrapper .badge-inside, .commodity-pack, .slider, .information-tooltip, .product-gallery.slider, .product-qa .question-container, .product-qa .question-container .btn, .product-qa .answer-container .answer-description .user-name, .product-comment .information-comment .btn, .product-comment .features-container .show-more, .product-comment .features-container .show-more .btn, .product-comment .features-container .features .feature, .modal-container.story-modal, .modal-container.story-modal .modal-content, .rating-card .card-header, .rating-card .card-body .percentage-point .description-container, .rating-card .card-footer, .rating-card .card-footer .comments-number, .progress-bar, .product-details.rating, .product-category, .product-card .logo-container, .product-card .card-body .fast-shipping, .product-card .card-body .discount-box .discount-percentage, .logo-banner .under-banner, .accordion-group .accordion .accordion-box .accordion-header, .contact-us-social-media, .privilege, .article-banner-weblog .banner-content .details {
   align-items: center;
 }
 
@@ -3293,7 +3289,7 @@ html {
   order: 10;
 }
 
-.grow-1, .devicebanner {
+.grow-1 {
   flex: 1;
 }
 
@@ -3981,7 +3977,7 @@ html {
   padding-top: 3.75rem;
 }
 
-.pt-16, .devicebanner {
+.pt-16 {
   padding-top: 4rem;
 }
 
@@ -5495,7 +5491,7 @@ html {
   padding-right: 0rem;
 }
 
-.px-1, .product-qa .answer-container .answer-description .user-name .user-type, .summary-opinion mark, .product-card .card-body .discount-percentage {
+.px-1, .product-qa .answer-container .answer-description .user-name .user-type, .summary-opinion mark, .product-card .card-body .discount-box .discount-percentage {
   padding-left: 0.25rem;
   padding-right: 0.25rem;
 }
@@ -5505,7 +5501,7 @@ html {
   padding-right: 0.25rem;
 }
 
-.px-2, .dropdown .dropdown-box, .dropdown .dropdown-menu > li > :not(:has(*)), .dropdown .dropdown-menu > li a, .dropdown .dropdown-menu .dropdown-submenu .dropdown-submenu-toggle, .sort-by li, .product-toolbar .icons-box .label .label-name, .countdown, .information-tooltip span.box, .product-comment .information-comment .user-type, .product-card .card-body .btn-add-to-cart, .product-card .card-body .credit-purchase-box img, button.product-button-feature.check-payment, button.product-button-feature.original, button.product-button-feature.fake, button.product-button-feature.warranty, button.product-button-feature.payable-credit, button.product-button-feature.installments {
+.px-2, .sort-by li, .product-toolbar .icons-box .label .label-name, .countdown, .information-tooltip span.box, .product-comment .information-comment .user-type, .product-card .card-body .btn-add-to-cart, .product-card .card-body .credit-purchase-box img, button.product-button-feature.check-payment, button.product-button-feature.original, button.product-button-feature.fake, button.product-button-feature.warranty, button.product-button-feature.payable-credit, button.product-button-feature.installments {
   padding-left: 0.5rem;
   padding-right: 0.5rem;
 }
@@ -6005,7 +6001,7 @@ html {
   padding-bottom: 0rem;
 }
 
-.py-1, .dropdown .dropdown-box, .dropdown .dropdown-menu > li > :not(:has(*)), .dropdown .dropdown-menu > li a, .dropdown .dropdown-menu .dropdown-submenu .dropdown-submenu-toggle, .product-toolbar .icons-box .label .label-name, .countdown, .information-tooltip span.box, .product-comment .information-comment .user-type, .summary-opinion mark, .product-card .card-body .credit-purchase-box img, button.product-button-feature.check-payment, button.product-button-feature.original, button.product-button-feature.fake, button.product-button-feature.warranty, button.product-button-feature.payable-credit, button.product-button-feature.installments {
+.py-1, .product-toolbar .icons-box .label .label-name, .countdown, .information-tooltip span.box, .product-comment .information-comment .user-type, .summary-opinion mark, .product-card .card-body .credit-purchase-box img, button.product-button-feature.check-payment, button.product-button-feature.original, button.product-button-feature.fake, button.product-button-feature.warranty, button.product-button-feature.payable-credit, button.product-button-feature.installments {
   padding-top: 0.25rem;
   padding-bottom: 0.25rem;
 }
@@ -6025,7 +6021,7 @@ html {
   padding-bottom: 0.5rem;
 }
 
-.py-3, .call-product .wrapper-btn .call-btn, .product-qa .question-container .btn, .product-comment .information-comment .btn, .product-details, .product-details.rating, .product-card .card-body .btn-add-to-cart, .accordion-group .accordion .accordion-box, .contact-us-information {
+.py-3, .call-product .wrapper-btn .call-btn, .product-qa .question-container .btn, .product-comment .information-comment .btn, .product-details, .product-details.rating, .product-card .logo-container .logo, .product-card .card-body .btn-add-to-cart, .accordion-group .accordion .accordion-box, .contact-us-information {
   padding-top: 0.75rem;
   padding-bottom: 0.75rem;
 }
@@ -6055,7 +6051,7 @@ html {
   padding-bottom: 1.25rem;
 }
 
-.py-6, .unavailable .filter, .accordion-group .accordion .accordion-header.active ~ .accordion-body {
+.py-6, .unavailable .filter, .accordion-group .accordion .accordion-box .accordion-body {
   padding-top: 1.5rem;
   padding-bottom: 1.5rem;
 }
@@ -7321,7 +7317,7 @@ html {
   padding-inline-end: 12.5rem;
 }
 
-.m-0, .range-slider .range-wrapper .range-min, .range-slider .range-wrapper .range-max {
+.m-0 {
   margin: 0rem;
 }
 
@@ -7577,7 +7573,7 @@ html {
   margin-top: 0rem;
 }
 
-.mt-1, .dropdown .dropdown-menu.dropdown-bottom, .dropdown .dropdown-menu.dropdown-right, .dropdown .dropdown-menu.dropdown-left, .unavailable .login-btn {
+.mt-1, .unavailable .login-btn {
   margin-top: 0.25rem;
 }
 
@@ -7825,7 +7821,7 @@ html {
   margin-bottom: 0rem;
 }
 
-.mb-1, .dropdown .dropdown-menu.dropdown-top {
+.mb-1 {
   margin-bottom: 0.25rem;
 }
 
@@ -8073,7 +8069,7 @@ html {
   margin-left: 0rem;
 }
 
-.ml-1, .dropdown .dropdown-menu.dropdown-right {
+.ml-1 {
   margin-left: 0.25rem;
 }
 
@@ -8321,7 +8317,7 @@ html {
   margin-right: 0rem;
 }
 
-.mr-1, .dropdown .dropdown-menu.dropdown-left {
+.mr-1 {
   margin-right: 0.25rem;
 }
 
@@ -9685,7 +9681,7 @@ html {
   gap: 0rem;
 }
 
-.gap-1, .dropdown .dropdown-box, .forign-product .container-price .wrapper-price, .countdown, .product-qa .answer-container .answer-description .user-name, .product-comment .information-comment .rating-star, .modal-container.story-modal .slider-content .story-content .story-timelines, .rating-card .card-header .rating-star, .rating-card .card-header .rating-count, .product-details, .accordion-group .accordion .accordion-box, .accordion-group.shop-filter {
+.gap-1, .forign-product .container-price .wrapper-price, .countdown, .product-qa .answer-container .answer-description .user-name, .product-comment .information-comment .rating-star, .modal-container.story-modal .slider-content .story-content .story-timelines, .rating-card .card-header .rating-star, .rating-card .card-header .rating-count, .product-details, .accordion-group .accordion .accordion-box, .accordion-group.shop-filter {
   gap: 0.25rem;
 }
 
@@ -9733,7 +9729,7 @@ html {
   gap: 1.5rem;
 }
 
-.gap-7, .register-comment-box, .rating-card {
+.gap-7, .rating-card {
   gap: 1.75rem;
 }
 
@@ -9805,7 +9801,7 @@ html {
   gap: 3.75rem;
 }
 
-.gap-16 {
+.gap-16, .logo-banner {
   gap: 4rem;
 }
 
@@ -11203,7 +11199,7 @@ html {
   font-size: 0.688rem;
 }
 
-.txt-normal, .dropdown .dropdown-box, .dropdown .dropdown-menu, .dropdown .dropdown-menu > li > :not(:has(*)), .dropdown .dropdown-menu > li a, .dropdown .dropdown-menu .dropdown-submenu .dropdown-submenu-toggle, .call-product .container-price .wrapper-date .date, .product-qa .question-container .text-quesiton, .product-comment .information-comment .user-type, .product-comment .information-comment .date-time, .product-comment .features-container .features, button.product-button-feature.check-payment, button.product-button-feature.original, button.product-button-feature.fake, button.product-button-feature.warranty, button.product-button-feature.payable-credit, button.product-button-feature.installments, .accordion-group .accordion {
+.txt-normal, .call-product .container-price .wrapper-date .date, .product-qa .question-container .text-quesiton, .product-comment .information-comment .user-type, .product-comment .information-comment .date-time, .product-comment .features-container .features, button.product-button-feature.check-payment, button.product-button-feature.original, button.product-button-feature.fake, button.product-button-feature.warranty, button.product-button-feature.payable-credit, button.product-button-feature.installments, .accordion-group .accordion {
   font-size: 0.75rem;
 }
 
@@ -11219,7 +11215,7 @@ html {
   font-size: 0.814rem;
 }
 
-.txt-title, .forign-product .wrapper-text-send .wrapper-send .text, .variable-product .product-main-content .product-main-content-buy .product-main-content-buy-text, .variable-product .container-variation-color .variation-color-text, .product-toolbar .rate-box, .iphone-banner .product .text-box .name, .air-banner .content .product .text-box .name, .product-comment .text-container .description, .weblog-card.newest-row .card-body .description, .summary-opinion .description, .rating-card .card-footer .comments-number .count, .product-details .description, .accordion-group .accordion .accordion-box .accordion-body, .contact-us-information .title, .contact-us-information .direction, .biography .content .description {
+.txt-title, .forign-product .wrapper-text-send .wrapper-send .text, .variable-product .product-main-content .product-main-content-buy .product-main-content-buy-text, .variable-product .container-variation-color .variation-color-text, .product-toolbar .rate-box, .iphone-banner .product .text-box .name, .air-banner .content .product .text-box .name, .product-comment .text-container .description, .weblog-card.newest-row .card-body .description, .summary-opinion .description, .rating-card .card-footer .comments-number .count, .product-details .description, .logo-banner .under-banner .description, .accordion-group .accordion .accordion-box .accordion-body, .contact-us-information .title, .contact-us-information .direction, .biography .content .description {
   font-size: 0.875rem;
 }
 
@@ -11227,7 +11223,7 @@ html {
   font-size: 0.875rem;
 }
 
-.txt-mid-title, .forign-product .wrapper-text-sale .wrapper-sale .txt-big .text, .variable-product .container-sales-per-week .sales-per-week .sales-per-week-text .text, .topseller .details .content .title, .labeld-card .content .product-name, .product-qa .answer-container .answer-description .text-answer, .weblog-card.newest-column .card-body .description, .summary-opinion mark, .product-card .card-body .available-number, .product-card .card-body .discount-percentage, .biography .content .title {
+.txt-mid-title, .forign-product .wrapper-text-sale .wrapper-sale .txt-big .text, .variable-product .container-sales-per-week .sales-per-week .sales-per-week-text .text, .topseller .details .content .title, .labeld-card .content .product-name, .product-qa .answer-container .answer-description .text-answer, .weblog-card.newest-column .card-body .description, .summary-opinion mark, .product-card .card-body .available-number, .product-card .card-body .discount-box .discount-percentage, .biography .content .title {
   font-size: 0.938rem;
 }
 
@@ -11243,7 +11239,7 @@ html {
   font-size: 1.125rem;
 }
 
-.txt-big-title, .range-slider .values, .forign-product .container-price .wrapper-price-percent .price-percent, .call-product .container-price .wrapper-date .wrapper-price .price, .call-product .wrapper-btn .wrapper-call .phone-number, .topseller .details .content .number, .summary-opinion .title {
+.txt-big-title, .forign-product .container-price .wrapper-price-percent .price-percent, .call-product .container-price .wrapper-date .wrapper-price .price, .call-product .wrapper-btn .wrapper-call .phone-number, .topseller .details .content .number, .summary-opinion .title, .logo-banner .under-banner .icon-download-banner {
   font-size: 1.313rem;
 }
 
@@ -11283,7 +11279,7 @@ html {
   text-transform: capitalize;
 }
 
-.txt-align-center, .range-slider, .range-slider .values .value-min, .range-slider .values .value-max, .forign-product .wrapper-sale-btn .sale-btn, .variable-product .container-variation-color .variation-color-text, .badge-wrapper .badge, .badge-wrapper .badge-inside, .information-tooltip span.box, .rating-card .card-footer .comments-number .description {
+.txt-align-center, .forign-product .wrapper-sale-btn .sale-btn, .variable-product .container-variation-color .variation-color-text, .badge-wrapper .badge, .badge-wrapper .badge-inside, .information-tooltip span.box, .rating-card .card-footer .comments-number .description {
   text-align: center;
 }
 
@@ -26514,11 +26510,11 @@ dialog {
   background: none;
 }
 
-.cursor-pointer, .button-date, .dropdown .dropdown-box, .range-slider .range-wrapper .range-min::-webkit-slider-thumb, .range-slider .range-wrapper .range-min::-moz-range-thumb, .range-slider .range-wrapper .range-max::-webkit-slider-thumb, .range-slider .range-wrapper .range-max::-moz-range-thumb, .qty .qty-plus, .qty .qty-minus, .modal-toggle, .modal-container .modal-close, .modal-container.share-modal .modal-close, .modal-container.video-modal .modal-close, .modal-container.cart-modal .modal-close, .modal-container.reviewsubmit .modal-close, .badge-wrapper, .commodity-pack, .slider .slider-arrows .slider-arrow-next, .slider .slider-arrows .slider-arrow-prev, .slider .slider-toggles .slider-toggle, .product-gallery.slider .slider-toggles .slider-toggle, .product-qa .question-container .btn, .product-comment .information-comment .btn, .product-comment .features-container .show-more, .modal-container.story-modal .modal-close, .product-category, .product-card .card-body .btn-add-to-cart, .feature.checkpay, .accordion-group .accordion .accordion-box .accordion-header {
+.cursor-pointer, .qty .qty-plus, .qty .qty-minus, .modal-toggle, .modal-container .modal-close, .modal-container.sharing-modal .modal-close, .modal-container.video-modal .modal-close, .modal-container.cart-modal .modal-close, .modal-container.reviewsubmit .modal-close, .badge-wrapper, .commodity-pack, .slider .slider-arrows .slider-arrow-next, .slider .slider-arrows .slider-arrow-prev, .slider .slider-toggles .slider-toggle, .product-gallery.slider .slider-toggles .slider-toggle, .product-qa .question-container .btn, .product-comment .information-comment .btn, .product-comment .features-container .show-more, .modal-container.story-modal .modal-close, .product-category, .product-card .card-body .btn-add-to-cart, .feature.checkpay, .accordion-group .accordion .accordion-box .accordion-header {
   cursor: pointer;
 }
 
-.aspect-ratio-1x1, .product-gallery.slider .slider-wrapper, .story-line::after, .product-category, .product-category img, .product-card .product-colors span {
+.aspect-ratio-1x1, .product-gallery.slider .slider-wrapper, .product-category, .product-category img, .product-card .product-colors span {
   aspect-ratio: 1/1;
 }
 
@@ -26554,7 +26550,7 @@ dialog {
   aspect-ratio: 3/3;
 }
 
-.opacity-0, .dropdown .dropdown-menu, .devicebanner .title, .labeld-card .content .product-name, .information-tooltip span.box, .accordion-group .accordion .accordion-box .accordion-body {
+.opacity-0, .devicebanner .title, .labeld-card .content .product-name, .information-tooltip span.box, .accordion-group .accordion .accordion-box .accordion-body, .accordion-group .accordion .accordion-body {
   opacity: 0;
 }
 
@@ -26602,7 +26598,7 @@ dialog {
   overflow: scroll;
 }
 
-.overflow-hidden, .dropdown .dropdown-menu > li:first-child:not(.dropdown-submenu), .dropdown .dropdown-menu > li:last-child:not(.dropdown-submenu), .dropdown .dropdown-menu > li:first-child.dropdown-submenu > *:not(.dropdown-menu), .dropdown .dropdown-menu > li:last-child.dropdown-submenu > *:not(.dropdown-menu), .dropdown .dropdown-menu:has(> li:only-child), .modal-container, .modal-container .modal-content, .modal-container.share-modal .modal-content, .modal-container.video-modal .modal-content, .modal-container.cart-modal .modal-content, .topseller, .baner-mobile, .devicebanner, .labeld-card, .focused-card, .iphone-banner, .air-banner, .slider .slider-wrapper, .product-gallery.slider .slider-wrapper, .weblog-card.newest-row .cover-image, .weblog-card.newest-column, .modal-container.story-modal .modal-content, .progress, .progress-bar, .accordion-group.accordion-compact, .accordion-group .accordion, .accordion-group .accordion .accordion-box .accordion-body, .article-banner-weblog {
+.overflow-hidden, .modal-container, .modal-container .modal-content, .modal-container.sharing-modal .modal-content, .modal-container.video-modal .modal-content, .modal-container.cart-modal .modal-content, .topseller, .baner-mobile, .devicebanner, .labeld-card, .focused-card, .iphone-banner, .air-banner, .slider .slider-wrapper, .product-gallery.slider .slider-wrapper, .weblog-card.newest-row .cover-image, .weblog-card.newest-column, .modal-container.story-modal, .modal-container.story-modal .modal-content, .progress, .progress-bar, .accordion-group.accordion-compact, .accordion-group .accordion, .accordion-group .accordion .accordion-box .accordion-body, .article-banner-weblog {
   overflow: hidden;
 }
 
@@ -26622,15 +26618,15 @@ dialog {
   overflow-y: hidden;
 }
 
-.position-relative, .dropdown, .dropdown .dropdown-menu .dropdown-submenu, .range-slider, .range-slider .range-wrapper, .forign-product, .product-toolbar .icons-box .label, .topseller, .topseller .details, .labeld-card, .labeld-card .content, .focused-card, .focused-card .content, .iphone-banner, .iphone-banner .product .text-box, .air-banner, .air-banner .content, .air-banner .content .product .text-box, .exclusive-sale-banner .view-all, .banner, .banner .cantainer-text, .banner .cantainer-text .subtitle, .banner .cantainer-text .name-product, .badge-wrapper, .commodity-pack, .information-tooltip, .product-gallery.slider .slider-wrapper, .weblog-card.newest-row .cover-image, .weblog-card.newest-column .feature-image, .modal-container.story-modal .slider-content .story-content, .rating-card, .product-card, .product-card .image-container, .product-card .card-body .btn-add-to-cart, .product-card .card-body .btn-add-to-cart span, .privilege, .article-banner-weblog {
+.position-relative, .forign-product, .product-toolbar .icons-box .label, .topseller, .topseller .details, .labeld-card, .labeld-card .content, .focused-card, .focused-card .content, .iphone-banner, .iphone-banner .product .text-box, .air-banner, .air-banner .content, .air-banner .content .product .text-box, .exclusive-sale-banner .view-all, .banner, .banner .cantainer-text, .banner .cantainer-text .subtitle, .banner .cantainer-text .name-product, .badge-wrapper, .commodity-pack, .information-tooltip, .product-gallery.slider .slider-wrapper, .weblog-card.newest-row .cover-image, .weblog-card.newest-column .feature-image, .modal-container.story-modal .slider-content .story-content, .rating-card, .product-card, .product-card .image-container, .product-card .card-body .btn-add-to-cart, .product-card .card-body .btn-add-to-cart span, .privilege, .article-banner-weblog {
   position: relative;
 }
 
-.position-absolute, .dropdown .dropdown-menu, .range-slider .range-wrapper .range-track, .range-slider .range-wrapper .range-progress, .range-slider .range-wrapper .range-min, .range-slider .range-wrapper .range-max, .modal-container::after, .modal-container .modal-content, .modal-container.share-modal::after, .modal-container.share-modal .modal-content, .modal-container.video-modal .modal-content, .modal-container.cart-modal::after, .modal-container.cart-modal .modal-content, .product-toolbar .icons-box .label .label-name, .topseller::before, .topseller::after, .labeld-card::before, .labeld-card::after, .labeld-card .content .product-name, .focused-card::before, .focused-card::after, .iphone-banner::after, .iphone-banner::before, .air-banner .cover, .air-banner .content .product .text-box .frame, .air-banner::before, .air-banner::after, .banner .cantainer-image img, .banner .cantainer-text .angle-right, .banner .cantainer-text .angle-left, .badge-wrapper .badge, .badge-wrapper .badge-inside, .information-tooltip span.box, .weblog-card.newest-row .cover-image::after, .story-line::after, .modal-container.story-modal .modal-content, .product-card .product-colors, .product-card .image-container .feature, .product-card .card-body .btn-add-to-cart .vector, .product-card .card-body .btn-add-to-cart img, .article-banner-weblog::after, .article-banner-weblog .banner-content .title, .article-banner-weblog .banner-content .details {
+.position-absolute, .modal-container .modal-content, .modal-container.sharing-modal .modal-content, .modal-container.video-modal .modal-content, .modal-container.cart-modal::after, .modal-container.cart-modal .modal-content, .product-toolbar .icons-box .label .label-name, .topseller::before, .topseller::after, .labeld-card::before, .labeld-card::after, .labeld-card .content .product-name, .focused-card::before, .focused-card::after, .iphone-banner::after, .iphone-banner::before, .air-banner .cover, .air-banner .content .product .text-box .frame, .air-banner::before, .air-banner::after, .banner .cantainer-image img, .banner .cantainer-text .angle-right, .banner .cantainer-text .angle-left, .badge-wrapper .badge, .badge-wrapper .badge-inside, .information-tooltip span.box, .weblog-card.newest-row .cover-image::after, .modal-container.story-modal .modal-content, .product-card .product-colors, .product-card .image-container .feature, .product-card .card-body .btn-add-to-cart .vector, .product-card .card-body .btn-add-to-cart img, .article-banner-weblog::after, .article-banner-weblog .banner-content .title, .article-banner-weblog .banner-content .details {
   position: absolute;
 }
 
-.position-fixed, .modal-container {
+.position-fixed, .modal-container, .modal-container.story-modal {
   position: fixed;
 }
 
@@ -26638,15 +26634,15 @@ dialog {
   position: sticky;
 }
 
-.top-0, .dropdown .dropdown-menu.dropdown-right, .dropdown .dropdown-menu.dropdown-left, .modal-container, .modal-container::after, .modal-container .modal-content, .modal-container.share-modal::after, .modal-container.share-modal .modal-content, .modal-container.video-modal .modal-content, .modal-container.cart-modal::after, .modal-container.cart-modal .modal-content, .forign-product, .unavailable, .variable-product, .call-product, .air-banner .content .product .text-box .frame, .weblog-card.newest-row .cover-image::after, .modal-container.story-modal .modal-content, .product-card .card-body .btn-add-to-cart .vector, .product-card .card-body .btn-add-to-cart img, .article-banner-weblog::after, .article-banner-weblog .banner-content .title {
+.top-0, .modal-container, .modal-container .modal-content, .modal-container.sharing-modal .modal-content, .modal-container.video-modal .modal-content, .modal-container.cart-modal::after, .modal-container.cart-modal .modal-content, .forign-product, .unavailable, .variable-product, .call-product, .air-banner .content .product .text-box .frame, .weblog-card.newest-row .cover-image::after, .modal-container.story-modal, .modal-container.story-modal .modal-content, .product-card .card-body .btn-add-to-cart .vector, .product-card .card-body .btn-add-to-cart img, .article-banner-weblog::after, .article-banner-weblog .banner-content .title {
   top: 0px;
 }
 
-.left-0, .dropdown .dropdown-menu.dropdown-top, .modal-container, .modal-container::after, .modal-container .modal-content, .modal-container.share-modal::after, .modal-container.share-modal .modal-content, .modal-container.video-modal .modal-content, .modal-container.cart-modal::after, .modal-container.cart-modal .modal-content, .air-banner .cover, .air-banner::before, .air-banner::after, .banner .cantainer-text .angle-left, .modal-container.story-modal .modal-content, .product-card .image-container .feature, .article-banner-weblog .banner-content .details {
+.left-0, .modal-container, .modal-container .modal-content, .modal-container.sharing-modal .modal-content, .modal-container.video-modal .modal-content, .modal-container.cart-modal::after, .modal-container.cart-modal .modal-content, .air-banner .cover, .air-banner::before, .air-banner::after, .banner .cantainer-text .angle-left, .modal-container.story-modal, .modal-container.story-modal .modal-content, .product-card .image-container .feature, .article-banner-weblog .banner-content .details {
   left: 0px;
 }
 
-.right-0, .dropdown .dropdown-menu.dropdown-bottom, .product-toolbar .icons-box .label .label-name, .topseller::before, .topseller::after, .labeld-card::before, .labeld-card::after, .focused-card::before, .focused-card::after, .air-banner .content .product .text-box .frame, .banner .cantainer-text, .banner .cantainer-text .angle-right, .weblog-card.newest-row .cover-image::after, .product-card .product-colors, .product-card .card-body .btn-add-to-cart .vector, .product-card .card-body .btn-add-to-cart img, .article-banner-weblog::after, .article-banner-weblog .banner-content .title {
+.right-0, .product-toolbar .icons-box .label .label-name, .topseller::before, .topseller::after, .labeld-card::before, .labeld-card::after, .focused-card::before, .focused-card::after, .air-banner .content .product .text-box .frame, .banner .cantainer-text, .banner .cantainer-text .angle-right, .weblog-card.newest-row .cover-image::after, .product-card .product-colors, .product-card .card-body .btn-add-to-cart .vector, .product-card .card-body .btn-add-to-cart img, .article-banner-weblog::after, .article-banner-weblog .banner-content .title {
   right: 0px;
 }
 
@@ -26658,15 +26654,15 @@ dialog {
   z-index: 0;
 }
 
-.z-index-1, .range-slider .range-wrapper .range-track, .information-tooltip span.box, .weblog-card.newest-row .cover-image::after, .article-banner-weblog::after {
+.z-index-1, .information-tooltip span.box, .weblog-card.newest-row .cover-image::after, .article-banner-weblog::after {
   z-index: 1;
 }
 
-.z-index-2, .range-slider .range-wrapper .range-progress, .modal-container .modal-content, .variable-product, .product-toolbar .icons-box .label .label-name, .topseller::before, .iphone-banner::after, .iphone-banner::before, .air-banner .cover, .article-banner-weblog .banner-content .title, .article-banner-weblog .banner-content .details {
+.z-index-2, .variable-product, .product-toolbar .icons-box .label .label-name, .topseller::before, .iphone-banner::after, .iphone-banner::before, .air-banner .cover, .article-banner-weblog .banner-content .title, .article-banner-weblog .banner-content .details {
   z-index: 2;
 }
 
-.z-index-3, .range-slider .range-wrapper .range-min, .range-slider .range-wrapper .range-max, .labeld-card::before, .labeld-card::after, .focused-card::before, .focused-card::after {
+.z-index-3, .labeld-card::before, .labeld-card::after, .focused-card::before, .focused-card::after {
   z-index: 3;
 }
 
@@ -26682,7 +26678,7 @@ dialog {
   z-index: 6;
 }
 
-.z-index-7, .topseller .details {
+.z-index-7 {
   z-index: 7;
 }
 
@@ -26694,11 +26690,11 @@ dialog {
   z-index: 9;
 }
 
-.z-index-10, .dropdown .dropdown-menu, .modal-container.show, .modal-container.share-modal .modal-content, .modal-container.video-modal .modal-content, .modal-container.cart-modal .modal-content, .modal-container.story-modal {
+.z-index-10, .modal-container.show, .modal-container.sharing-modal .modal-content, .modal-container.video-modal .modal-content, .modal-container.cart-modal .modal-content, .topseller .details, .modal-container.story-modal {
   z-index: 10;
 }
 
-.object-cover, .weblog-card.newest-row .cover-image img, .article-banner-weblog img {
+.object-cover, .weblog-card.newest-row .cover-image img, .logo-banner img, .article-banner-weblog img {
   object-fit: cover;
 }
 
@@ -26714,12 +26710,11 @@ dialog {
   object-fit: none;
 }
 
-.visibility-hidden, .dropdown .dropdown-menu {
+.visibility-hidden {
   visibility: hidden;
 }
 
-.visibility-visible, .dropdown.dropdown-hover:hover > .dropdown-menu,
-.dropdown .dropdown-submenu.dropdown-hover:hover > .dropdown-menu {
+.visibility-visible {
   visibility: visible;
 }
 
@@ -26805,9 +26800,6 @@ dialog {
   width: 80%;
   aspect-ratio: 1;
 }
-.product-card .card-body .title {
-  text-wrap: wrap;
-}
 .product-card .card-body .btn-add-to-cart .vector-5 {
   top: 1px;
   border-top-right-radius: 7px;
@@ -26825,7 +26817,7 @@ dialog {
   justify-content: center;
   align-items: center;
 }
-.product-card .card-body .discount-percentage {
+.product-card .card-body .discount-box .discount-percentage {
   box-shadow: 2px 3px 4px -3px var(--primary);
 }
 .product-card .card-body .credit-purchase-box img {
@@ -26870,25 +26862,31 @@ dialog {
   text-wrap: nowrap;
 }
 
-.story-line::after {
-  content: "";
-  background-image: url("../media/images/story-ring.svg");
-  background-size: cover;
-  background-position: center;
-  box-shadow: 10px -10px 5px rgba(220, 5, 172, 0.06), 0px 0px 5px rgba(235, 53, 44, 0.32), -10px 10px 5px rgba(245, 155, 8, 0.06), inset 10px -10px 5px rgba(220, 5, 172, 0.09), inset 0px 0px 5px rgba(235, 53, 44, 0.4), inset -10px 10px 5px rgba(245, 155, 8, 0.09);
+.modal-container.story-modal {
+  min-width: 100%;
+  min-height: 100%;
+  pointer-events: none;
 }
-
+.modal-container.story-modal.show {
+  pointer-events: all;
+}
 .modal-container.story-modal.show .modal-content {
+  display: flex;
   animation: story-modal-open 0.3s ease-out forwards;
 }
-.modal-container.story-modal.show::after {
-  animation: story-modal-backdrop-open 0.3s ease-out forwards;
+.modal-container.story-modal.hide {
+  pointer-events: none;
 }
 .modal-container.story-modal.hide .modal-content {
+  display: flex;
   animation: story-modal-close 0.3s ease-out forwards;
 }
-.modal-container.story-modal.hide::after {
-  animation: story-modal-backdrop-close 0.3s ease-out forwards;
+.modal-container.story-modal .modal-content {
+  background-color: rgba(0, 0, 0, 0.7);
+  backdrop-filter: blur(5px);
+}
+.modal-container.story-modal .modal-close {
+  pointer-events: all;
 }
 .modal-container.story-modal .slider-content .story-content .shadow-1, .modal-container.story-modal .slider-content .story-content .shadow-2, .modal-container.story-modal .slider-content .story-content .shadow-3 {
   position: absolute;
@@ -26917,47 +26915,28 @@ dialog {
 .modal-container.story-modal .slider-content .story-content .product-name {
   background-color: rgba(255, 255, 255, 0.1);
 }
-.modal-container.story-modal .slider-content .story-content .like-story i {
-  transition: 0.3s ease-out;
-}
 .modal-container.story-modal .slider-content.active .timeline.active {
-  animation: timeline-active var(--timer-time-line) linear;
+  animation: timeline-active var(--timer);
 }
 
 @keyframes story-modal-open {
   from {
     opacity: 0;
-    scale: 0;
+    transform: scale(0);
   }
   to {
     opacity: 1;
-    scale: 1;
+    transform: scale(1);
   }
 }
 @keyframes story-modal-close {
   from {
     opacity: 1;
-    scale: 1;
+    transform: scale(1);
   }
   to {
     opacity: 0;
-    scale: 0;
-  }
-}
-@keyframes story-modal-open-backdrop {
-  from {
-    opacity: 0;
-  }
-  to {
-    opacity: 1;
-  }
-}
-@keyframes story-modal-close-backdrop {
-  from {
-    opacity: 1;
-  }
-  to {
-    opacity: 0;
+    transform: scale(0);
   }
 }
 @keyframes timeline-active {
@@ -26968,6 +26947,18 @@ dialog {
     width: 100%;
   }
 }
+.story-line::after {
+  content: "";
+  width: 100%;
+  aspect-ratio: 1/1;
+  position: absolute;
+  background-image: url("../media/images/story-ring.svg");
+  background-size: cover;
+  background-position: center;
+  box-shadow: 10px -10px 5px rgba(220, 5, 172, 0.06), 0px 0px 5px rgba(235, 53, 44, 0.32), -10px 10px 5px rgba(245, 155, 8, 0.06), inset 10px -10px 5px rgba(220, 5, 172, 0.09), inset 0px 0px 5px rgba(235, 53, 44, 0.4), inset -10px 10px 5px rgba(245, 155, 8, 0.09);
+  border-radius: 50%;
+}
+
 .summary-opinion .gif {
   mix-blend-mode: darken;
 }
@@ -27037,414 +27028,6 @@ dialog {
   flex-shrink: 0;
 }
 
-/* Google Fonts */
-/* @import url("https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;500;600&display=swap");
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-body {
-  font-family: var(--body-font);
-  font-size: var(--normal-font-size);
-  background-color: var(--body-color);
-  color: var(--white-color);
-}
-
-a {
-  text-decoration: none;
-}
-img {
-  display: block;
-  max-width: 100%;
-  height: auto;
-} */
-/* Card Container */
-/* .container {
-  height: 100vh;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-} */
-.card-content {
-  margin-inline: 1.75rem;
-  border-radius: 1.25rem;
-  overflow: hidden;
-}
-
-.card-article {
-  width: 300px;
-  border-radius: 1.25rem;
-  overflow: hidden;
-}
-
-.card-image {
-  position: relative;
-  background-color: var(--first-color-light);
-  padding-top: 1.5rem;
-  margin-bottom: -0.75rem;
-}
-
-.card-data {
-  background-color: var(--container-color);
-  padding: 1.5rem 2rem;
-  border-radius: 1rem;
-  text-align: center;
-  position: relative;
-  z-index: 10;
-}
-
-/* Card Img */
-.card-img {
-  width: 180px;
-  margin: 0 auto;
-  position: relative;
-  z-index: 5;
-}
-
-.card-shadow {
-  width: 200px;
-  height: 200px;
-  background-color: var(--first-color-alt);
-  border-radius: 50%;
-  position: absolute;
-  top: 3.75rem;
-  left: 0;
-  right: 0;
-  margin-inline: auto;
-  filter: blur(45px);
-}
-
-/* Card Text */
-.card-name {
-  font-size: var(--h2-font-size);
-  color: var(--second-color);
-  margin-bottom: 0.75rem;
-}
-
-.card-description {
-  font-weight: 500;
-  margin-bottom: 1.75rem;
-}
-
-.card-button {
-  display: inline-block;
-  background-color: var(--first-color);
-  padding: 0.75rem 1.5rem;
-  border-radius: 0.25rem;
-  color: var(--dark-color);
-  font-weight: 600;
-}
-
-/* Swiper Class */
-.swiper-button-prev::after,
-.swiper-button-next::after {
-  content: "";
-}
-
-.swiper-button-prev,
-.swiper-button-next {
-  width: initial;
-  height: initial;
-}
-
-.swiper-pagination-bullet {
-  background-color: hsl(212, 32%, 40%);
-  opacity: 1;
-}
-
-.swiper-pagination-bullet-active {
-  background-color: var(--second-color);
-}
-
-@media screen and (min-width: 768px) {
-  .card-content {
-    margin-inline: 3rem;
-  }
-  .swiper-button-next,
-  .swiper-button-prev {
-    display: flex;
-  }
-}
-@media screen and (min-width: 768px) {
-  .swiper-button-next,
-  .swiper-button-prev {
-    display: flex;
-  }
-}
-/* Google Fonts */
-/* @import url("https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;500;600&display=swap");
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-body {
-  font-family: var(--body-font);
-  font-size: var(--normal-font-size);
-  background-color: var(--body-color);
-  color: var(--white-color);
-}
-
-a {
-  text-decoration: none;
-}
-img {
-  display: block;
-  max-width: 100%;
-  height: auto;
-} */
-/* Card Container */
-/* .container {
-  height: 100vh;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-} */
-.card-content {
-  margin-inline: 1.75rem;
-  border-radius: 1.25rem;
-  overflow: hidden;
-}
-
-.card-article {
-  width: 300px;
-  border-radius: 1.25rem;
-  overflow: hidden;
-}
-
-.card-image {
-  position: relative;
-  background-color: var(--first-color-light);
-  padding-top: 1.5rem;
-  margin-bottom: -0.75rem;
-}
-
-.card-data {
-  background-color: var(--container-color);
-  padding: 1.5rem 2rem;
-  border-radius: 1rem;
-  text-align: center;
-  position: relative;
-  z-index: 10;
-}
-
-/* Card Img */
-.card-img {
-  width: 180px;
-  margin: 0 auto;
-  position: relative;
-  z-index: 5;
-}
-
-.card-shadow {
-  width: 200px;
-  height: 200px;
-  background-color: var(--first-color-alt);
-  border-radius: 50%;
-  position: absolute;
-  top: 3.75rem;
-  left: 0;
-  right: 0;
-  margin-inline: auto;
-  filter: blur(45px);
-}
-
-/* Card Text */
-.card-name {
-  font-size: var(--h2-font-size);
-  color: var(--second-color);
-  margin-bottom: 0.75rem;
-}
-
-.card-description {
-  font-weight: 500;
-  margin-bottom: 1.75rem;
-}
-
-.card-button {
-  display: inline-block;
-  background-color: var(--first-color);
-  padding: 0.75rem 1.5rem;
-  border-radius: 0.25rem;
-  color: var(--dark-color);
-  font-weight: 600;
-}
-
-/* Swiper Class */
-.swiper-button-prev::after,
-.swiper-button-next::after {
-  content: "";
-}
-
-.swiper-button-prev,
-.swiper-button-next {
-  width: initial;
-  height: initial;
-}
-
-.swiper-pagination-bullet {
-  background-color: hsl(212, 32%, 40%);
-  opacity: 1;
-}
-
-.swiper-pagination-bullet-active {
-  background-color: var(--second-color);
-}
-
-@media screen and (min-width: 768px) {
-  .card-content {
-    margin-inline: 3rem;
-  }
-  .swiper-button-next,
-  .swiper-button-prev {
-    display: flex;
-  }
-}
-@media screen and (min-width: 768px) {
-  .swiper-button-next,
-  .swiper-button-prev {
-    display: flex;
-  }
-}
-/* Google Fonts */
-/* @import url("https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;500;600&display=swap");
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-body {
-  font-family: var(--body-font);
-  font-size: var(--normal-font-size);
-  background-color: var(--body-color);
-  color: var(--white-color);
-}
-
-a {
-  text-decoration: none;
-}
-img {
-  display: block;
-  max-width: 100%;
-  height: auto;
-} */
-/* Card Container */
-/* .container {
-  height: 100vh;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-} */
-.card-content {
-  margin-inline: 1.75rem;
-  border-radius: 1.25rem;
-  overflow: hidden;
-}
-
-.card-article {
-  width: 300px;
-  border-radius: 1.25rem;
-  overflow: hidden;
-}
-
-.card-image {
-  position: relative;
-  background-color: var(--first-color-light);
-  padding-top: 1.5rem;
-  margin-bottom: -0.75rem;
-}
-
-.card-data {
-  background-color: var(--container-color);
-  padding: 1.5rem 2rem;
-  border-radius: 1rem;
-  text-align: center;
-  position: relative;
-  z-index: 10;
-}
-
-/* Card Img */
-.card-img {
-  width: 180px;
-  margin: 0 auto;
-  position: relative;
-  z-index: 5;
-}
-
-.card-shadow {
-  width: 200px;
-  height: 200px;
-  background-color: var(--first-color-alt);
-  border-radius: 50%;
-  position: absolute;
-  top: 3.75rem;
-  left: 0;
-  right: 0;
-  margin-inline: auto;
-  filter: blur(45px);
-}
-
-/* Card Text */
-.card-name {
-  font-size: var(--h2-font-size);
-  color: var(--second-color);
-  margin-bottom: 0.75rem;
-}
-
-.card-description {
-  font-weight: 500;
-  margin-bottom: 1.75rem;
-}
-
-.card-button {
-  display: inline-block;
-  background-color: var(--first-color);
-  padding: 0.75rem 1.5rem;
-  border-radius: 0.25rem;
-  color: var(--dark-color);
-  font-weight: 600;
-}
-
-/* Swiper Class */
-.swiper-button-prev::after,
-.swiper-button-next::after {
-  content: "";
-}
-
-.swiper-button-prev,
-.swiper-button-next {
-  width: initial;
-  height: initial;
-}
-
-.swiper-pagination-bullet {
-  background-color: hsl(212, 32%, 40%);
-  opacity: 1;
-}
-
-.swiper-pagination-bullet-active {
-  background-color: var(--second-color);
-}
-
-@media screen and (min-width: 768px) {
-  .card-content {
-    margin-inline: 3rem;
-  }
-  .swiper-button-next,
-  .swiper-button-prev {
-    display: flex;
-  }
-}
-@media screen and (min-width: 768px) {
-  .swiper-button-next,
-  .swiper-button-prev {
-    display: flex;
-  }
-}
 .badge-wrapper .badge, .badge-wrapper .badge-inside {
   padding: 8px;
   text-transform: uppercase;
@@ -27536,6 +27119,10 @@ img {
     transform: scale(0);
   }
 }
+.hide-submenu {
+  top: 0 !important;
+}
+
 .banner .cantainer-image .image-product {
   left: 15%;
 }
@@ -27694,94 +27281,56 @@ img {
   background-image: radial-gradient(at center, #F6F7F8 1%, #B4CBD8);
 }
 .devicebanner:hover .title {
-  transform: translateY(50%);
+  transform: translateY(120px);
 }
 .devicebanner:hover img {
-  transform: translateY(50px);
+  transform: translateY(130px);
 }
 .devicebanner .title {
   transform: translateY(200px);
   transition: all 300ms;
 }
 .devicebanner img {
-  transform: translateY(-30%);
-  width: 90%;
-  min-width: 170px;
-  aspect-ratio: 1;
-  object-fit: contain;
+  transform: translateY(70px);
+  width: 100%;
+  height: 100%;
   transition: all 300ms;
 }
 
 .topseller {
-  background-image: radial-gradient(at center, #F6F7F8 1%, #B4CBD8);
+  background-image: url("../../assets/media/images/category/back.svg"), radial-gradient(at center, #F6F7F8 1%, #B4CBD8);
   background-repeat: no-repeat;
   background-size: cover;
-  transition: all 700ms;
-  border: 1px solid var(--border);
+  transition: all 300ms;
 }
 .topseller:hover {
   transition: all 300ms;
-  background-image: radial-gradient(at center, var(--primary) 1%, var(--primary));
+  background-color: var(--primary-color);
 }
 .topseller:hover .number {
-  color: var(--on-primary) !important;
+  color: var(--on-primary);
 }
 .topseller:hover .title {
-  color: var(--on-primary) !important;
-}
-.topseller:hover .number::after {
-  background: white !important;
-}
-.topseller:hover::before {
-  content: "";
-  width: 104%;
-  height: 107%;
-}
-.topseller:hover::after {
-  content: "";
-  width: 101%;
-  height: 100%;
+  color: var(--on-primary);
 }
 .topseller::before {
   content: "";
   background-image: url("../../assets/media/images/category/back2.svg");
   background-repeat: no-repeat;
   background-size: cover;
-  transition: all 700ms;
+  transition: all 300ms;
 }
 .topseller::after {
   content: "";
   background-image: url("../../assets/media/images/category/back3.svg");
   background-repeat: no-repeat;
   background-size: cover;
-  transition: all 700ms;
-}
-.topseller .background-wrapper {
-  content: url("../../assets/media/images/category/back.svg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  width: 100%;
-  transition: al 300ms;
-}
-.topseller .background-wrapper {
-  bottom: 0;
-  left: 0;
-  transition: all 700ms;
-}
-.topseller:hover .background-wrapper {
-  content: url("../../assets/media/images/category/Vector5(5).svg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  width: 100%;
-  z-index: 3;
-  position: absolute;
+  transition: all 300ms;
 }
 .topseller .details .content .number::after {
   content: "";
   width: 2px;
   height: 20px;
-  background: #13275F;
-  opacity: 27%;
 }
 .topseller .details img {
   width: 40px;
@@ -27823,13 +27372,8 @@ img {
   z-index: 999;
   box-shadow: 0px 3px 57px 6px rgba(154, 168, 188, 0.1);
 }
-.product-wrapper-sticky {
-  transition: 200ms ease;
-}
-
 .unavailable .filter {
   filter: blur(2px);
-  user-select: none;
 }
 .modal-container.cart-modal::after {
   content: "";
@@ -27918,28 +27462,17 @@ img {
     transform: translateY(100%);
   }
 }
-.modal-container.share-modal::after {
-  content: "";
-  background-color: rgba(0, 0, 0, 0.2);
+.modal-container.sharing-modal.show .modal-content {
+  animation: sharing-modal-open 0.3s ease-out forwards;
+}
+.modal-container.sharing-modal.hide .modal-content {
+  animation: sharing-modal-close 0.3s ease-out forwards;
+}
+.modal-container.sharing-modal .modal-content {
+  background-color: rgba(0, 0, 0, 0.07);
   backdrop-filter: blur(1px);
 }
-.modal-container.share-modal.show .modal-content {
-  animation: share-modal-open 0.3s ease-out forwards;
-}
-.modal-container.share-modal.show::after {
-  animation: share-modal-open-backdrop 0.3s ease-out forwards;
-}
-.modal-container.share-modal.hide .modal-content {
-  animation: share-modal-close 0.3s ease-out forwards;
-}
-.modal-container.share-modal.hide::after {
-  animation: share-modal-close-backdrop 0.3s ease-out forwards;
-}
-.modal-container.share-modal .modal-content {
-  background-color: unset;
-  backdrop-filter: unset;
-}
-@keyframes share-modal-open {
+@keyframes sharing-modal-open {
   from {
     opacity: 0;
     transform: translateY(-100%);
@@ -27949,7 +27482,7 @@ img {
     transform: translateY(0%);
   }
 }
-@keyframes share-modal-close {
+@keyframes sharing-modal-close {
   from {
     opacity: 1;
     transform: translateY(0%);
@@ -27959,31 +27492,10 @@ img {
     transform: translateY(100%);
   }
 }
-@keyframes share-modal-open-backdrop {
-  from {
-    opacity: 0;
-  }
-  to {
-    opacity: 1;
-  }
-}
-@keyframes share-modal-close-backdrop {
-  from {
-    opacity: 1;
-  }
-  to {
-    opacity: 0;
-  }
-}
 .modal-container {
   min-width: 100%;
   min-height: 100%;
   pointer-events: none;
-}
-.modal-container::after {
-  content: "";
-  background-color: rgba(0, 0, 0, 0.2);
-  backdrop-filter: blur(1px);
 }
 .modal-container.show {
   pointer-events: all;
@@ -27992,9 +27504,6 @@ img {
   display: flex;
   animation: modal-open 0.3s ease-out forwards;
 }
-.modal-container.show::after {
-  animation: modal-backdrop-open 0.3s ease-out forwards;
-}
 .modal-container.hide {
   pointer-events: none;
 }
@@ -28002,8 +27511,9 @@ img {
   display: flex;
   animation: modal-close 0.3s ease-out forwards;
 }
-.modal-container.hide::after {
-  animation: modal-backdrop-close 0.3s ease-out forwards;
+.modal-container .modal-content {
+  background-color: rgba(0, 0, 0, 0.7);
+  backdrop-filter: blur(5px);
 }
 .modal-container .modal-close {
   pointer-events: all;
@@ -28027,22 +27537,6 @@ img {
   to {
     opacity: 0;
     transform: scale(0);
-  }
-}
-@keyframes modal-open-backdrop {
-  from {
-    opacity: 0;
-  }
-  to {
-    opacity: 1;
-  }
-}
-@keyframes modal-close-backdrop {
-  from {
-    opacity: 1;
-  }
-  to {
-    opacity: 0;
   }
 }
 .qty .qty-value {
@@ -28086,8 +27580,7 @@ img {
   background-color: white;
 }
 
-.fa-solid.fa-xmark,
-.fa-solid.fa-check {
+.fa-solid.fa-xmark, .fa-solid.fa-check {
   display: flex !important;
 }
 
@@ -28129,225 +27622,8 @@ img {
   background-color: white;
 }
 
-.fa-solid.fa-xmark,
-.fa-solid.fa-check {
+.fa-solid.fa-xmark, .fa-solid.fa-check {
   display: flex !important;
-}
-
-.switcher {
-  cursor: pointer;
-  border: 2px solid #021959;
-  width: 35px;
-  height: 18px;
-}
-.switcher .ball {
-  width: 10px;
-  height: 10px;
-  transition: 300ms;
-  transform: translateX(-2px);
-}
-.switcher.active {
-  background-color: #3EB580;
-  border-color: #3EB580;
-}
-.switcher.active .ball {
-  background-color: white;
-  transform: translateX(-20px);
-}
-
-:root {
-  --primary-color: #3b82f6;
-  --bg-color: #f3f4f6;
-  --card-bg: #ffffff;
-  --text-color: #1f2937;
-  --track-bg: #e5e7eb;
-}
-
-.range-slider .values .value-min, .range-slider .values .value-max {
-  transition: all 0.2s linear;
-}
-.range-slider .values .value-min:focus, .range-slider .values .value-max:focus {
-  outline: none;
-}
-.range-slider .range-wrapper {
-  height: 25px;
-}
-.range-slider .range-wrapper .range-track {
-  background-color: var(--track-bg);
-}
-.range-slider .range-wrapper .range-min, .range-slider .range-wrapper .range-max {
-  background: none !important;
-  pointer-events: none !important;
-  appearance: none !important;
-  -webkit-appearance: none !important;
-  top: 50%;
-  transform: translateY(-50%);
-  border: none !important;
-}
-.range-slider .range-wrapper .range-min::-webkit-slider-thumb, .range-slider .range-wrapper .range-max::-webkit-slider-thumb {
-  pointer-events: auto !important;
-  appearance: none !important;
-  -webkit-appearance: none !important;
-  width: 22px;
-  height: 22px;
-  transition: all 0.2s linear;
-}
-.range-slider .range-wrapper .range-min::-webkit-slider-thumb:hover, .range-slider .range-wrapper .range-max::-webkit-slider-thumb:hover {
-  transform: scale(1.1);
-}
-.range-slider .range-wrapper .range-min::-moz-range-thumb, .range-slider .range-wrapper .range-max::-moz-range-thumb {
-  pointer-events: auto !important;
-  appearance: none !important;
-  -webkit-appearance: none !important;
-  width: 22px;
-  height: 22px;
-  transition: all 0.2s linear;
-}
-.range-slider .range-wrapper .range-min::-moz-range-thumb:hover, .range-slider .range-wrapper .range-max::-moz-range-thumb:hover {
-  transform: scale(1.1);
-}
-.dropdown {
-  user-select: none;
-}
-.dropdown .dropdown-box {
-  transition: 0.2s linear;
-}
-.dropdown .dropdown-menu {
-  transition: 0.2s linear;
-}
-.dropdown .dropdown-menu > li > :not(:has(*)), .dropdown .dropdown-menu > li a {
-  transition: 0.2s linear;
-}
-.dropdown .dropdown-menu .dropdown-submenu .dropdown-submenu-toggle {
-  transition: 0.2s linear;
-}
-.dropdown .dropdown-menu .dropdown-submenu .dropdown-submenu-toggle i {
-  transition: transform 0.2s linear;
-}
-.dropdown .dropdown-menu .dropdown-submenu.active > .dropdown-menu {
-  opacity: 1;
-  visibility: visible;
-}
-.dropdown.active > .dropdown-menu {
-  opacity: 1;
-  visibility: visible;
-}
-.dropdown .dropdown-menu.dropdown-bottom {
-  top: 100%;
-  bottom: unset;
-  left: unset;
-}
-.dropdown .dropdown-menu.dropdown-top {
-  top: unset;
-  bottom: 100%;
-  right: unset;
-}
-.dropdown .dropdown-menu.dropdown-right {
-  bottom: unset;
-  left: 100%;
-  right: unset;
-}
-.dropdown .dropdown-menu.dropdown-left {
-  bottom: unset;
-  left: unset;
-  right: 100%;
-}
-.dropdown.dropdown-hover:hover > .dropdown-menu,
-.dropdown .dropdown-submenu.dropdown-hover:hover > .dropdown-menu {
-  opacity: 1;
-}
-
-.button-date {
-  box-shadow: 0px 3px 1px 0px #EEF2F9;
-}
-.button-date .tick {
-  width: 20px;
-  height: 20px;
-}
-.button-date.active {
-  background-color: var(--secondary);
-}
-.button-date.active .tick {
-  background-color: var(--primary);
-}
-
-.product-detail {
-  box-shadow: 0px 0px 5px 0px var(--shadow);
-}
-
-.product-detail > img {
-  top: 0.5rem;
-  right: 0.25rem;
-}
-
-.suggestion-card input {
-  outline: unset;
-}
-
-.suggestion-card .form-box button {
-  background-color: transparent;
-}
-
-div:has(.product-detail) {
-  height: 600px;
-}
-
-.register-comment-box .registration-box {
-  box-shadow: 0px 4px 24px 0px rgba(0, 0, 0, 0.1);
-}
-
-.register-comment-box .progress {
-  width: 155px;
-  height: 10px;
-  border-radius: 100px;
-}
-
-.register-comment-box .progress-box {
-  width: 175px;
-}
-
-.register-comment-box .stars-container {
-  width: 93px;
-  height: 18px;
-}
-
-.register-comment-box .stars-container .stars-full {
-  background-image: url("../media/images/component/star-solid-full.svg");
-  background-size: contain;
-  background-repeat: repeat-x;
-}
-
-.register-comment-box .stars-container .stars {
-  background-image: url("../media/images/component/star-thin-full.svg");
-  background-size: contain;
-  background-repeat: repeat-x;
-  background-color: transparent;
-}
-
-@media screen and (width < 1200px) {
-  .register-comment-box > div:first-child {
-    flex-direction: column-reverse;
-    align-items: center;
-    gap: 1rem;
-  }
-  .register-comment-box > div:first-child > div:last-child {
-    align-items: center;
-  }
-  .register-comment-box .stars-container {
-    width: 89px;
-  }
-}
-@media screen and (width < 992px) {
-  .register-comment-box > div:first-child {
-    flex-direction: row-reverse;
-    align-items: start;
-  }
-  .register-comment-box > div:first-child > div:last-child {
-    align-items: end;
-  }
-  .register-comment-box .stars-container {
-    width: 93px;
-  }
 }
 
 /*# sourceMappingURL=miz.min.css.map */
