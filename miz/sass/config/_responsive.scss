@@ -1,9 +1,9 @@
-$break-points:(xxl:1920px , xl:1280px , lg:1024px , md:767px , sm:478px);
+$break-points:(xxl:1400px , xl:1200px , lg:992px , md:768px , sm:576px);
 // number of boxed space around should be equal with break points
-$header-space-horizontally:(81px,70px,50px,25px,20px);
-$header-space-vertically:(5rem,4.5rem,4rem,3rem,3rem);
-$boxed-space-horizontally:(81px,70px,50px,25px,20px);
-$boxed-space-vertically:(5rem,4.5rem,4rem,3rem,3rem);
+$header-space-horizontally:(0rem,0rem,0rem,0rem,0rem);
+$header-space-vertically:(0rem,0rem,0rem,0rem,0rem);
+$boxed-space-horizontally:(1rem,1rem,1rem,1rem,1rem);
+$boxed-space-vertically:(1rem,1rem,1rem,1rem,1rem);
 $conf-font-size-responsive:(1rem, 1rem, 0.8rem, 0.7rem, 0.7rem);
 
 $conf-cols:(
