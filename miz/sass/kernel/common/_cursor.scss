@@ -1,5 +1,5 @@
 @use "../../config/_dims" as *;
-@use "../../../themes/mizoon/config/dims" as *;
+@use "../../../themes/niva/config/dims" as *;
 
 @mixin generate-cursor($config, $class){
     @each $value in $config{

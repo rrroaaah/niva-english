@@ -35,7 +35,7 @@
                 }
 
                 .name {
-                    @extend .ltr , .text-color , .txt-title , .font-weight-light;
+                    @extend .ltr , .text-color , .txt-size-title , .font-weight-light;
                 }
 
                 & {

@@ -10,7 +10,7 @@
     @extend .d-flex, .flex-column, .bg-secondary-color, .radius-all-large, .py-10, .px-10, .gap-8;
     
     .title{
-        @extend .txt-big-title, .text-color, .font-weight-bold;
+        @extend .txt-size-big-title, .text-color, .font-weight-bold;
     }
 
     .gif{
@@ -19,10 +19,10 @@
 
     mark{
         background-color: #FFF077;
-        @extend .txt-mid-title, .text-color, .font-weight-bold, .px-1, .py-1;
+        @extend .txt-size-mid-title, .text-color, .font-weight-bold, .px-1, .py-1;
     }
 
     .description{
-        @extend .secondary-text-color, .txt-title, .font-weight-bold;
+        @extend .secondary-text-color, .txt-size-title, .font-weight-bold;
     }
 }

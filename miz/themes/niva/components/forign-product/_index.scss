@@ -11,7 +11,7 @@
             @extend .d-flex, .flex-row, .justify-content-space-between;
 
             .text {
-                @extend .txt-title, .text-color, .font-weight-bold;
+                @extend .txt-size-title, .text-color, .font-weight-bold;
             }
         }
     }
@@ -22,11 +22,11 @@
         .wrapper-sale {
             @extend .d-flex, .flex-column, .gap-3;
 
-            .txt-big {
-                @extend .txt-big, .text-color;
+            .txt-size-big {
+                @extend .txt-size-big, .text-color;
 
                 .text {
-                    @extend .txt-mid-title, .text-color, .font-weight-bold;
+                    @extend .txt-size-mid-title, .text-color, .font-weight-bold;
                 }
             }
 
@@ -56,7 +56,7 @@
             @extend .d-flex, .align-items-center, .justify-content-end;
 
             .price-percent {
-                @extend .font-weight-bold, .text-color, .txt-big-title;
+                @extend .font-weight-bold, .text-color, .txt-size-big-title;
             }
         }
     }
