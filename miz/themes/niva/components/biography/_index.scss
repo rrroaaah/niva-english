@@ -13,11 +13,11 @@
         @extend .d-flex, .flex-column, .gap-2, .font-weight-bold;
 
         .title {
-            @extend .txt-mid-title, .text-color, .font-weight-bold;
+            @extend .txt-size-mid-title, .text-color, .font-weight-bold;
         }
 
         .description {
-            @extend .text-color, .txt-title;
+            @extend .text-color, .txt-size-title;
         }
     }
 

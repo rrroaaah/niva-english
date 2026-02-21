@@ -158,7 +158,7 @@ class PanelManager {
         return {
             id,
             className: "btn-toggle-device",
-            label: `<i class="txt-subtitle" title="${title}">${content}</i>`,
+            label: `<i class="txt-size-subtitle" title="${title}">${content}</i>`,
             command,
             active,
             togglable: false,

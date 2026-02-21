@@ -9,21 +9,21 @@
 
         .last-price{
             line-height: 2;
-            @extend .txt-big ,.text-color ,.font-weight-bold;
+            @extend .txt-size-big ,.text-color ,.font-weight-bold;
         }
 
         .wrapper-date{
             @extend .d-flex, .flex-column, .align-items-end, .gap-2 ;
 
             .date{
-                @extend .text-color, .txt-normal, .font-weight-bold ;
+                @extend .text-color, .txt-size-normal, .font-weight-bold ;
             }
 
             .wrapper-price{
-                @extend .d-flex, .align-items-center, .justify-content-end ; 
+                @extend .d-flex, .align-items-center, .justify-content-end ;
 
                 .price{
-                    @extend .font-weight-bold, .text-color, .txt-big-title ;
+                    @extend .font-weight-bold, .text-color, .txt-size-big-title ;
                 }
             }
         }
@@ -32,7 +32,7 @@
     .explanation-text{
         line-height: 2;
 
-        @extend .txt-big, .text-color, .font-weight-bold ;
+        @extend .txt-size-big, .text-color, .font-weight-bold ;
     }
 
     .wrapper-btn{
@@ -46,11 +46,11 @@
            @extend .div, .flex-column, .justify-content-space-between;
 
            .text-call{
-            @extend .txt-big, .text-color, .font-weight-bold;
+            @extend .txt-size-big, .text-color, .font-weight-bold;
            }
 
            .phone-number{
-            @extend .font-weight-bold, .text-color, .txt-big-title ;
+            @extend .font-weight-bold, .text-color, .txt-size-big-title ;
            }
         }
     }

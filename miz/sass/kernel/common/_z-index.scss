@@ -1,6 +1,6 @@
 @use 'sass:list';
 @use "../../config/dims" as *;
-@use "../../../themes/mizoon/config/dims" as *; 
+@use "../../../themes/niva/config/dims" as *; 
 @use "functions" as *;
 
 @mixin generate-total-style-z-index($map-config , $property){

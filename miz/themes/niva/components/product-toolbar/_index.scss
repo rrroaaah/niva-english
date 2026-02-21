@@ -6,7 +6,7 @@
     @extend .d-flex , .flex-column , .gap-6 , .align-items-center ;
 
     .rate-box {
-        @extend .d-flex , .flex-column , .gap-2 , .align-items-center , .font-weight-medium , .txt-title ;
+        @extend .d-flex , .flex-column , .gap-2 , .align-items-center , .font-weight-medium , .txt-size-title ;
 
         &::after {
             content: "";
@@ -28,7 +28,7 @@
                 right: 35px;
                 bottom: 5px;
                 background-color: get-color(primary) ;
-                @extend .d-none , .position-absolute , .on-primary-color , .right-0 , .txt-big , .font-weight-bold , .px-2 , .py-1 , .radius-all-small , .z-index-2; 
+                @extend .d-none , .position-absolute , .on-primary-color , .right-0 , .txt-size-big , .font-weight-bold , .px-2 , .py-1 , .radius-all-small , .z-index-2; 
             }
 
             &:hover .label-name {

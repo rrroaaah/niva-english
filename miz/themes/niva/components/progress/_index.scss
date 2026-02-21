@@ -8,7 +8,7 @@
 .progress-bar {
     width: var(--percentage);
     user-select: none;
-    @extend .d-flex, .align-items-center, .justify-content-center, .overflow-hidden, .bg-primary-color, .pt-1, .txt-small;
+    @extend .d-flex, .align-items-center, .justify-content-center, .overflow-hidden, .bg-primary-color, .pt-1, .txt-size-small;
 
     &.progress-animation {
         animation: progress-animation var(--progress-animation-duration) forwards ease-in-out;

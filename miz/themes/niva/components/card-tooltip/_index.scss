@@ -19,7 +19,7 @@
         white-space: nowrap;
         box-shadow: 0px 5px 19px -5px rgba(0, 0, 0, 0.17);
         visibility: hidden;
-        @extend .txt-align-center, .position-absolute, .z-index-1, .w-fit-content, .h-fit-content, .opacity-0, .px-2, .py-1, .on-primary-color, .radius-all-small, .bg-white-color, .on-secondary-color, .txt-big;
+        @extend .txt-align-center, .position-absolute, .z-index-1, .w-fit-content, .h-fit-content, .opacity-0, .px-2, .py-1, .on-primary-color, .radius-all-small, .bg-white-color, .on-secondary-color, .txt-size-big;
     }
     &:hover span.box{
         visibility: visible;

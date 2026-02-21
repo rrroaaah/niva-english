@@ -18,6 +18,36 @@ $conf-height:(
     count:50,
     responsive:true
 );
+$conf-inset-inline-start:(
+    count:50,
+    responsive:true
+);
+$conf-inset-inline-end:(
+    count:50,
+    responsive:true
+);
+$conf-top:(
+    count:50,
+    responsive:true
+);
+$conf-bottom:(
+    count:50,
+    responsive:true
+);
+$conf-left:(
+    count:4,
+    responsive:true
+);
+$conf-right:(
+    count:4,
+    responsive:true
+);
+$conf-line-height:(
+    count:25,
+    unit:rem,
+    factor:0.25,
+    responsive:true
+);
 $conf-grids:(
     count:14,
     responsive:true
