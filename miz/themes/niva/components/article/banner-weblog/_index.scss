@@ -18,7 +18,7 @@
     & .banner-content {
 
        .title {
-        @extend .position-absolute, .top-0, .right-0, .z-index-2, .txt-align-start,.mr-5, .mt-5, .font-weight-bold, .txt-high-title;
+        @extend .position-absolute, .top-0, .right-0, .z-index-2, .txt-align-start,.mr-5, .mt-5, .font-weight-bold, .txt-size-high-title;
     }
 
        .details {

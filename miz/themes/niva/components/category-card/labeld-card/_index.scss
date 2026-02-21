@@ -59,7 +59,7 @@
         .product-name {
             transition: all 300ms;
             font-size: 1.5rem;
-            @extend .opacity-0 , .position-absolute , .z-index-4 ,.on-primary-color , .font-weight-black , .txt-mid-title ;
+            @extend .opacity-0 , .position-absolute , .z-index-4 ,.on-primary-color , .font-weight-black , .txt-size-mid-title ;
         } 
     }
 
