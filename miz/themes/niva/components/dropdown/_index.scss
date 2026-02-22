@@ -1,3 +1,4 @@
+@use "../../../../sass/global-functions/_font" as *;
 @use "../../../../sass/kernel" as *;
 @use "../../../../sass/config/_typography" as *;
 @use "sass:map";
@@ -12,16 +13,16 @@ $dropdown-menu-item-transition: 0.2s linear;
 
     .dropdown-box {
         transition: $dropdown-box-transition;
-        @extend .d-flex, .align-items-center, .gap-1, .py-1, .px-2, .cursor-pointer, .bg-primary-color, .secondary-color, .radius-all-small, .#{$font-prefix}-normal;
+        @extend .d-flex, .align-items-center, .gap-1, .py-1, .px-2, .cursor-pointer, .bg-primary-color, .secondary-color, .radius-all-small, .#{get-font-prefix()}-size-normal;
     }
     .dropdown-menu {
         transition: $dropdown-menu-transition;
-        @extend .position-absolute, .w-fit-content, .opacity-0, .visibility-hidden, .z-index-10, .bg-secondary-color, .on-secondary-color, .radius-all-small, .#{$font-prefix}-normal, .border-style-solid, .border-on-primary-color, .bw-1;
+        @extend .position-absolute, .w-fit-content, .opacity-0, .visibility-hidden, .z-index-10, .bg-secondary-color, .on-secondary-color, .radius-all-small, .#{get-font-prefix()}-size-normal, .border-style-solid, .border-on-primary-color, .bw-1;
 
         & > li{
             & > :not(:has(*)), a{
                 transition: $dropdown-menu-item-transition;
-                @extend .d-flex, .py-1, .px-2, .on-secondary-color, .#{$font-prefix}-normal;
+                @extend .d-flex, .py-1, .px-2, .on-secondary-color, .#{get-font-prefix()}-size-normal;
         
                 &:hover{
                     @extend .bg-primary-color, .on-primary-color;
@@ -48,7 +49,7 @@ $dropdown-menu-item-transition: 0.2s linear;
 
             .dropdown-submenu-toggle {
                 transition: $dropdown-menu-item-transition;
-                @extend .d-flex, .justify-content-space-between, .align-items-center, .w-100, .py-1, .px-2, .on-secondary-color, .#{$font-prefix}-normal;
+                @extend .d-flex, .justify-content-space-between, .align-items-center, .w-100, .py-1, .px-2, .on-secondary-color, .#{get-font-prefix()}-size-normal;
                 
                 &:hover {
                     @extend .bg-primary-color, .on-primary-color;
@@ -73,8 +74,8 @@ $dropdown-menu-item-transition: 0.2s linear;
     & .dropdown-menu.dropdown-bottom{
         top: 100%;
         bottom: unset;
-        left: unset;
-        @extend .right-0, .mt-1;
+        right: unset;
+        @extend .left-0, .mt-1;
     }
     & .dropdown-menu.dropdown-top{
         top: unset;

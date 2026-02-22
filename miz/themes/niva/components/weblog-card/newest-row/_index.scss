@@ -26,11 +26,11 @@
         @extend .d-flex, .flex-column, .gap-3, .px-6;
         
         & .title {
-            @extend .text-color, .txt-extra-title, .font-weight-bold;
+            @extend .text-color, .txt-size-extra-title, .font-weight-bold;
         }
 
         & .description{
-            @extend .title-text-color, .txt-title;
+            @extend .title-text-color, .txt-size-title;
         }
     }
 }

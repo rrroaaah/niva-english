@@ -1,7 +1,7 @@
 @use "../../../sass/config/_typography" as *;
 @use "sass:map";
 
-$fonts-niva: (
+$conf-fonts-niva: (
     "primary": (
         "defaults":"sans-serif, 'Courier New', Courier, monospace",
         "folder": "yekan-bakh",
@@ -22,4 +22,4 @@ $fonts-niva: (
     ),
 );
 
-$fonts:map.merge($fonts , $fonts-niva);
+$conf-fonts:map.merge($conf-fonts , $conf-fonts-niva);

@@ -21,14 +21,14 @@
     }
 
     & .title {
-        @extend .txt-ellipsis, .txt-extra-title, .text-color, .font-weight-bold;
+        @extend .ellipsis-1, .txt-size-extra-title, .text-color, .font-weight-bold;
     }
 
     & .card-body {
         @extend .d-flex, .flex-column, .gap-3, .px-5, .pb-6;
 
         .description {
-            @extend .txt-mid-title, .title-text-color;
+            @extend .txt-size-mid-title, .title-text-color;
         }
     }
 }
