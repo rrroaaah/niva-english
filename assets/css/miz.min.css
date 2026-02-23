@@ -11222,6 +11222,10 @@ html {
   letter-spacing: 12.5rem;
 }
 
+.txt-size-small, .rating-card .card-header .rating-count .description, .rating-card .card-header .rating-count .number, .progress-bar, .product-card .card-body .credit-purchase-box {
+  font-size: 0.625rem;
+}
+
 .txt-size-subtitle, .product-comment .features-container .show-more .text-show-more, .rating-card .card-body .percentage-point .description-container .comment-number {
   font-size: 0.688rem;
 }
@@ -30396,9 +30400,6 @@ html {
   }
   .ls-sm-25 {
     letter-spacing: 12.5rem;
-  }
-  .txt-size-small, .rating-card .card-header .rating-count .description, .rating-card .card-header .rating-count .number, .progress-bar, .product-card .card-body .credit-purchase-box {
-    font-size: 0.625rem;
   }
   .top-sm-0 {
     top: 0%;
