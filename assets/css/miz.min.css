@@ -2829,7 +2829,7 @@ html {
   flex-direction: row;
 }
 
-.flex-row-reverse, .iphone-banner .product, .contact-us-information {
+.flex-row-reverse, .topseller .details .content, .topseller .details .content .number, .iphone-banner .product, .contact-us-information {
   flex-direction: row-reverse;
 }
 
@@ -28143,7 +28143,7 @@ img {
   width: 10px;
   height: 10px;
   transition: 300ms;
-  transform: translateX(-2px);
+  transform: translateX(2px);
 }
 .switcher.active {
   background-color: #3EB580;
@@ -28151,7 +28151,7 @@ img {
 }
 .switcher.active .ball {
   background-color: white;
-  transform: translateX(-20px);
+  transform: translateX(20px);
 }
 
 :root {
