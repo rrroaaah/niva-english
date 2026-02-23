@@ -3,43 +3,43 @@
 @use "sass:map";
 
 
-.product-card{
+.product-card {
     transition: all 0.2s ease-out;
     @extend .position-relative, .w-100, .px-7, .pb-7, .pt-4, .radius-all-medium, .bw-1, .border-color, .border-style-solid;
 
-        .logo-container{
-            @extend .d-flex, .bw-2, .bb-style-solid,.align-items-center , .border-primary-color, .justify-content-space-between;
+    .logo-container {
+        @extend .d-flex, .bw-2, .bb-style-solid, .align-items-center, .border-primary-color, .justify-content-space-between;
 
-            .logo{
-                @extend .w-10;
-            }
+        .logo {
+            @extend .w-10;
         }
-
-    .countdown{
-        @extend .primary-color,.bg-on-primary-color, .font-weight-bold;
     }
 
-    .product-colors{
+    .countdown {
+        @extend .primary-color, .bg-on-primary-color, .font-weight-bold;
+    }
+
+    .product-colors {
         @extend .position-absolute, .right-0, .mie-3;
 
-        span{
+        span {
             width: 8px;
             @extend .aspect-ratio-1x1, .radius-all-full;
         }
     }
 
-    .image-container{
-        @extend .d-flex, .justify-content-center, .position-relative,.pt-7, .pb-5, .px-3;
+    .image-container {
+        @extend .d-flex, .justify-content-center, .position-relative, .pt-7, .pb-5, .px-3;
 
-        .feature{
+        .feature {
             @extend .position-absolute, .left-0;
-    
+
         }
 
-        .image-box{
+        .image-box {
             @extend .d-flex, .justify-content-center, .w-100;
 
-            img{
+            img {
                 width: 80%;
                 aspect-ratio: 1;
             }
@@ -48,53 +48,59 @@
     }
 
 
-    .card-body{
+    .card-body {
         @extend .d-flex, .flex-column, .text-color, .gap-5;
-        
-        .title{
+
+        .title {
             @extend .txt-extra-title, .font-weight-bold;
-                text-wrap: wrap;
+            display: -webkit-box;
+            -webkit-line-clamp: 1;
+            -webkit-box-orient: vertical;
+            overflow: hidden;
+            text-overflow: ellipsis;
+
         }
-        
-        .available-number{
+
+        .available-number {
             @extend .font-weight-bold, .txt-mid-title;
         }
 
-        .fast-shipping{
+        .fast-shipping {
             @extend .d-flex, .w-70, .align-items-center;
 
-            span{
+            span {
                 @extend .txt-big;
             }
         }
-        
-        .btn-add-to-cart{
-            
-            @extend .position-relative ,.bg-primary-color, .py-3, .px-2, .radius-all-small, .on-primary-color, .font-weight-medium, .txt-big, .cursor-pointer;
 
-            .vector,img{
+        .btn-add-to-cart {
+
+            @extend .position-relative, .bg-primary-color, .py-3, .px-2, .radius-all-small, .on-primary-color, .font-weight-medium, .txt-big, .cursor-pointer;
+
+            .vector,
+            img {
                 @extend .position-absolute, .right-0, .top-0, .w-100, .h-100;
             }
 
-            span{
+            span {
                 @extend .position-relative, .z-index-5;
             }
 
-            .vector-5{
-                top:1px;
+            .vector-5 {
+                top: 1px;
                 border-top-right-radius: 7px;
                 border-radius: 9px;
             }
         }
 
-        .btn-percent .icon{
+        .btn-percent .icon {
             width: 70%;
             position: relative;
             z-index: 5;
         }
 
 
-        .btn-percent{
+        .btn-percent {
             width: 42px;
             height: 42px;
             display: flex;
@@ -102,38 +108,40 @@
             align-items: center;
         }
 
-         .discount-percentage{
-                box-shadow: 2px 3px 4px -3px get-color(primary);
-                @extend .d-flex, .align-items-center, .font-weight-bold, .on-primary-color, .bg-primary-color, .radius-all-small, .font-weight-medium, .px-1, .txt-mid-title;
-            }
+        .discount-percentage {
+            box-shadow: 2px 3px 4px -3px get-color(primary);
+            @extend .d-flex, .align-items-center, .font-weight-bold, .on-primary-color, .bg-primary-color, .radius-all-small, .font-weight-medium, .px-1, .txt-mid-title;
+        }
 
-        .discount-box{
+        .discount-box {
             @extend .d-flex, .flex-column;
-            
-            .original-price{
+
+            .original-price {
                 @extend .txt-decoration-line-through, .secondary-text-color, .font-weight-bold;
             }
-            
-           
-            
-            .special-price{
+
+
+
+            .special-price {
                 @extend .font-weight-bold, .text-color, .txt-high-title;
             }
         }
 
-        .credit-purchase-box{
+        .credit-purchase-box {
             @extend .secondary-text-color, .txt-small, .font-weight-bold;
 
-            img{
+            img {
                 max-width: 45px;
                 @extend .py-1, .px-2, .radius-all-small;
             }
         }
     }
 }
-.feature.checkpay{
+
+.feature.checkpay {
     @extend .cursor-pointer;
-    &.active svg path{
+
+    &.active svg path {
         stroke: get-color(primary);
         fill: get-color(primary);
     }
