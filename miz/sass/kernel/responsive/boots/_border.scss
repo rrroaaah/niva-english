@@ -30,12 +30,11 @@ $border-style-values:(
     solid,
     dashed,
     dotted,
+    none,
     double,
     groove,
-    inset,
     outset,
-    ridge,
-    none,
+    ridge
 );
 
 $radius-map:(
@@ -56,23 +55,26 @@ $radius-map:(
 );
 
 @function generate-border-class-name($map-config){
-    $conf-border-width:map.get($map-config , last-width);
+    $lenght:map.get($map-config , last-width);
     $result:();
+ 
 
-    @for $i from 0 through $conf-border-width{
+    @for $i from 0 through $lenght{
         $item:"." + "bw" + "-" + $i;
-        $result:list.append($result, $item)
+        $result:list.append($result,$item)
     }
 
     @return $result;
 }
 
 @function generate-border-class-value($map-config){
-    $conf-border-width:map.get($map-config, last-width);
-    $result:();
 
-    @for $i from 0 through $conf-border-width{
-        $result:list.append($result, $i + px)
+    $lenght:map.get($map-config,last-width);
+    $result:();
+ 
+
+    @for $i from 0 through $lenght{
+        $result:list.append($result,$i + px)
     }
 
     @return $result;
@@ -93,6 +95,17 @@ $radius-map:(
     }
 }
 
+
+
+@include generate-total-style-border($conf-border-thickness);
+
+
+
+
+
+
+
+
 @mixin generate-border-radius($radius-map , $values , $class-list){
     @each $name , $value in $values{
         @each $key , $property-list in $radius-map{
@@ -107,6 +120,21 @@ $radius-map:(
     }
 }
 
+@include generate-border-radius($radius-map , $border-radius , radius);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 @mixin generate-border-style($border-map , $border-style-values){
     @each $value in $border-style-values{
         @each $border-style-class , $border-style-properties in $border-map{
@@ -120,6 +148,4 @@ $radius-map:(
     }
 }
 
-@include generate-total-style-border($conf-border-thickness);
-@include generate-border-radius($radius-map , $border-radius , radius);
 @include generate-border-style($border-style-map , $border-style-values);

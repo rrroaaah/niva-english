@@ -11,7 +11,7 @@
             @extend .text-color, .font-weight-bold;
         }
         .user-type{
-            @extend .radius-all-full, .bg-primary-color, .on-primary-color, .font-weight-bold, .txt-size-normal, .px-2, .py-1;
+            @extend .radius-all-full, .bg-primary-color, .on-primary-color, .font-weight-bold, .txt-normal, .px-2, .py-1;
         }
         
         .rating-star{
@@ -23,7 +23,7 @@
         }
         
         .date-time{
-            @extend .txt-size-normal, .text-color, .font-weight-bold;
+            @extend .txt-normal, .text-color, .font-weight-bold;
         }
 
         .btn{
@@ -39,11 +39,11 @@
         @extend .d-flex, .flex-column, .gap-5;
 
         .title{
-            @extend .txt-size-high-title, .text-color, .font-weight-bold;
+            @extend .txt-high-title, .text-color, .font-weight-bold;
         }
 
         .description{
-            @extend .txt-size-title, .font-weight-bold, .secondary-text-color;
+            @extend .txt-title, .font-weight-bold, .secondary-text-color;
         }
     }
 
@@ -58,12 +58,12 @@
             }
 
             .text-show-more{
-                @extend .txt-size-subtitle, .text-color, .font-weight-bold;
+                @extend .txt-subtitle, .text-color, .font-weight-bold;
             }
         }
 
         .features{
-            @extend .txt-size-normal, .secondary-text-color, .font-weight-bold;
+            @extend .txt-normal, .secondary-text-color, .font-weight-bold;
             
             .feature{
                 @extend .d-flex, .align-items-center, .gap-4;

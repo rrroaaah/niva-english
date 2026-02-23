@@ -132,7 +132,7 @@ class PanelManager {
     getAboutContent() {
         return `
             <div class="modal-question">
-                <img src="https://eazymizy.com/assets/media/images/logo.webp">
+                <img src="https://eazymizy.com/assets/media/images/logo.png">
                 <p>MIZBAN</p>
                 <p class="txt-align-center">Do not start from ZERO. The MIZ framework is here to make front-end development incredibly easy</p>
             </div>
@@ -158,7 +158,7 @@ class PanelManager {
         return {
             id,
             className: "btn-toggle-device",
-            label: `<i class="txt-size-subtitle" title="${title}">${content}</i>`,
+            label: `<i class="txt-subtitle" title="${title}">${content}</i>`,
             command,
             active,
             togglable: false,

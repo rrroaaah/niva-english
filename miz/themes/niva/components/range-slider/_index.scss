@@ -15,7 +15,7 @@
     @extend .position-relative, .w-100, .txt-align-center;
 
     .values {
-        @extend .d-flex, .justify-content-space-between, .align-items-center, .txt-size-big-title, .font-weight-bold;
+        @extend .d-flex, .justify-content-space-between, .align-items-center, .txt-big-title, .font-weight-bold;
 
         .value-min {
             transition: all 0.2s linear;

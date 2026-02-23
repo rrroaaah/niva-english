@@ -2,4 +2,4 @@
 @use "../functions/responsive" as *;
 
 
-$icon-size : generate-typography-size-classes($conf-icon-size,$conf-icon-prefix);
+$icon-size-responsive : generate-typography-size-classes($icon-size,$icon-prefix);

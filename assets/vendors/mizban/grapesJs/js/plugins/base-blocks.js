@@ -225,7 +225,7 @@ function base_blocks(editor) {
             const title = titleize(key);
             try {
                 editor.Blocks.add(blockId, {
-                    label: `${entry.icon || ''}<i class="txt-size-normal">${title.substring(0, 3)}</i><span>${title}</span>`,
+                    label: `${entry.icon || ''}<i class="txt-normal">${title.substring(0, 3)}</i><span>${title}</span>`,
                     attributes: { class: 'flex' },
                     category: categoriesMap[entry.category],
                     content: entry.code || '',

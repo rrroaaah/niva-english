@@ -86,7 +86,7 @@
             @extend .d-flex, .align-items-center;
 
             .number {
-                @extend .d-flex, .align-items-center, .text-color, .font-weight-bold, .txt-size-big-title;
+                @extend .d-flex, .align-items-center, .text-color, .font-weight-bold, .txt-big-title;
 
                 &::after {
                     content: "";
@@ -100,7 +100,7 @@
             }
 
             .title {
-                @extend .txt-size-mid-title, .pr-6, .text-color, .font-weight-bold;
+                @extend .txt-mid-title, .pr-6, .text-color, .font-weight-bold;
             }
         }
 

@@ -13,11 +13,11 @@
             @extend .d-flex, .flex-row, .justify-content-space-between;
 
             .product-main-content-buy-text {
-                @extend .txt-size-title, .text-color, .font-weight-bold;
+                @extend .txt-title, .text-color, .font-weight-bold;
             }
 
             .product-main-content-buy-text-send {
-                @extend .txt-size-big, .text-color, .font-weight-bold;
+                @extend .txt-big, .text-color, .font-weight-bold;
             }
         }
     }
@@ -29,10 +29,10 @@
             @extend .d-flex, .flex-column, .gap-3, .bb-style-solid, .border-color, .bw-1, .py-4;
 
             .sales-per-week-text {
-                @extend .txt-size-big, .text-color;
+                @extend .txt-big, .text-color;
 
                 .text {
-                    @extend .font-weight-bold, .txt-size-mid-title, .text-color;
+                    @extend .font-weight-bold, .txt-mid-title, .text-color;
                 }
             }
         }
@@ -42,7 +42,7 @@
         @extend .d-flex, .flex-column, .align-items-start, .gap-2;
 
         .variation-color-text {
-            @extend .txt-size-title, .font-weight-bold, .txt-align-center;
+            @extend .txt-title, .font-weight-bold, .txt-align-center;
         }
  
         

@@ -1,55 +1,22 @@
-@use "../functions/_responsive" as *;
-@use "../../common/_inset-inline" as *;
 @use "../mixins/_variables" as *;
+@use "../layouts/" as *;
 @use "_typography" as *;
 @use "_colors" as *;
-@use "_icon" as *;
-@use "../functions/_space" as *;
-@use "../layouts/_dims" as *;
-@use "../layouts/_displays" as *;
-@use "../layouts/_flex" as *;
-@use "../layouts/_grid" as *;
-@use "../layouts/_orders" as *;
-@use "_border" as *;
-@use "../../../config/_responsive" as *;
-@use "../../../config/_typography" as *;
+@use "typography" as *;
+@use "icon" as *;
+@use "../functions/space" as *;
+@use "../layouts/dims" as *;
+@use "../layouts/displays" as *;
+@use "../layouts/flex" as *;
+@use "../layouts/grid" as *;
+@use "../layouts/orders" as *;
+@use "border" as *;
+@use "../../../config/responsive" as *;
 @use 'sass:list';
 @use 'sass:string';
 @use 'sass:map';
 
-$total-list : (
-    $display-values,
-    $flex-cols,
-    $width-list,
-    $height-list,
-    $flex-type,
-    $flex-orders,
-    $flex-grows,
-    $grid,
-    $padding,
-    $margin,
-    $gap,
-    $col-gap,
-    $letter-spacing,
-    $font-size,
-    $text-transform,
-    $text-align,
-    $text-decoration-line,
-    $text-decoration-style,
-    $font-style,
-    $icon-size,
-    $white-space,
-    $text-wrap,
-    $top-list,
-    $bottom-list,
-    $left-list,
-    $right-list,
-    $inset-inline-start-list,
-    $inset-inline-end-list,
-    $line-height,
-    $list-style-type,
-    $list-style-position,
-);
+$totalist : $display-values,$flex-cols,$width-list,$height-list,$flex-type,$flex-orders,$flex-grows,$g,$padding,$margin,$gap,$col-gap,$letter-spacing,$font-size-responsive,$generate-text-transform,$generate-text-align,$generate-text-decoration-line,$generate-text-decoration-style,$generate-font-style,$icon-size-responsive;
 
 @function get-greatest-break-point(){
     $max-size:0;
@@ -66,7 +33,7 @@ $total-list : (
         $break-point-values:map.values($break-points);
         $max-width-values:list.nth($break-point-values,$i);
         $space-value:list.nth($header-space-horizontally,$i);
-        @if get-greatest-break-point() == $max-width-values{
+        @if get-greatest-break-point()==$max-width-values{
             .header{
                 --padding-left: #{$space-value};
                 --padding-right: #{$space-value};
@@ -90,7 +57,7 @@ $total-list : (
         $max-width-values:list.nth($break-point-values,$i);
         $space-value:list.nth($boxed-space-horizontally,$i);
         $max-width:get-greatest-break-point();
-        @if get-greatest-break-point() == $max-width-values{
+        @if get-greatest-break-point()==$max-width-values{
             .section{
                 --padding-left: #{$space-value};
                 --padding-right: #{$space-value};
@@ -113,7 +80,7 @@ $total-list : (
         $break-point-values:map.values($break-points);
         $max-width-values:list.nth($break-point-values,$i);
         $space-value:list.nth($boxed-space-vertically,$i);
-        @if get-greatest-break-point() == $max-width-values{
+        @if get-greatest-break-point()==$max-width-values{
             .section{
                 --padding-top: #{$space-value};
                 --padding-bottom: #{$space-value};
@@ -136,7 +103,7 @@ $total-list : (
         $break-point-values:map.values($break-points);
         $max-width-values:list.nth($break-point-values,$i);
         $space-value:list.nth($header-space-vertically,$i);
-        @if get-greatest-break-point() == $max-width-values{
+        @if get-greatest-break-point()==$max-width-values{
             .header{
                 --padding-top: #{$space-value};
                 --padding-bottom: #{$space-value};
@@ -161,22 +128,22 @@ $total-list : (
 @include generate-boxed-vertically();
 
 
+
+
 .section.wide{
     padding-right:0px !important;
     padding-left: 0px !important;
 }
-
-
-@function check-config-count($total-list-item){
-    @if list.length(list.nth($total-list,$total-list-item))!=0{
+@function check-config-count($totalist-item){
+    @if list.length(list.nth($totalist,$totalist-item))!=0{
         @return true;
     }
     @return false;
 }
 
 @mixin generate-classes($value){
-    @for $i from 1 through list.length($total-list){
-        @for $j from 1 through list.length(list.nth($total-list,$i)){
+    @for $i from 1 through list.length($totalist){
+        @for $j from 1 through list.length(list.nth($totalist,$i)){
             @include generate-style-property($i,$j,$value);
         }
     }
@@ -186,7 +153,7 @@ $total-list : (
     $result:();
     $i:1;
     @each $key , $value in $break-points{
-        @if string.index($class-name , ($key + "-")) != null{
+        @if string.index($class-name , $key) != null{
             $result:$value;
             @return $value;
         }
@@ -197,20 +164,19 @@ $total-list : (
     }
     @return $result;
 }
-
 @function str-replace($string, $search, $replace: '') {
     $index: string.index($string, $search);
-
+  
     @if ($index){
         @return string.slice($string, 1, $index - 1) + $replace + str-replace(string.slice($string, $index + string.length($search)), $search, $replace);
     }
-
+  
     @return $string;
 }
 
-@mixin generate-style-property($total-list-item,$total-list-member-item,$break-point-value){
-    $total-list-member:list.nth($total-list,$total-list-item);
-    @if (check-config-count($total-list-item)){
+@mixin generate-style-property($totalist-item,$total-list-member-item,$break-point-value){
+    $total-list-member:list.nth($totalist,$totalist-item);
+    @if (check-config-count($totalist-item)){
         $class-name:map.get(list.nth($total-list-member,$total-list-member-item),className);
         $class-name-greatest : str-replace($class-name,"-#{get-greatest-break-point-key()}");
 
@@ -268,7 +234,7 @@ $total-list : (
         }  
         @else{
             @include generate-classes($value);
-        }
+        } 
     }
 }
 @include check-break-point();

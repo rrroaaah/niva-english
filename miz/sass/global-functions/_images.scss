@@ -1,6 +1,6 @@
-@use "../config/_paths" as *;
+@use "../config/paths";
 
 @function get-image($name){
-    $url:$images-path + "/" + $name;
+    $url:paths.$images-path + $name;
     @return $url;
 }

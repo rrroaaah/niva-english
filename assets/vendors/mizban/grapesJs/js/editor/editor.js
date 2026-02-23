@@ -83,19 +83,11 @@ export function initEditor(content = { html: '', css: '' }) {
         const customStyle = document.createElement('link');
         customStyle.rel = 'stylesheet';
         customStyle.href = '/assets/css/style.min.css';
-
         iframe.contentDocument.body.appendChild(mizchin);
         iframe.contentDocument.head.appendChild(mizCss);
         iframe.contentDocument.head.appendChild(fontawesomeIcon);
         iframe.contentDocument.head.appendChild(customStyle);
         iframe.contentDocument.head.appendChild(customCssGrapesJs);
-
-
-        if (document.dir == 'rtl'){
-            document.dir = 'ltr';
-            const wrapper = iframe.contentDocument.querySelector("div[data-gjs-type='wrapper']");
-            wrapper.dir = 'rtl';
-        }
 
 
         setTimeout(() => {
