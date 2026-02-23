@@ -31370,7 +31370,7 @@ html {
   scroll-behavior: unset;
 }
 
-.ellipsis-1, .weblog-card.newest-column .title, .product-details {
+.ellipsis-1, .weblog-card.newest-column .title {
   display: -webkit-box;
   -webkit-line-clamp: 1;
   -webkit-box-orient: vertical;
