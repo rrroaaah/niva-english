@@ -7,7 +7,7 @@
         @extend .d-flex, .justify-content-space-between, .align-items-center, .bw-1, .bb-style-solid, .border-color, .py-8, .w-100 ;
 
         .unavailable-text {
-            @extend .text-color, .font-weight-bold, .txt-size-big, .w-70;
+            @extend .text-color, .font-weight-bold, .txt-big, .w-70;
         }
     }
 
@@ -20,6 +20,6 @@
     }
 
     .login-btn{
-        @extend .d-flex, .justify-content-center, .mt-1, .py-4, .font-weight-bold , .bg-primary-color, .on-primary-color, .w-100, .txt-size-extra-title, .radius-all-small, .mb-10;
+        @extend .d-flex, .justify-content-center, .mt-1, .py-4, .font-weight-bold , .bg-primary-color, .on-primary-color, .w-100, .txt-extra-title, .radius-all-small, .mb-10;
     }
 }

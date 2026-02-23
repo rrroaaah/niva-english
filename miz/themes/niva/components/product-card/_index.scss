@@ -52,25 +52,25 @@
         @extend .d-flex, .flex-column, .text-color, .gap-5;
         
         .title{
-            @extend .txt-size-extra-title, .font-weight-bold;
+            @extend .txt-extra-title, .font-weight-bold;
                 text-wrap: wrap;
         }
         
         .available-number{
-            @extend .font-weight-bold, .txt-size-mid-title;
+            @extend .font-weight-bold, .txt-mid-title;
         }
 
         .fast-shipping{
             @extend .d-flex, .w-70, .align-items-center;
 
             span{
-                @extend .txt-size-big;
+                @extend .txt-big;
             }
         }
         
         .btn-add-to-cart{
             
-            @extend .position-relative ,.bg-primary-color, .py-3, .px-2, .radius-all-small, .on-primary-color, .font-weight-medium, .txt-size-big, .cursor-pointer;
+            @extend .position-relative ,.bg-primary-color, .py-3, .px-2, .radius-all-small, .on-primary-color, .font-weight-medium, .txt-big, .cursor-pointer;
 
             .vector,img{
                 @extend .position-absolute, .right-0, .top-0, .w-100, .h-100;
@@ -104,7 +104,7 @@
 
          .discount-percentage{
                 box-shadow: 2px 3px 4px -3px get-color(primary);
-                @extend .d-flex, .align-items-center, .font-weight-bold, .on-primary-color, .bg-primary-color, .radius-all-small, .font-weight-medium, .px-1, .txt-size-mid-title;
+                @extend .d-flex, .align-items-center, .font-weight-bold, .on-primary-color, .bg-primary-color, .radius-all-small, .font-weight-medium, .px-1, .txt-mid-title;
             }
 
         .discount-box{
@@ -117,12 +117,12 @@
            
             
             .special-price{
-                @extend .font-weight-bold, .text-color, .txt-size-high-title;
+                @extend .font-weight-bold, .text-color, .txt-high-title;
             }
         }
 
         .credit-purchase-box{
-            @extend .secondary-text-color, .txt-size-small, .font-weight-bold;
+            @extend .secondary-text-color, .txt-small, .font-weight-bold;
 
             img{
                 max-width: 45px;

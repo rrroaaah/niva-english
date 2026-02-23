@@ -2,8 +2,8 @@ $backgrounds:(primary,on-primary,primary-light,primary-dark,secondary,on-seconda
 $colors:(primary-light,on-primary,on-secondary,icon,text,specific,primary,secondary,highlight-text, library-icon,title-text,button-text,text-fields,secondary-text,primary-dark);
 $borders:(divider,border,primary,on-primary,border-fields);
 
-$light-color-palette:(
-    primary:#A11D1D,
+$light-color-palette: (
+    primary:blue,
     on-primary: #c97d7d,
     primary-light: #c97d7d8a,
     primary-dark: #FFFFFF,
@@ -41,7 +41,7 @@ $light-color-palette:(
     bg-list-hover: #F2E0E0,
     button-text-hover: #C5B395,
     discount-price: #FFFFFF,
-    fields: #FFFFFF,
+    fields: #FCFCFC,
     border-fields: #FFFFFF,
     title-text-fields: #FFFFFF,
     text-fields: #FFFFFF,
@@ -66,8 +66,8 @@ $light-color-palette:(
     unCommon: #FFFFFF,
 );
 
-$dark-color-palette:(
-    primary: #eb4545,
+$dark-color-palette: (
+    primary: red,
     on-primary: #c97d7d,
     primary-light: #c97d7d8a,
     primary-dark: #FFFFFF,
@@ -97,6 +97,7 @@ $dark-color-palette:(
     footer-link : #DEE2E6,
     footer-link-hover : #8BB9FE,
     link-sidebar-text : #AEB2B6,
+    // background: #212529,
     background: #160F21,
     section: #262626,
     hover: #FFFFFF,
@@ -131,10 +132,9 @@ $dark-color-palette:(
     unCommon: #FFFFFF
 );
 
-$color-palette:(
+$color-palette: (
     default : $dark-color-palette ,
-    colors : (
-        light-palette : $light-color-palette ,
+    colors : (light-palette : $light-color-palette ,
         dark-palette : $dark-color-palette ,
     )
 );

@@ -23,11 +23,11 @@
             @extend .d-flex, .justify-content-space-between, .gap-1;
 
             .description{
-                @extend .secondary-text-color, .txt-size-small, .font-weight-bold;
+                @extend .secondary-text-color, .txt-small, .font-weight-bold;
             }
             
             .number{
-                @extend .secondary-text-color, .txt-size-small, .font-weight-bold;
+                @extend .secondary-text-color, .txt-small, .font-weight-bold;
             }
         }
     }
@@ -42,7 +42,7 @@
                 @extend .d-flex, .justify-content-space-between, .align-items-center, .gap-2;
                 
                 .comment-number{
-                    @extend .secondary-text-color, .txt-size-subtitle, .font-weight-bold;
+                    @extend .secondary-text-color, .txt-subtitle, .font-weight-bold;
                 }
             }
         }
@@ -59,11 +59,11 @@
             }
 
             .count{
-                @extend .font-weight-bold, .txt-size-title, .text-color;
+                @extend .font-weight-bold, .txt-title, .text-color;
             }
             
             .description{
-                @extend .txt-size-big, .secondary-text-color, .font-weight-bold, .txt-align-center;
+                @extend .txt-big, .secondary-text-color, .font-weight-bold, .txt-align-center;
                 text-wrap: nowrap;
             }
         }

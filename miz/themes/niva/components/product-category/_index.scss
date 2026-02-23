@@ -3,7 +3,7 @@
 
 .product-category{
     transition: 0.3s ease-out;
-    @extend .d-flex, .aspect-ratio-1x1, .flex-column, .align-items-center, .justify-content-center, .cursor-pointer, .user-select-none, .on-secondary-color, .txt-size-big, .radius-all-medium, .bg-secondary-color, .gap-3, .px-7, .px-lg-5;
+    @extend .d-flex, .aspect-ratio-1x1, .flex-column, .align-items-center, .justify-content-center, .cursor-pointer, .user-select-none, .on-secondary-color, .txt-big, .radius-all-medium, .bg-secondary-color, .gap-3, .px-7, .px-lg-5;
 
     &:hover{
         background-color: get-color(card);

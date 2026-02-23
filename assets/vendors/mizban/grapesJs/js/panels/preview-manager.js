@@ -68,7 +68,7 @@ class PreviewManager {
 
             doc.body.innerHTML = "";
             doc.getElementById('preview-canvas')?.remove();
-            
+
             setContentPreview(doc);
         };
 
@@ -78,17 +78,6 @@ class PreviewManager {
             if (document.visibilityState === 'visible') {}
             else {
                 sendData();
-
-                setTimeout(() => {
-                    const win = this.previewWindow;
-                    const doc = win.document;
-                    const iframeDoc = doc.querySelector('#preview-canvas').contentDocument;
-                    if (doc.dir == 'rtl'){
-                        doc.dir = 'ltr';
-                        iframeDoc.dir = 'rtl';
-                        console.log(iframeDoc.body)
-                    }
-                }, 2000);
             }
         });
     }
@@ -102,7 +91,7 @@ class PreviewManager {
             if (retries > 0) {
                 setTimeout(() => tryUpdate(retries - 1), 200);
             } else {
-                console.error("iframe not loaded");
+                console.error("❌ iframe not loaded");
             }
             return;
         }
@@ -199,11 +188,6 @@ function setContentPreview(doc) {
         iframeDoc.head.appendChild(mizCss);
         iframeDoc.head.appendChild(stylePreview);
         iframeDoc.body.appendChild(mizchin);
-
-        if (doc.dir == 'rtl'){
-            doc.dir = 'ltr';
-            iframeDoc.dir = 'rtl';
-        }
     }, 100);
 }
 
