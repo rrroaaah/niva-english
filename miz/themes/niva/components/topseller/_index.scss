@@ -83,10 +83,10 @@
         @extend .d-flex, .justify-content-space-between, .position-relative, .z-index-7;
 
         .content {
-            @extend .d-flex, .align-items-center;
+            @extend .d-flex, .flex-row-reverse, .align-items-center;
 
             .number {
-                @extend .d-flex, .align-items-center, .text-color, .font-weight-bold, .txt-big-title;
+                @extend .d-flex, .flex-row-reverse, .align-items-center, .text-color, .font-weight-bold, .txt-big-title;
 
                 &::after {
                     content: "";
