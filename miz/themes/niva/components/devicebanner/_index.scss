@@ -1,7 +1,7 @@
 @use "../../../../sass/kernel/" as *;
 
 $devicebanner-custom-classes: ".radius-all-large, .px-5, .pt-16";
-$devicebanner-title-custom-classes: ".txt-size-mega-title, .font-weight-bold, .on-primary-color";
+$devicebanner-title-custom-classes: ".txt-mega-title, .font-weight-bold, .on-primary-color";
 $devicebanner-background-custom-classes: radial-gradient(at center, #F6F7F8 1%, #B4CBD8);
 $devicebanner-transition-custome-classes: all 300ms;
 

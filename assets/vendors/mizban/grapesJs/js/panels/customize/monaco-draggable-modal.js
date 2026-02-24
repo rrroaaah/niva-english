@@ -28,9 +28,9 @@ export function setupDraggableModal(modal) {
         <i id="cssCode" class="fa-brands fa-css3 on-primary-color cursor-pointer p-1" title="Css"></i>
       </div>
       <div class="monaco-close-btn">
-      <i id="monacoMinusBtn" class="fa-solid fa-minus on-primary-color txt-size-subtitle" title="minus"></i>
-      <i id="monacoScreenBtn" class="fa-solid fa-expand on-primary-color txt-size-subtitle" title="full screen"></i>
-      <i id="monacoCloseBtn" class="fa-solid fa-close on-primary-color txt-size-subtitle" title="close"></i>
+      <i id="monacoMinusBtn" class="fa-solid fa-minus on-primary-color txt-subtitle" title="minus"></i>
+      <i id="monacoScreenBtn" class="fa-solid fa-expand on-primary-color txt-subtitle" title="full screen"></i>
+      <i id="monacoCloseBtn" class="fa-solid fa-close on-primary-color txt-subtitle" title="close"></i>
     `;
 
     const content = document.createElement('div');
