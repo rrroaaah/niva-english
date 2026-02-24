@@ -1,6 +1,6 @@
 #mobile-products .banner-category::after {
   content: "";
-  background-image: url("../../assets/media/images/homepage/abc11.png");
+  background-image: url("../../assets/media/images/homepage/abc11.webp");
   background-repeat: no-repeat;
   position: absolute;
   background-size: 100% 100%;
@@ -15,7 +15,7 @@
 }
 
 .bartt {
-  background-image: url(../../assets/media/images/homepage/frame.png);
+  background-image: url(../../assets/media/images/homepage/frame.webp);
   background-repeat: no-repeat;
   background-size: 100% 100%;
 }

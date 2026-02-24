@@ -16896,7 +16896,7 @@
                 }, {
                     label: 'Poster',
                     name: 'poster',
-                    placeholder: 'eg. ./media/image.jpg'
+                    placeholder: 'eg. ./media/image.webp'
                 }, this.getAutoplayTrait(), this.getLoopTrait(), this.getControlsTrait()]
             }, n.prototype.getYoutubeTraits = function () {
                 return [this.getProviderTrait(), {
@@ -23902,7 +23902,7 @@
                 en: {
                     assetManager: {
                         addButton: 'Add URL',
-                        inputPlh: 'http://path/to/the/image.jpg',
+                        inputPlh: 'http://path/to/the/image.webp',
                         modalTitle: 'Select Image',
                         uploadTitle: 'Upload'
                     },
