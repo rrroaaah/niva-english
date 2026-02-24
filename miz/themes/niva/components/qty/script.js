@@ -1,45 +1,80 @@
 class Quantity {
-  constructor(selector, options = {}) {
-    this.plusBtns = document.querySelectorAll('.qty-plus');
-    this.minusBtns = document.querySelectorAll('.qty-minus');
+	constructor(selector, options = {}) {
+		this.plusBtns = document.querySelectorAll(".qty-plus");
+		this.minusBtns = document.querySelectorAll(".qty-minus");
+		if (!this.plusBtns || !this.minusBtns) return;
 
-    if (!this.plusBtns.length && !this.minusBtns.length) return;
+		this.init();
+	}
 
-    this.min = options.min ?? 1;
-    this.max = options.max ?? Infinity;
+	init() {
+		let self = this;
 
-    this.init();
-  }
+		this.plusBtns.forEach(function (btn) {
+			let valueInput = btn.nextElementSibling;
+			let min = valueInput.getAttribute("min");
+			valueInput.value = min;
+            
+			btn.addEventListener("click", () => self.increment(valueInput));
+			valueInput.addEventListener("change", () => self.setValue(valueInput));
+            valueInput.addEventListener("keydown", function(event){
+                if (event.key == "ArrowUp"){
+                    self.increment(valueInput);
+                }
+                else if (event.key == "ArrowDown"){
+                    self.decrement(valueInput);
+                }
+            });
+		});
 
-  init() {
-    this.plusBtns.forEach(btn => {
-      const valueElement = btn.parentElement.querySelector('.qty-value');
-      if (!valueElement) return;
-      btn.addEventListener('click', () => this.increment(valueElement));
-    });
+		this.minusBtns.forEach(function (btn) {
+			let valueInput = btn.previousElementSibling;
+			let min = valueInput.getAttribute("min");
+			valueInput.value = min;
+			btn.addEventListener("click", () => self.decrement(valueInput));
+			valueInput.addEventListener("change", () => self.setValue(valueInput));
+		});
+	}
 
-    this.minusBtns.forEach(btn => {
-      const valueElement = btn.parentElement.querySelector('.qty-value');
-      if (!valueElement) return;
-      btn.addEventListener('click', () => this.decrement(valueElement));
-    });
-  }
+	increment(valueInput) {
+		let max = valueInput.getAttribute("max");
 
-  increment(valueElement) {
-    let val = Number(valueElement.textContent.trim());
-    if (isNaN(val)) val = this.min;
-    if (val < this.max) {
-      valueElement.textContent = val + 1;
+		if (Number(valueInput.value) < Number(max)) {
+			valueInput.value = Number(valueInput.value) + 1;
+		}
+        // window.addEventListener("keydown", function(event){
+        //     if (event.key == ""){
+
+        //     }
+        // });
+	}
+
+	decrement(valueInput) {
+		let min = valueInput.getAttribute("min");
+
+		if (Number(valueInput.value) > Number(min)) {
+			valueInput.value = Number(valueInput.value) - 1;
+		}
+        // window.addEventListener("keydown", function(event){
+        //     if (event.key == ""){
+
+        //     }
+        // });
+	}
+
+    setValue(valueInput){
+        let max = Number(valueInput.getAttribute("max"));
+		let min = Number(valueInput.getAttribute("min"));
+        valueInput.value = Number(valueInput.value);
+        
+        if (valueInput.value > max){
+            valueInput.value = max;
+        }
+        else if (valueInput.value < min){
+            console.log(valueInput.value , min);
+            valueInput.value = min;
+        }
     }
-  }
-
-  decrement(valueElement) {
-    let val = Number(valueElement.textContent.trim());
-    if (isNaN(val)) val = this.min;
-    if (val > this.min) {
-      valueElement.textContent = val - 1;
-    }
-  }
 }
 
-new Quantity('.qty', { min: 1, max: 50 });
+new Quantity(".qty");
