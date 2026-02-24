@@ -19,6 +19,7 @@ if (bannerSwiperEl) {
     }, 
 
     breakpoints: { 
+      1: { slidesPerView: 3 },
       576: { slidesPerView: 4 },
       768: { slidesPerView: 6 },
       992: { slidesPerView: 8 },
