@@ -2,7 +2,7 @@
 
 
 .product-details{
-    @extend .w-fit-content, .d-flex, .flex-column, .align-items-start, .justify-content-start, .bw-1, .border-style-solid, .border-color, .radius-all-small, .py-3, .pis-4, .pie-14, .gap-1, .ellipsis-1, .w-100;
+    @extend .w-fit-content, .d-flex, .flex-column, .align-items-start, .justify-content-start, .bw-1, .border-style-solid, .border-color, .radius-all-small, .py-3, .pis-4, .pie-14, .gap-1, .w-100;
 
     .title{
         @extend .txt-size-big, .font-weight-bold, .secondary-text-color;
@@ -10,6 +10,7 @@
 
     .description{
         @extend .font-weight-bold, .txt-size-title;
+
     }
 
     &.rating{
