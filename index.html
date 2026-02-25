@@ -14,7 +14,7 @@
 </head>
 
 <body class="font-primary ltr">
-     <header id="header" class="section py-0 w-100 pie-0 pis-0 position-sticky top-0">
+    <header id="header" class="section py-0 w-100 pie-0 pis-0 position-sticky top-0">
         <div class="container d-grid grid-1 w-100">
             <div
                 class="primary-part w-100 d-flex pie-4 pis-4 gap-5 gap-sm-2 flex-row align-items-center justify-content-space-between bg-color">
@@ -64,8 +64,7 @@
                         <div class="btn-line"></div>
                         <span class="font-weight-bold text-color">Membership</span>
                     </a>
-                    <a href="#"
-                        class="cart-button bg-btn-hover d-flex flex-row align-items-center gap-2 gap-md-3 py-3 py-sm-3 pie-4 pis-4 bg-secondary-color radius-all-small bg-button-color">
+                    <a href="#" class="cart-button modal-toggle bg-btn-hover d-flex flex-row align-items-center gap-2 gap-md-3 py-3 py-sm-3 pie-4 pis-4 bg-secondary-color radius-all-small bg-button-color" data-modal-id="cartProduct">
                         <span class="button-text-color font-weight-bold ">Cart</span>
                         <i class="fa-solid fa-bag-shopping button-text-color d-sm-none"></i>
                     </a>
@@ -4335,13 +4334,10 @@
                                                     </path>
                                                 </svg>
                                             </div>
-                                            <div
-                                                class="qty d-flex justify-content-space-between py-1 px-4 bw-2 border-color border-style-solid radius-all-small align-items-center bg-color">
-                                                <span
-                                                    class="qty-plus radius-all-small on-secondary-color font-weight-bold txt-big-title ">+</span>
-                                                <span class="qty-value px-4 font-weight-bold txt-big-title">1</span>
-                                                <span
-                                                    class="qty-minus radius-all-small on-secondary-color font-weight-bold txt-big-title ">-</span>
+                                            <div class="qty d-flex justify-content-space-between py-2 px-2 radius-all-small align-items-center secondary-text-color bg-secondary-color">
+                                                <span class="qty-plus radius-all-small bg-color py-2 px-4 font-weight-bold txt-big-title ">+</span>
+                                                <input class="qty-value font-weight-bold txt-big-title" value="0" max="10" min="1"/>
+                                                <span class="qty-minus radius-all-small bg-color py-2 px-4 font-weight-bold txt-big-title ">-</span>
                                             </div>
                                         </div>
                                     </div>
