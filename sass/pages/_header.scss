@@ -85,6 +85,7 @@ header .primary-part {
 }
 
 header .secondary-part {
+  position: relative;
   top: 0;
   box-shadow: 0px 6px 7px 0px rgba(135, 145, 172, 0.07);
   z-index: 99;

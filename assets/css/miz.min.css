@@ -26779,6 +26779,10 @@ dialog {
 .accordion-group.scroll-accordion {
   max-height: 500px;
 }
+.hide-submenu {
+  top: -100% !important;
+}
+
 .feature-description-box.text-type .description {
   overflow: hidden;
   display: -webkit-box;
@@ -27482,6 +27486,19 @@ img {
   opacity: 1;
 }
 
+.like-box .positive, .like-box .negative {
+  cursor: pointer;
+}
+.like-box i {
+  transition: 0.3ms ease;
+}
+.like-box .btn.active.positive i {
+  color: #22c55e;
+}
+.like-box .btn.active.negative i {
+  color: #ef4444;
+}
+
 .slider-frame {
   overflow: hidden;
   height: 2rem; /* ارتفاع کافی برای h3 */
@@ -27748,6 +27765,11 @@ img {
 }
 .product-wrapper-sticky {
   transition: 200ms ease;
+}
+
+.description-header {
+  transition: 100ms ease !important;
+  z-index: 1000;
 }
 
 .unavailable .filter {
