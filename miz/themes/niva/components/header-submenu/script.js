@@ -1,6 +1,10 @@
+let headerContainer = document.querySelector("header .container");
+let height = headerContainer.querySelector(".primary-part").offsetHeight + "px";
+headerContainer.style.setProperty("--height-primary-part", height);
+
 class ScrollHeader {
   constructor() {
-    this.header = document.querySelector('.secondary-part');
+    this.header = document.querySelector('header .secondary-part');
     this.lastScroll = 0;
     this.offset = 100;
     this.init();
@@ -31,4 +35,4 @@ class ScrollHeader {
     this.header.classList.remove('hide-submenu');
   }
 }
- new ScrollHeader();
+new ScrollHeader();
