@@ -5,5 +5,5 @@
 @use 'sass:map';
 
 .hide-submenu{
-    transform: translateY(-100%) !important;
-}
+    top:-100% !important;
+} 
