@@ -58,7 +58,7 @@
             -webkit-box-orient: vertical;
             overflow: hidden;
             text-overflow: ellipsis;
-
+            text-wrap: wrap;
         }
 
         .available-number {
@@ -98,8 +98,7 @@
             position: relative;
             z-index: 5;
         }
-
-
+        
         .btn-percent {
             width: 42px;
             height: 42px;
