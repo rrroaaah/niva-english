@@ -26735,7 +26735,7 @@ dialog {
 
 .article-banner-weblog::after {
   content: "";
-  background-image: url("../../assets/media/images/component/Group 195.png");
+  background-image: url("../../assets/media/images/component/Group 195.webp");
   background-repeat: no-repeat;
   background-size: 100% 100%;
 }
@@ -26977,7 +26977,7 @@ dialog {
 }
 .weblog-card.newest-column .feature-image::after {
   content: "";
-  background-image: url("../../assets/media/images/component/Group 195.png");
+  background-image: url("../../assets/media/images/component/Group 195.webp");
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
@@ -26987,7 +26987,7 @@ dialog {
 }
 .weblog-card.newest-row .cover-image::after {
   content: "";
-  background-image: url("../../assets/media/images/component/Group 195.png");
+  background-image: url("../../assets/media/images/component/Group 195.webp");
   background-repeat: no-repeat;
   background-size: 100% 100%;
 }
@@ -27725,9 +27725,10 @@ img {
 }
 .product-toolbar .icons-box .label .label-name {
   white-space: nowrap;
-  right: 35px;
+  left: 35px;
   bottom: 5px;
   background-color: var(--primary);
+  width: fit-content;
 }
 .product-toolbar .label.like.is-active svg path {
   stroke: var(--primary);
@@ -27751,6 +27752,11 @@ img {
 }
 .product-wrapper-sticky {
   transition: 200ms ease;
+}
+
+.description-header {
+  transition: 100ms ease !important;
+  z-index: 1000;
 }
 
 .unavailable .filter {
@@ -28340,7 +28346,7 @@ div:has(.product-detail) {
   width: 10px;
   height: 10px;
   transition: 300ms;
-  transform: translateX(3px);
+  transform: translateX(2px);
 }
 .switcher.active {
   background-color: #3EB580;
