@@ -1,6 +1,6 @@
 #mobile-products .banner-category::after {
   content: "";
-  background-image: url("../../assets/media/images/homepage/abc11.png");
+  background-image: url("../../assets/media/images/homepage/abc11.webp");
   background-repeat: no-repeat;
   position: absolute;
   background-size: 100% 100%;
@@ -15,7 +15,7 @@
 }
 
 .bartt {
-  background-image: url(../../assets/media/images/homepage/frame.png);
+  background-image: url(../../assets/media/images/homepage/frame.webp);
   background-repeat: no-repeat;
   background-size: 100% 100%;
 }
@@ -1158,6 +1158,10 @@
   border: none;
 }
 
+.product-details a svg {
+  transform: rotateY(180deg) !important;
+}
+
 @media screen and (width < 1400px) {
   .gap-xxl-0 {
     gap: 0rem !important;
@@ -1382,8 +1386,6 @@ header .logo {
 }
 
 header #searchBox #search {
-  width: 540px;
-  max-width: 540px;
   border-style: none;
   outline: none;
   position: relative;
@@ -1396,25 +1398,26 @@ header #searchBox {
 }
 
 header #searchBox ~ .backdrop {
-  transition: 200ms ease-out;
-  position: relative;
-  width: 100%;
-  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  position: fixed;
+  width: 0%;
+  height: 0%;
   top: 0;
   left: 0;
-  background-color: rgba(0, 0, 0, 0.5);
   opacity: 0;
   z-index: 0;
 }
 
 header #searchBox.active ~ .backdrop {
-  position: fixed;
+  width: 100%;
+  height: 100%;
   opacity: 1;
   z-index: 99;
 }
 
 header #searchBox.active .content {
   display: flex !important;
+  min-width: fit-content;
   transition: 200ms ease-out;
   position: absolute;
   bottom: -15px;
@@ -1712,6 +1715,10 @@ header .megamenu > ul > .submenu-parent:hover > span {
   color: var(--primary);
 }
 
+header #search {
+  width: 400px;
+}
+
 @media screen and (width < 1200px) {
   header .secondary-part .hover-box > li:nth-child(n+2) > ul {
     width: fit-content;
@@ -1734,12 +1741,21 @@ header .megamenu > ul > .submenu-parent:hover > span {
     opacity: 0;
     position: absolute;
   }
-  header form input:focus {
+  header #searchBox.active #search {
     position: fixed;
     width: 80%;
     top: 20px;
     right: 50%;
     transform: translateX(50%);
+    opacity: 1;
+    display: flex;
+  }
+  header #searchBox.active .content {
+    position: fixed;
+    width: 80%;
+    top: 13%;
+    left: 50%;
+    transform: translateX(-50%);
     opacity: 1;
   }
   header form > div:last-child {

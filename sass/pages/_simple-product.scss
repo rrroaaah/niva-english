@@ -122,6 +122,11 @@ width: unset;
     border: none;
 }
 
+.product-details a svg {
+    transform: rotateY(180deg) !important;
+}
+
+
 @media screen and (width < 1400px) {
     .gap-xxl-0 {
         gap: 0rem !important;
