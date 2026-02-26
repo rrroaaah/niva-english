@@ -4,7 +4,7 @@ let backdrop = document.querySelector("header #searchBox ~ .backdrop");
 
 searchInput.addEventListener("click" , function (event){
     if (searchInput !== event.target) return;
-    searchBox.classList.toggle("active");
+    searchBox.classList.add("active");
     console.log("click")
 
     backdrop.addEventListener("click" , function (){
