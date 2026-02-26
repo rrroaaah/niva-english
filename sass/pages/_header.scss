@@ -10,50 +10,52 @@ header .logo {
   width: 115px;
 }
 
-.hidden {
-  transform: translateY(-100%);
-}
-
-
-header form {
-  position: relative;
-}
-
-header form input {
-  width: 540px;
-  max-width: 540px;
-  border: none;
+header #searchBox #search {
+  // width: 540px;
+  // max-width: 540px;
+  border-style: none;
   outline: none;
   position: relative;
 }
 
-header form input:focus {
-  background-color: var(--secondary);
+// header #searchBox.active #search {
+//   display: flex;
+// }
+
+header #searchBox {
+  position: relative;
   z-index: 100;
   display: flex !important;
 }
 
-header form:has(input:focus)+div.back {
-  display: block !important;
+header #searchBox ~ .backdrop {
+  background-color: rgba(0, 0, 0, 0.5);
   position: fixed;
-  width: 100%;
-  height: 100%;
+  width: 0%;
+  height: 0%;
   top: 0;
   left: 0;
-  background-color: rgba(0, 0, 0, 0.5);
+  opacity: 0;
+  z-index: 0;
+}
+
+header #searchBox.active ~ .backdrop {
+  width: 100%;
+  height: 100%;
+  opacity: 1;
   z-index: 99;
 }
 
-header form>div:last-child {
+header #searchBox.active .content {
+  display: flex !important;
+  min-width: fit-content;
+  transition: 200ms ease-out;
   position: absolute;
   bottom: -15px;
   left: 0;
   z-index: 100;
   transform: translateY(100%);
-}
-
-header form:has(input:focus)>div:last-child {
-  display: flex !important;
+  opacity: 1;
 }
 
 header form .fire-svg {
@@ -85,13 +87,6 @@ header .primary-part {
   left: 0;
   z-index: 100;
   height: 90px;
-}
-
-header .secondary-part {
-  top: 0;
-  box-shadow: 0px 6px 7px 0px rgba(135, 145, 172, 0.07);
-  z-index: 99;
-  transition: 100ms ease;
 }
 
 header .vertical-line {
@@ -257,22 +252,6 @@ header .categories .megamenu>ul {
   width: calc(12vw - (4 * var(--space-factor)));
 }
 
-.top-0 {
-  top: 0;
-}
-
-.bottom-0 {
-  bottom: 0;
-}
-
-.left-0 {
-  left: 0;
-}
-
-.right-0 {
-  right: 0;
-}
-
 header {
   line-height: 1rem;
 }
@@ -365,6 +344,10 @@ header .megamenu > ul > .submenu-parent:hover> span{
 }
 
 
+header #search{
+  width: 400px;
+}
+
 
 
 @media screen and (width < 1200px) {
@@ -396,12 +379,22 @@ header .megamenu > ul > .submenu-parent:hover> span{
     position: absolute;
   }
 
-  header form input:focus {
+  header #searchBox.active #search {
     position: fixed;
     width: 80%;
     top: 20px;
     right: 50%;
     transform: translateX(50%);
+    opacity: 1;
+    display: flex;
+  }
+
+  header #searchBox.active .content {
+    position: fixed;
+    width: 80%;
+    top: 13%;
+    left: 50%;
+    transform: translateX(-50%);
     opacity: 1;
   }
 

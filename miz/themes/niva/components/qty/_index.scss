@@ -1,3 +1,4 @@
+@use "../../../../sass/global-functions/_font" as *;
 @use "../../../../sass/kernel/" as *;
 
 
@@ -7,7 +8,7 @@
     }
     .qty-value{
         width:3rem;
-        @extend .user-select-none, .d-flex, .justify-content-center, .align-items-center;
+        @extend .user-select-none, .bg-transparent-color, .d-flex, .justify-content-center, .align-items-center, .border-style-none, .mx-2, .#{get-font-prefix()}-align-center;
     }
     .qty-minus{
         @extend .cursor-pointer, .user-select-none;

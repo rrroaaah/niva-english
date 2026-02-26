@@ -1,31 +1,27 @@
-// چک می‌کنیم المنت وجود داره یا نه
-const cardSwiperEl = document.querySelector(".card-content");
-
-if (cardSwiperEl) {
-  new Swiper(".card-content", {
+document.querySelectorAll(".card-content").forEach((el) => {
+  new Swiper(el, {
     loop: true,
     spaceBetween: 32,
     grabCursor: true,
 
     pagination: {
-      el: ".swiper-pagination",
+      el: el.closest(".card-container").querySelector(".swiper-pagination"),
       clickable: true,
       dynamicBullets: true,
     },
 
     navigation: {
-      nextEl: ".swiper-button-next",
-      prevEl: ".swiper-button-prev",
+      nextEl: el.closest(".card-container").querySelector(".swiper-button-next"),
+      prevEl: el.closest(".card-container").querySelector(".swiper-button-prev"),
     },
 
     breakpoints: {
-      576: { slidesPerView: 3 },
+      0: { slidesPerView: 1 },
+      576: { slidesPerView: 2 },
       768: { slidesPerView: 3 },
       992: { slidesPerView: 3 },
       1200: { slidesPerView: 4 },
-      1400: { slidesPerView: 4 }
+      1400: { slidesPerView: 4 },
     },
   });
-} else {
-  console.warn('Swiper: ".card-content" not found, slider init skipped.');
-}
+});
