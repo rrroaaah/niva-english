@@ -1458,14 +1458,6 @@ header .primary-part {
   height: 90px;
 }
 
-header .secondary-part {
-  position: relative;
-  top: 0;
-  box-shadow: 0px 6px 7px 0px rgba(135, 145, 172, 0.07);
-  z-index: 99;
-  transition: 100ms ease;
-}
-
 header .vertical-line {
   width: 0.1rem;
   height: 30px;
