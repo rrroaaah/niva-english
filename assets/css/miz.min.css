@@ -26824,6 +26824,7 @@ header .container {
   -webkit-box-orient: vertical;
   overflow: hidden;
   text-overflow: ellipsis;
+  text-wrap: wrap;
 }
 .product-card .card-body .btn-add-to-cart .vector-5 {
   top: 1px;
