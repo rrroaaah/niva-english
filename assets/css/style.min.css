@@ -962,21 +962,6 @@
   transition: 300ms;
 }
 
-.switcher .box {
-  border: 2px solid #021959;
-  transition: border-color 10ms, background-color 300ms;
-}
-
-.switcher .box.active {
-  background-color: #3EB580;
-  border-color: #3EB580;
-}
-
-.switcher .box.active .ball {
-  background-color: white;
-  transform: translateX(14px);
-}
-
 .ordered-list li:has(input:checked) p {
   color: var(--text);
   font-weight: bold;

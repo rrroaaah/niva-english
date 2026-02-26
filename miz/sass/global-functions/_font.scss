@@ -6,5 +6,5 @@
 }
 
 @function get-font-prefix(){
-    @return $conf-font-prefix;
+    @return $font-prefix;
 }
