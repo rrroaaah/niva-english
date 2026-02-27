@@ -1,498 +1,356 @@
 <!DOCTYPE html>
-<html dir="ltr">
+<html lang="en" dir="ltr">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>cart-2</title>
+		<link rel="stylesheet" href="../assets/css/miz.min.css" />
+		<link rel="stylesheet" href="../assets/css/style.min.css" />
+		<link rel="stylesheet" href="../assets/icons/fontawesome/css/all.min.css" />
+		<link rel="icon" type="image/x-icon" href="../assets/media/images/logo.webp" />
+	</head>
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>cart-2</title>
-    <link rel="stylesheet" href="../assets/css/miz.min.css">
-    <link rel="stylesheet" href="../assets/css/style.min.css">
-    <link rel="stylesheet" href="../assets/icons/fontawesome/css/all.min.css">
-    <link rel="icon" type="image/x-icon" href="../assets/media/images/logo.webp">
-</head>
+	<body id="shoppingcart">
+		<main>
+			<section id="process" class="section radius-tr-medium radius-tl-medium">
+				<div class="d-flex align-items-end w-100 position-relative justify-content-center py-8">
+					<div class="wrapper-phases d-flex align-items-center gap-4 w-45 w-xl-70">
+						<div class="phase d-flex flex-column align-items-center gap-3">
+							<div class="back-svg px-2 py-2 bg-primary-color variant radius-all-full d-flex align-items-center justify-content-center bw-5 border-style-solid border-on-primary-color">
+								<svg xmlns="http://www.w3.org/2000/svg" width="19" height="19" viewBox="0 0 19 19" fill="none" class="d-relative z-index-10">
+									<path d="M7.30078 12.6445L8.42578 13.7695L10.8633 11.5195" stroke="#021959" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"></path>
+									<path d="M6.69156 2.14453L3.97656 4.86703" stroke="#021959" stroke-width="1.2" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"></path>
+									<path d="M11.4766 2.14453L14.1916 4.86703" stroke="#021959" stroke-width="1.2" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"></path>
+									<path d="M1.58594 6.53125C1.58594 5.14375 2.32844 5.03125 3.25094 5.03125H14.9209C15.8434 5.03125 16.5859 5.14375 16.5859 6.53125C16.5859 8.14375 15.8434 8.03125 14.9209 8.03125H3.25094C2.32844 8.03125 1.58594 8.14375 1.58594 6.53125Z" stroke="#021959" stroke-width="1.2"></path>
+									<path d="M2.71094 8.14453L3.76844 14.6245C4.00844 16.0795 4.58594 17.1445 6.73094 17.1445H11.2534C13.5859 17.1445 13.9309 16.1245 14.2009 14.7145L15.4609 8.14453" stroke="#021959" stroke-width="1.2" stroke-linecap="round"></path>
+								</svg>
+							</div>
+							<span class="txt-title secondary-text-color font-weight-bold">Cart</span>
+						</div>
 
-<body id="shoppingcart">
+						<div class="horizontal-line w-100 mb-8 bw-1 border-color bt-style-solid"></div>
 
-    <main>
-        <section id="process" class="section radius-tr-medium radius-tl-medium">
-            <div class="d-flex align-items-end w-100 position-relative justify-content-center py-8">
+						<div class="phase d-flex flex-column align-items-center gap-3">
+							<div class="back-svg px-2 py-2 bg-primary-color variant radius-all-full d-flex align-items-center justify-content-center bw-5 border-style-solid border-on-primary-color">
+								<svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18" fill="none">
+									<path d="M9.00016 10.0726C10.2925 10.0726 11.3402 9.02492 11.3402 7.73258C11.3402 6.44023 10.2925 5.39258 9.00016 5.39258C7.70781 5.39258 6.66016 6.44023 6.66016 7.73258C6.66016 9.02492 7.70781 10.0726 9.00016 10.0726Z" stroke="#021959" stroke-width="1.5"></path>
+									<path d="M2.71332 6.3675C4.19082 -0.127498 13.8133 -0.119998 15.2833 6.375C16.1458 10.185 13.7758 13.41 11.6983 15.405C10.1908 16.86 7.80582 16.86 6.29082 15.405C4.22082 13.41 1.85082 10.1775 2.71332 6.3675Z" stroke="#021959" stroke-width="1.5"></path>
+								</svg>
+							</div>
+							<span class="txt-title secondary-text-color font-weight-bold">Information</span>
+						</div>
 
-                <div class="wrapper-phases d-flex align-items-center gap-4 w-45 w-xl-70 ">
+						<div class="horizontal-line w-100 mb-8 bw-1 border-color bt-style-solid"></div>
 
-                    <div class="phase d-flex flex-column align-items-center gap-3 ">
-                        <div
-                            class="back-svg px-2 py-2 bg-primary-color variant radius-all-full d-flex align-items-center justify-content-center bw-5 border-style-solid border-on-primary-color">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="19" height="19" viewBox="0 0 19 19"
-                                fill="none" class="d-relative z-index-10">
-                                <path d="M7.30078 12.6445L8.42578 13.7695L10.8633 11.5195" stroke="#021959"
-                                    stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"></path>
-                                <path d="M6.69156 2.14453L3.97656 4.86703" stroke="#021959" stroke-width="1.2"
-                                    stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"></path>
-                                <path d="M11.4766 2.14453L14.1916 4.86703" stroke="#021959" stroke-width="1.2"
-                                    stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"></path>
-                                <path
-                                    d="M1.58594 6.53125C1.58594 5.14375 2.32844 5.03125 3.25094 5.03125H14.9209C15.8434 5.03125 16.5859 5.14375 16.5859 6.53125C16.5859 8.14375 15.8434 8.03125 14.9209 8.03125H3.25094C2.32844 8.03125 1.58594 8.14375 1.58594 6.53125Z"
-                                    stroke="#021959" stroke-width="1.2"></path>
-                                <path
-                                    d="M2.71094 8.14453L3.76844 14.6245C4.00844 16.0795 4.58594 17.1445 6.73094 17.1445H11.2534C13.5859 17.1445 13.9309 16.1245 14.2009 14.7145L15.4609 8.14453"
-                                    stroke="#021959" stroke-width="1.2" stroke-linecap="round"></path>
-                            </svg>
-                        </div>
-                        <span class="txt-title secondary-text-color font-weight-bold">Cart</span>
-                    </div>
+						<div class="phase d-flex flex-column align-items-center gap-3">
+							<div class="back-svg px-2 py-2 radius-all-full d-flex align-items-center justify-content-center bw-5 border-style-solid border-on-primary-color">
+								<svg xmlns="http://www.w3.org/2000/svg" width="19" height="19" viewBox="0 0 19 19" fill="none">
+									<path d="M1.64453 7.02344H16.6445" stroke="#021959" stroke-width="1.25" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"></path>
+									<path d="M4.64453 13.0234H6.14453" stroke="#021959" stroke-width="1.25" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"></path>
+									<path d="M8.01953 13.0234H11.0195" stroke="#021959" stroke-width="1.25" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"></path>
+									<path d="M4.97453 3.27344H13.307C15.977 3.27344 16.6445 3.93344 16.6445 6.56594V12.7234C16.6445 15.3559 15.977 16.0159 13.3145 16.0159H4.97453C2.31203 16.0234 1.64453 15.3634 1.64453 12.7309V6.56594C1.64453 3.93344 2.31203 3.27344 4.97453 3.27344Z" stroke="#021959" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round"></path>
+								</svg>
+							</div>
+							<span class="txt-title secondary-text-color font-weight-bold">Payment</span>
+						</div>
 
-                    <div class="horizontal-line w-100 mb-8 bw-1 border-color bt-style-solid"></div>
+						<div class="horizontal-line w-100 mb-8 bw-1 border-color bt-style-solid"></div>
 
-                    <div class="phase d-flex flex-column align-items-center gap-3 ">
-                        <div
-                            class="back-svg px-2 py-2 bg-primary-color variant radius-all-full d-flex align-items-center justify-content-center bw-5 border-style-solid border-on-primary-color">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18"
-                                fill="none">
-                                <path
-                                    d="M9.00016 10.0726C10.2925 10.0726 11.3402 9.02492 11.3402 7.73258C11.3402 6.44023 10.2925 5.39258 9.00016 5.39258C7.70781 5.39258 6.66016 6.44023 6.66016 7.73258C6.66016 9.02492 7.70781 10.0726 9.00016 10.0726Z"
-                                    stroke="#021959" stroke-width="1.5"></path>
-                                <path
-                                    d="M2.71332 6.3675C4.19082 -0.127498 13.8133 -0.119998 15.2833 6.375C16.1458 10.185 13.7758 13.41 11.6983 15.405C10.1908 16.86 7.80582 16.86 6.29082 15.405C4.22082 13.41 1.85082 10.1775 2.71332 6.3675Z"
-                                    stroke="#021959" stroke-width="1.5"></path>
-                            </svg>
-                        </div>
-                        <span class="txt-title secondary-text-color font-weight-bold">Information</span>
-                    </div>
+						<div class="phase d-flex flex-column align-items-center gap-3">
+							<div class="back-svg px-2 py-2 radius-all-full d-flex align-items-center justify-content-center bw-5 border-style-solid border-on-primary-color">
+								<svg xmlns="http://www.w3.org/2000/svg" width="19" height="19" viewBox="0 0 19 19" fill="none">
+									<path d="M13.5664 16.0195H6.06641C3.81641 16.0195 2.31641 14.8945 2.31641 12.2695V7.01953C2.31641 4.39453 3.81641 3.26953 6.06641 3.26953H13.5664C15.8164 3.26953 17.3164 4.39453 17.3164 7.01953V12.2695C17.3164 14.8945 15.8164 16.0195 13.5664 16.0195Z" stroke="#021959" stroke-width="1.2" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"></path>
+									<path d="M5.31641 6.64453V12.6445" stroke="#021959" stroke-width="1.2" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"></path>
+									<path d="M7.56641 6.64453V9.64453" stroke="#021959" stroke-width="1.2" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"></path>
+									<path d="M7.56641 11.8945V12.6445" stroke="#021959" stroke-width="1.2" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"></path>
+									<path d="M12.0664 6.64453V7.39453" stroke="#021959" stroke-width="1.2" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"></path>
+									<path d="M9.81641 6.64453V12.6445" stroke="#021959" stroke-width="1.2" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"></path>
+									<path d="M12.0664 9.64453V12.6445" stroke="#021959" stroke-width="1.2" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"></path>
+									<path d="M14.3164 6.64453V12.6445" stroke="#021959" stroke-width="1.2" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"></path>
+								</svg>
+							</div>
+							<span class="txt-title secondary-text-color font-weight-bold">Complete</span>
+						</div>
+					</div>
+				</div>
+			</section>
 
-                    <div class="horizontal-line w-100 mb-8 bw-1 border-color bt-style-solid"></div>
+			<section id="information" class="section gap-8">
+				<div class="d-flex flex-column w-100 gap-6 py-6 bw-1 border-style-solid border-color radius-all-medium px-6 mt-4">
+					<div class="d-flex gap-3 align-items-center font-weight-bold">
+						<div class="d-flex align-items-center justify-content-center py-2 px-2 radius-all-full background-color bw-4 border-style-solid border-on-secondary-color">
+							<svg class="auth-icon" xmlns="http://www.w3.org/2000/svg" width="18" height="19" viewBox="0 0 18 19" fill="none" class="w-80">
+								<path d="M8.96611 9.54044C6.93565 9.54044 5.28964 7.89443 5.28964 5.86397C5.28964 3.83351 6.93565 2.1875 8.96611 2.1875C10.9966 2.1875 12.6426 3.83351 12.6426 5.86397C12.6426 7.89443 10.9966 9.54044 8.96611 9.54044Z" stroke="#021959" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"></path>
+								<path d="M2.65122 17.9312C2.65122 15.0857 5.4821 12.7842 8.96739 12.7842C12.4527 12.7842 15.2836 15.0857 15.2836 17.9312" stroke="#021959" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"></path>
+							</svg>
+						</div>
+						<h3 class="font-weight-bold txt-mid-title text-color">Recipient Information</h3>
+					</div>
+					<div class="d-flex flex-lg-column gap-6 w-100 justify-space-between">
+						<div class="w-75 w-lg-100">
+							<form action="" class="d-flex gy-5 gx-3 flex-wrap">
+								<div class="d-flex flex-column gap-4 col-5 col-md-4">
+									<label for="name" class="d-flex text-color"> Recipient Name</label>
+									<input id="name" type="text" required class="bw-2 border-color border-style-solid radius-all-small px-4 py-3" />
+								</div>
+								<div class="d-flex flex-column gap-4 col-5 col-md-4">
+									<label for="family" class="d-flex text-color">Recipient Last Name</label>
+									<input type="text" id="family" required class="bw-2 border-color border-style-solid radius-all-small px-4 py-3" />
+								</div>
+								<div class="d-flex flex-column gap-4 col-2 col-md-4">
+									<label for="tell" class="d-flex text-color">Phone Number</label>
+									<input type="tel" id="tell" required class="bw-2 border-color border-style-solid radius-all-small px-4 py-3" />
+								</div>
+								<div class="d-flex flex-column gap-4 col-6">
+									<label for="region" class="d-flex text-color">Province</label>
+									<select id="region" class="bw-2 border-color border-style-solid radius-all-small px-4 py-3 bg-on-primary-color">
+										City
+										<option>Tehran</option>
+										<option>Fars</option>
+										<option>Kerman</option>
+									</select>
+								</div>
+								<div class="d-flex flex-column gap-4 col-6">
+									<label for="city" class="d-flex text-color">City</label>
+									<select id="city" class="bw-2 border-color border-style-solid radius-all-small px-4 py-3 bg-on-primary-color">
+										City
+										<option>Tehran</option>
+										<option>Shiraz</option>
+										<option>Kerman</option>
+									</select>
+								</div>
+								<div class="d-flex flex-column gap-4 col-8">
+									<label for="post-address" class="d-flex text-color">Postal Address</label>
+									<input type="text" id="post-address" class="bw-2 border-color border-style-solid radius-all-small px-4 py-3" />
+								</div>
+								<div class="d-flex flex-column gap-4 col-4">
+									<label for="code-address" class="d-flex text-color">Postal Code</label>
+									<input type="tel" id="code-address" class="bw-2 border-color border-style-solid radius-all-small px-4 py-3" />
+								</div>
+							</form>
+						</div>
+						<div class="w-25 w-lg-100 h-100">
+							<iframe class="w-100 radius-all-medium w-lg-100 h-40vh" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d28768.18461818016!2d-73.88541126903276!3d40.72059393494488!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c24fa5d33f083b%3A0xc80b8f06e177fe62!2sNew%20York%2C%20NY%2C%20USA!5e0!3m2!1sen!2s!4v1772107422528!5m2!1sen!2s" width="600" style="border: 0" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+						</div>
+					</div>
+				</div>
 
-                    <div class="phase d-flex flex-column align-items-center gap-3 ">
-                        <div
-                            class="back-svg px-2 py-2 radius-all-full d-flex align-items-center justify-content-center bw-5 border-style-solid border-on-primary-color">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="19" height="19" viewBox="0 0 19 19"
-                                fill="none">
-                                <path d="M1.64453 7.02344H16.6445" stroke="#021959" stroke-width="1.25"
-                                    stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"></path>
-                                <path d="M4.64453 13.0234H6.14453" stroke="#021959" stroke-width="1.25"
-                                    stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"></path>
-                                <path d="M8.01953 13.0234H11.0195" stroke="#021959" stroke-width="1.25"
-                                    stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"></path>
-                                <path
-                                    d="M4.97453 3.27344H13.307C15.977 3.27344 16.6445 3.93344 16.6445 6.56594V12.7234C16.6445 15.3559 15.977 16.0159 13.3145 16.0159H4.97453C2.31203 16.0234 1.64453 15.3634 1.64453 12.7309V6.56594C1.64453 3.93344 2.31203 3.27344 4.97453 3.27344Z"
-                                    stroke="#021959" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round">
-                                </path>
-                            </svg>
-                        </div>
-                        <span class="txt-title secondary-text-color font-weight-bold">Payment</span>
-                    </div>
+				<div class="d-flex gap-8 position-relative flex-xl-column w-100">
+					<div class="w-75 w-xl-100 px-8 bw-1 border-color border-style-solid radius-all-medium d-flex flex-column">
+						<div class="w-100 d-flex flex-column gap-4 bb-style-solid bw-1 border-color py-10">
+							<div class="d-flex gap-3 align-items-center font-weight-bold">
+								<div class="d-flex align-items-center justify-content-center py-1 px-1 radius-all-full background-color bw-4 border-style-solid border-on-secondary-color">
+									<svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 25 25" fill="none" class="w-80">
+										<path d="M12.5017 14.1797H13.5017C14.6017 14.1797 15.5017 13.2797 15.5017 12.1797V2.17969H6.50171C5.00171 2.17969 3.69172 3.00968 3.01172 4.22968" stroke="#021959" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+										<path d="M2.5 17.1797C2.5 18.8397 3.84 20.1797 5.5 20.1797H6.5C6.5 19.0797 7.4 18.1797 8.5 18.1797C9.6 18.1797 10.5 19.0797 10.5 20.1797H14.5C14.5 19.0797 15.4 18.1797 16.5 18.1797C17.6 18.1797 18.5 19.0797 18.5 20.1797H19.5C21.16 20.1797 22.5 18.8397 22.5 17.1797V14.1797H19.5C18.95 14.1797 18.5 13.7297 18.5 13.1797V10.1797C18.5 9.62969 18.95 9.17969 19.5 9.17969H20.79L19.08 6.1897C18.72 5.5697 18.06 5.17969 17.34 5.17969H15.5V12.1797C15.5 13.2797 14.6 14.1797 13.5 14.1797H12.5" stroke="#021959" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+										<path d="M8.5 22.1797C9.60457 22.1797 10.5 21.2843 10.5 20.1797C10.5 19.0751 9.60457 18.1797 8.5 18.1797C7.39543 18.1797 6.5 19.0751 6.5 20.1797C6.5 21.2843 7.39543 22.1797 8.5 22.1797Z" stroke="#021959" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+										<path d="M16.5 22.1797C17.6046 22.1797 18.5 21.2843 18.5 20.1797C18.5 19.0751 17.6046 18.1797 16.5 18.1797C15.3954 18.1797 14.5 19.0751 14.5 20.1797C14.5 21.2843 15.3954 22.1797 16.5 22.1797Z" stroke="#021959" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+										<path d="M22.5 12.1797V14.1797H19.5C18.95 14.1797 18.5 13.7297 18.5 13.1797V10.1797C18.5 9.62969 18.95 9.17969 19.5 9.17969H20.79L22.5 12.1797Z" stroke="#021959" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+										<path d="M2.5 8.17969H8.5" stroke="#021959" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+										<path d="M2.5 11.1797H6.5" stroke="#021959" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+										<path d="M2.5 14.1797H4.5" stroke="#021959" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+									</svg>
+								</div>
+								<span class="txt-title font-weight-black text-color">Shipping Method</span>
+								<span class="txt-big secondary-text-color font-weight-bold">Select your preferred shipping method </span>
+							</div>
+							<div class="choices w-100 d-flex gap-4">
+								<div class="w-50 button-date active border-color border-style-solid bw-1 radius-all-small">
+									<div class="py-7 d-flex flex-column justify-content-center gap-3">
+										<div class="d-flex flex-column justify-content-center align-items-center">
+											<div class="tick border-color bw-1 border-style-solid radius-all-extra-small mb-3 d-flex justify-content-center align-items-center">
+												<i class="fa-solid fa-check on-primary-color"></i>
+											</div>
+											<p class="font-weight-bold">Ordinary Post:</p>
+											<div class="d-flex gap-1 align-items-center">
+												<span class="font-weight-bold text-color txt-mid-title">$</span>
+												<span class="font-weight-bold">25,000</span>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="w-50 button-date border-color border-style-solid bw-1 radius-all-small">
+									<div class="py-7 d-flex flex-column justify-content-center gap-3">
+										<div class="d-flex flex-column justify-content-center align-items-center">
+											<div class="tick border-color bw-1 border-style-solid radius-all-extra-small mb-3 d-flex justify-content-center align-items-center">
+												<i class="fa-solid fa-check on-primary-color"></i>
+											</div>
+											<p class="font-weight-bold">Express Post:</p>
+											<div class="d-flex gap-1 align-items-center">
+												<span class="font-weight-bold text-color txt-mid-title">$</span>
+												<span class="font-weight-bold">25,000</span>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="w-100 d-flex flex-column gap-4 bb-style-solid bw-1 border-color py-10">
+							<div class="d-flex gap-3 align-items-center font-weight-bold">
+								<div class="d-flex align-items-center justify-content-center py-1 px-1 radius-all-full background-color bw-4 border-style-solid border-on-secondary-color">
+									<svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 25 25" fill="none" class="w-80">
+										<path d="M2.5 12.7891H19.5" stroke="#021959" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"></path>
+										<path d="M19.5 10.4605V17.6105C19.47 20.4605 18.69 21.1805 15.72 21.1805H6.28003C3.26003 21.1805 2.5 20.4305 2.5 17.4505V10.4605C2.5 7.76047 3.13 6.89047 5.5 6.75047C5.74 6.74047 6.00003 6.73047 6.28003 6.73047H15.72C18.74 6.73047 19.5 7.48047 19.5 10.4605Z" stroke="#021959" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+										<path d="M22.5 6.90969V13.8997C22.5 16.5997 21.87 17.4697 19.5 17.6097V10.4597C19.5 7.47969 18.74 6.72969 15.72 6.72969H6.28003C6.00003 6.72969 5.74 6.73969 5.5 6.74969C5.53 3.89969 6.31003 3.17969 9.28003 3.17969H18.72C21.74 3.17969 22.5 3.92969 22.5 6.90969Z" stroke="#021959" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+										<path d="M5.75 17.9902H7.46997" stroke="#021959" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"></path>
+										<path d="M9.60938 17.9902H13.0494" stroke="#021959" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"></path>
+									</svg>
+								</div>
+								<span class="txt-title font-weight-bold text-color">Payment Method</span>
+								<span class="txt-big secondary-text-color font-weight-bold">Select your preferred payment method </span>
+							</div>
+							<div class="choices w-100 d-flex gap-4">
+								<div class="w-50 button-date active border-color border-style-solid bw-1 radius-all-small">
+									<div class="py-7 d-flex flex-column justify-content-center gap-3">
+										<div class="d-flex flex-column justify-content-center align-items-center">
+											<div class="radius-all-extra-small mb-4 d-flex justify-content-center align-items-center">
+												<p class="txt-big bg-information-light-color py-2 px-2 radius-all-extra-small font-weight-bold">Cash</p>
+											</div>
+											<p class="font-weight-bold">Pay on Delivery</p>
+										</div>
+									</div>
+								</div>
+								<div class="w-50 button-date border-color border-style-solid bw-1 radius-all-small">
+									<div class="py-7 d-flex flex-column justify-content-center gap-3">
+										<div class="d-flex flex-column justify-content-center align-items-center">
+											<div class="radius-all-extra-small mb-4 d-flex justify-content-center align-items-center">
+												<p class="txt-big bg-warning-light-color py-2 px-2 radius-all-extra-small font-weight-bold">Online</p>
+											</div>
+											<p class="font-weight-bold">Online Payment</p>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
 
-                    <div class="horizontal-line w-100 mb-8 bw-1 border-color bt-style-solid"></div>
+						<div class="py-10 d-flex flex-column gap-4">
+							<div class="d-flex justify-content-space-between align-items-center">
+								<div class="d-flex gap-3 align-items-center font-weight-bold">
+									<div class="d-flex align-items-center justify-content-center py-1 px-1 radius-all-full background-color bw-4 border-style-solid border-on-secondary-color">
+										<svg xmlns="http://www.w3.org/2000/svg" width="23" height="23" viewBox="0 0 23 23" fill="none" class="w-80">
+											<path d="M20.5794 11.4889C20.5794 16.5489 16.4728 20.6556 11.4128 20.6556C6.35276 20.6556 2.24609 16.5489 2.24609 11.4889C2.24609 6.42893 6.35276 2.32227 11.4128 2.32227C16.4728 2.32227 20.5794 6.42893 20.5794 11.4889Z" stroke="#021959" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+											<path d="M14.8142 14.4039L11.9726 12.708C11.4776 12.4147 11.0742 11.7089 11.0742 11.1314V7.37305" stroke="#021959" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+										</svg>
+									</div>
+									<span class="txt-title font-weight-bold text-color">Delivery Time</span>
+								</div>
+								<div class="d-flex gap-10">
+									<div class="d-flex gap-1">
+										<span class="txt-big secondary-text-color font-weight-bold">Delivery Time</span>
+										<span class="txt-big font-weight-bold">Not Selected</span>
+									</div>
+									<div class="d-flex gap-1">
+										<span class="txt-big secondary-text-color font-weight-bold">Max Delivery Time </span>
+										<span class="txt-big font-weight-bold">2025.01.18</span>
+									</div>
+								</div>
+							</div>
+							<div class="choices d-grid grid-6 gap-3 grid-md-3">
+								<div class="button-date active bw-1 border-color text-color border-style-solid d-flex flex-column radius-all-small py-4 px-4">
+									<div class="d-flex justify-content-start">
+										<p class="font-weight-bold txt-extra-title">Saturday</p>
+									</div>
+									<div class="d-flex justify-content-end">
+										<p class="font-weight-bold">2025.01.18</p>
+									</div>
+								</div>
+								<div class="button-date bw-1 border-color border-style-solid text-color d-flex flex-column radius-all-small py-4 px-4">
+									<div class="d-flex justify-content-start">
+										<p class="font-weight-bold txt-extra-title">Saturday</p>
+									</div>
+									<div class="d-flex justify-content-end">
+										<p class="font-weight-bold">2025.01.18</p>
+									</div>
+								</div>
+								<div class="button-date bw-1 border-color border-style-solid text-color d-flex flex-column radius-all-small py-4 px-4">
+									<div class="d-flex justify-content-start">
+										<p class="font-weight-bold txt-extra-title">Saturday</p>
+									</div>
+									<div class="d-flex justify-content-end">
+										<p class="font-weight-bold">2025.01.18</p>
+									</div>
+								</div>
+								<div class="button-date bw-1 border-color border-style-solid text-color d-flex flex-column radius-all-small py-4 px-4">
+									<div class="d-flex justify-content-start">
+										<p class="font-weight-bold txt-extra-title">Saturday</p>
+									</div>
+									<div class="d-flex justify-content-end">
+										<p class="font-weight-bold">2025.01.18</p>
+									</div>
+								</div>
+								<div class="button-date bw-1 border-color border-style-solid text-color d-flex flex-column radius-all-small py-4 px-4">
+									<div class="d-flex justify-content-start">
+										<p class="font-weight-bold txt-extra-title">Saturday</p>
+									</div>
+									<div class="d-flex justify-content-end">
+										<p class="font-weight-bold">2025.01.18</p>
+									</div>
+								</div>
+								<div class="button-date bw-1 border-color border-style-solid text-color d-flex flex-column radius-all-small py-4 px-4">
+									<div class="d-flex justify-content-start">
+										<p class="font-weight-bold txt-extra-title">Saturday</p>
+									</div>
+									<div class="d-flex justify-content-end">
+										<p class="font-weight-bold">2025.01.18</p>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
 
-                    <div class="phase d-flex flex-column align-items-center gap-3 ">
-                        <div
-                            class="back-svg px-2 py-2 radius-all-full d-flex align-items-center justify-content-center bw-5 border-style-solid border-on-primary-color">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="19" height="19" viewBox="0 0 19 19"
-                                fill="none">
-                                <path
-                                    d="M13.5664 16.0195H6.06641C3.81641 16.0195 2.31641 14.8945 2.31641 12.2695V7.01953C2.31641 4.39453 3.81641 3.26953 6.06641 3.26953H13.5664C15.8164 3.26953 17.3164 4.39453 17.3164 7.01953V12.2695C17.3164 14.8945 15.8164 16.0195 13.5664 16.0195Z"
-                                    stroke="#021959" stroke-width="1.2" stroke-miterlimit="10" stroke-linecap="round"
-                                    stroke-linejoin="round"></path>
-                                <path d="M5.31641 6.64453V12.6445" stroke="#021959" stroke-width="1.2"
-                                    stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"></path>
-                                <path d="M7.56641 6.64453V9.64453" stroke="#021959" stroke-width="1.2"
-                                    stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"></path>
-                                <path d="M7.56641 11.8945V12.6445" stroke="#021959" stroke-width="1.2"
-                                    stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"></path>
-                                <path d="M12.0664 6.64453V7.39453" stroke="#021959" stroke-width="1.2"
-                                    stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"></path>
-                                <path d="M9.81641 6.64453V12.6445" stroke="#021959" stroke-width="1.2"
-                                    stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"></path>
-                                <path d="M12.0664 9.64453V12.6445" stroke="#021959" stroke-width="1.2"
-                                    stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"></path>
-                                <path d="M14.3164 6.64453V12.6445" stroke="#021959" stroke-width="1.2"
-                                    stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"></path>
-                            </svg>
-                        </div>
-                        <span class="txt-title secondary-text-color font-weight-bold">Complete</span>
-                    </div>
+					<aside class="w-25 w-xl-100 d-flex flex-column gap-2 position-sticky top-0">
+						<div class="total-cost bg-on-primary-color w-100 d-flex flex-column py-5 px-8 top-0 bw-1 border-style-solid radius-all-medium border-color">
+							<p class="txt-mid-title text-color font-weight-bold py-4">Cart Total</p>
+							<div class="off-code d-flex gap-4 gap-xl-2 w-100 py-4">
+								<input type="text" placeholder=" Enter discount code" id="press" style="background-color: #f5fcff; border-color: #c2e8eb; color: #b3e8ed" class="w-70 txt-title py-2 px-2 radius-all-small bw-2 border-style-solid font-wight-black" />
+								<button id="press" style="background-color: #16a8b3" class="py-3 px-3 radius-all-small txt-small font-weight-bold button-text-color w-30">Apply Code</button>
+							</div>
+							<div class="d-flex justify-content-space-between bw-1 bb-style-solid border-color py-3 align-items-center">
+								<div>
+									<p class="txt-title font-weight-semi-bold">Standard Shipping</p>
+								</div>
+								<div class="d-flex gap-1 align-items-center">
+									<span class="font-weight-bold text-color txt-mid-title">$</span>
+									<span class="txt-mid-title font-weight-bold">25,000</span>
+								</div>
+							</div>
+							<div class="d-flex justify-content-space-between bw-1 bb-style-solid border-color py-3 align-items-center">
+								<div>
+									<p class="txt-title font-weight-semi-bold">Insurance</p>
+								</div>
+								<div class="d-flex gap-1 align-items-center">
+									<span class="font-weight-bold text-color txt-mid-title">$</span>
+									<span class="txt-mid-title font-weight-bold">100,000</span>
+								</div>
+							</div>
+							<div class="d-flex justify-content-space-between bw-1 bb-style-solid border-color py-3 align-items-center">
+								<div>
+									<p class="txt-title font-weight-semi-bold">Packaging</p>
+								</div>
+								<div class="d-flex gap-1 align-items-center">
+									<span class="font-weight-bold text-color txt-mid-title">$</span>
+									<span class="txt-mid-title font-weight-bold">50,000</span>
+								</div>
+							</div>
+							<div class="d-flex justify-content-space-between py-4 align-items-center text-color">
+								<div>
+									<p class="txt-extra-title font-weight-bold">Total Amount</p>
+								</div>
+								<div class="d-flex gap-1 align-items-center">
+									<span class="font-weight-bold text-color txt-mid-title">$</span>
+									<span class="txt-big-title font-weight-bold">195,175,000</span>
+								</div>
+							</div>
+						</div>
+						<p class="txt-small secondary-text-color font-weight-bold">Your personal information will be used to process your order, support your experience throughout this website, and for other purposes described in our Privacy Policy.</p>
+						<a class="w-100" href="./cart4.html">
+							<button class="bg-primary-color w-100 txt-nowrap on-primary-color txt-extra-title font-weight-bold py-4 radius-all-small txt-align-center cart-button bg-btn-hover">Place Order</button>
+						</a>
+					</aside>
+				</div>
+			</section>
+		</main>
 
-                </div>
-
-            </div>
-
-        </section>
-
-        <section id="information" class="section gap-8">
-            <div
-                class="d-flex flex-column w-100 gap-6 py-6 bw-1 border-style-solid border-color radius-all-medium px-6 mt-4">
-                <div class="d-flex gap-3 align-items-center font-weight-bold">
-                    <div
-                        class="d-flex align-items-center justify-content-center py-2 px-2 radius-all-full background-color bw-4 border-style-solid border-on-secondary-color">
-                        <svg class="auth-icon" xmlns="http://www.w3.org/2000/svg" width="18" height="19"
-                            viewBox="0 0 18 19" fill="none" class="w-80">
-                            <path
-                                d="M8.96611 9.54044C6.93565 9.54044 5.28964 7.89443 5.28964 5.86397C5.28964 3.83351 6.93565 2.1875 8.96611 2.1875C10.9966 2.1875 12.6426 3.83351 12.6426 5.86397C12.6426 7.89443 10.9966 9.54044 8.96611 9.54044Z"
-                                stroke="#021959" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
-                            </path>
-                            <path
-                                d="M2.65122 17.9312C2.65122 15.0857 5.4821 12.7842 8.96739 12.7842C12.4527 12.7842 15.2836 15.0857 15.2836 17.9312"
-                                stroke="#021959" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
-                            </path>
-                        </svg>
-                    </div>
-                    <h3 class="font-weight-bold txt-mid-title text-color">Recipient Information</h3>
-                </div>
-                <div class="d-flex flex-lg-column gap-6 w-100 justify-space-between">
-                    <div class="w-75 w-lg-100">
-                        <form action="" class="d-flex gy-5 gx-3 flex-wrap ">
-                            <div class="d-flex flex-column gap-4 col-5 col-md-4">
-                                <label for="name" class="d-flex text-color "> Recipient Name</label>
-                                <input id="name" type="text" required
-                                    class="bw-2 border-color border-style-solid radius-all-small px-4 py-3">
-                            </div>
-                            <div class="d-flex flex-column gap-4 col-5 col-md-4">
-                                <label for="family" class="d-flex text-color ">Recipient Last Name</label>
-                                <input type="text" id="family" required
-                                    class="bw-2 border-color border-style-solid radius-all-small px-4 py-3">
-                            </div>
-                            <div class="d-flex flex-column gap-4 col-2 col-md-4">
-                                <label for="tell" class="d-flex text-color">Phone Number</label>
-                                <input type="tel" id="tell" required
-                                    class="bw-2 border-color border-style-solid radius-all-small px-4 py-3">
-                            </div>
-                            <div class="d-flex flex-column gap-4 col-6">
-                                <label for="region" class="d-flex text-color ">Province</label>
-                                <select id="region"
-                                    class="bw-2 border-color border-style-solid radius-all-small px-4 py-3 bg-on-primary-color">City
-                                    <option>Tehran</option>
-                                    <option>Fars</option>
-                                    <option>Kerman</option>
-                                </select>
-                            </div>
-                            <div class="d-flex flex-column gap-4 col-6">
-                                <label for="city" class="d-flex text-color ">City</label>
-                                <select id="city"
-                                    class="bw-2 border-color border-style-solid radius-all-small px-4 py-3 bg-on-primary-color">City
-                                    <option>Tehran</option>
-                                    <option>Shiraz</option>
-                                    <option>Kerman</option>
-                                </select>
-                            </div>
-                            <div class="d-flex flex-column gap-4 col-8">
-                                <label for="post-address" class="d-flex text-color ">Postal Address</label>
-                                <input type="text" id="post-address"
-                                    class="bw-2 border-color border-style-solid radius-all-small px-4 py-3">
-                            </div>
-                            <div class="d-flex flex-column gap-4 col-4">
-                                <label for="code-address" class="d-flex text-color ">Postal Code</label>
-                                <input type="tel" id="code-address"
-                                    class="bw-2 border-color border-style-solid radius-all-small px-4 py-3">
-                            </div>
-
-                        </form>
-                    </div>
-                    <div class="w-25 w-lg-100 h-100">
-                        <iframe class="w-100 radius-all-medium w-lg-100 h-40vh" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d28768.18461818016!2d-73.88541126903276!3d40.72059393494488!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c24fa5d33f083b%3A0xc80b8f06e177fe62!2sNew%20York%2C%20NY%2C%20USA!5e0!3m2!1sen!2s!4v1772107422528!5m2!1sen!2s" width="600" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-                    </div>
-                </div>
-            </div>
-
-            <div class="d-flex gap-8 position-relative flex-xl-column w-100">
-                <div
-                    class="w-75 w-xl-100 px-8 bw-1 border-color border-style-solid radius-all-medium d-flex flex-column">
-                    <div class="w-100 d-flex flex-column gap-4 bb-style-solid bw-1 border-color py-10">
-                        <div class="d-flex gap-3 align-items-center font-weight-bold">
-                            <div
-                                class="d-flex align-items-center justify-content-center py-1 px-1 radius-all-full background-color bw-4 border-style-solid border-on-secondary-color">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 25 25"
-                                    fill="none" class="w-80">
-                                    <path
-                                        d="M12.5017 14.1797H13.5017C14.6017 14.1797 15.5017 13.2797 15.5017 12.1797V2.17969H6.50171C5.00171 2.17969 3.69172 3.00968 3.01172 4.22968"
-                                        stroke="#021959" stroke-width="1.5" stroke-linecap="round"
-                                        stroke-linejoin="round"></path>
-                                    <path
-                                        d="M2.5 17.1797C2.5 18.8397 3.84 20.1797 5.5 20.1797H6.5C6.5 19.0797 7.4 18.1797 8.5 18.1797C9.6 18.1797 10.5 19.0797 10.5 20.1797H14.5C14.5 19.0797 15.4 18.1797 16.5 18.1797C17.6 18.1797 18.5 19.0797 18.5 20.1797H19.5C21.16 20.1797 22.5 18.8397 22.5 17.1797V14.1797H19.5C18.95 14.1797 18.5 13.7297 18.5 13.1797V10.1797C18.5 9.62969 18.95 9.17969 19.5 9.17969H20.79L19.08 6.1897C18.72 5.5697 18.06 5.17969 17.34 5.17969H15.5V12.1797C15.5 13.2797 14.6 14.1797 13.5 14.1797H12.5"
-                                        stroke="#021959" stroke-width="1.5" stroke-linecap="round"
-                                        stroke-linejoin="round"></path>
-                                    <path
-                                        d="M8.5 22.1797C9.60457 22.1797 10.5 21.2843 10.5 20.1797C10.5 19.0751 9.60457 18.1797 8.5 18.1797C7.39543 18.1797 6.5 19.0751 6.5 20.1797C6.5 21.2843 7.39543 22.1797 8.5 22.1797Z"
-                                        stroke="#021959" stroke-width="1.5" stroke-linecap="round"
-                                        stroke-linejoin="round"></path>
-                                    <path
-                                        d="M16.5 22.1797C17.6046 22.1797 18.5 21.2843 18.5 20.1797C18.5 19.0751 17.6046 18.1797 16.5 18.1797C15.3954 18.1797 14.5 19.0751 14.5 20.1797C14.5 21.2843 15.3954 22.1797 16.5 22.1797Z"
-                                        stroke="#021959" stroke-width="1.5" stroke-linecap="round"
-                                        stroke-linejoin="round"></path>
-                                    <path
-                                        d="M22.5 12.1797V14.1797H19.5C18.95 14.1797 18.5 13.7297 18.5 13.1797V10.1797C18.5 9.62969 18.95 9.17969 19.5 9.17969H20.79L22.5 12.1797Z"
-                                        stroke="#021959" stroke-width="1.5" stroke-linecap="round"
-                                        stroke-linejoin="round"></path>
-                                    <path d="M2.5 8.17969H8.5" stroke="#021959" stroke-width="1.5"
-                                        stroke-linecap="round" stroke-linejoin="round"></path>
-                                    <path d="M2.5 11.1797H6.5" stroke="#021959" stroke-width="1.5"
-                                        stroke-linecap="round" stroke-linejoin="round"></path>
-                                    <path d="M2.5 14.1797H4.5" stroke="#021959" stroke-width="1.5"
-                                        stroke-linecap="round" stroke-linejoin="round"></path>
-                                </svg>
-                            </div>
-                            <span class="txt-title font-weight-black text-color">Shipping Method</span>
-                            <span class="txt-big secondary-text-color font-weight-bold">Select your preferred shipping
-                                method
-                            </span>
-                        </div>
-                        <div class="choices w-100 d-flex gap-4">
-                            <div class="w-50 button-date active border-color border-style-solid bw-1 radius-all-small">
-                                <div class="py-7 d-flex flex-column justify-content-center gap-3">
-                                    <div class="d-flex flex-column justify-content-center align-items-center">
-                                        <div
-                                            class="tick border-color bw-1 border-style-solid radius-all-extra-small mb-3 d-flex justify-content-center align-items-center">
-                                            <i class="fa-solid fa-check on-primary-color"></i>
-                                        </div>
-                                        <p class="font-weight-bold">Ordinary Post:</p>
-                                        <div class="d-flex gap-1 align-items-center">
-                                            <span class="font-weight-bold text-color txt-mid-title">$</span>
-                                            <span class="font-weight-bold">25,000</span>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="w-50 button-date border-color border-style-solid bw-1 radius-all-small">
-                                <div class="py-7 d-flex flex-column justify-content-center gap-3">
-                                    <div class="d-flex flex-column justify-content-center align-items-center">
-                                        <div
-                                            class="tick border-color bw-1 border-style-solid  radius-all-extra-small mb-3 d-flex justify-content-center align-items-center">
-                                            <i class="fa-solid fa-check on-primary-color"></i>
-                                        </div>
-                                        <p class="font-weight-bold">Express Post:</p>
-                                        <div class="d-flex gap-1 align-items-center">
-                                            <span class="font-weight-bold text-color txt-mid-title">$</span>
-                                            <span class="font-weight-bold">25,000</span>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="w-100 d-flex flex-column gap-4 bb-style-solid bw-1 border-color py-10">
-                        <div class="d-flex gap-3 align-items-center font-weight-bold">
-                            <div
-                                class="d-flex align-items-center justify-content-center py-1 px-1 radius-all-full background-color bw-4 border-style-solid border-on-secondary-color">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 25 25"
-                                    fill="none" class="w-80">
-                                    <path d="M2.5 12.7891H19.5" stroke="#021959" stroke-width="1.5"
-                                        stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"></path>
-                                    <path
-                                        d="M19.5 10.4605V17.6105C19.47 20.4605 18.69 21.1805 15.72 21.1805H6.28003C3.26003 21.1805 2.5 20.4305 2.5 17.4505V10.4605C2.5 7.76047 3.13 6.89047 5.5 6.75047C5.74 6.74047 6.00003 6.73047 6.28003 6.73047H15.72C18.74 6.73047 19.5 7.48047 19.5 10.4605Z"
-                                        stroke="#021959" stroke-width="1.5" stroke-linecap="round"
-                                        stroke-linejoin="round"></path>
-                                    <path
-                                        d="M22.5 6.90969V13.8997C22.5 16.5997 21.87 17.4697 19.5 17.6097V10.4597C19.5 7.47969 18.74 6.72969 15.72 6.72969H6.28003C6.00003 6.72969 5.74 6.73969 5.5 6.74969C5.53 3.89969 6.31003 3.17969 9.28003 3.17969H18.72C21.74 3.17969 22.5 3.92969 22.5 6.90969Z"
-                                        stroke="#021959" stroke-width="1.5" stroke-linecap="round"
-                                        stroke-linejoin="round"></path>
-                                    <path d="M5.75 17.9902H7.46997" stroke="#021959" stroke-width="1.5"
-                                        stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"></path>
-                                    <path d="M9.60938 17.9902H13.0494" stroke="#021959" stroke-width="1.5"
-                                        stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"></path>
-                                </svg>
-                            </div>
-                            <span class="txt-title font-weight-bold text-color">Payment Method</span>
-                            <span class="txt-big secondary-text-color font-weight-bold">Select your preferred payment
-                                method
-                            </span>
-                        </div>
-                        <div class="choices w-100 d-flex gap-4">
-                            <div class="w-50 button-date active border-color border-style-solid bw-1 radius-all-small">
-                                <div class="py-7 d-flex flex-column justify-content-center gap-3">
-                                    <div class="d-flex flex-column justify-content-center align-items-center">
-                                        <div
-                                            class=" radius-all-extra-small mb-4 d-flex justify-content-center align-items-center">
-                                            <p
-                                                class="txt-big bg-information-light-color py-2 px-2 radius-all-extra-small font-weight-bold">
-                                                Cash</p>
-                                        </div>
-                                        <p class="font-weight-bold">Pay on Delivery</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="w-50 button-date border-color border-style-solid bw-1 radius-all-small">
-                                <div class="py-7 d-flex flex-column justify-content-center gap-3">
-                                    <div class="d-flex flex-column justify-content-center align-items-center">
-                                        <div
-                                            class="radius-all-extra-small mb-4 d-flex justify-content-center align-items-center">
-                                            <p
-                                                class="txt-big bg-warning-light-color py-2 px-2 radius-all-extra-small font-weight-bold">
-                                                Online</p>
-                                        </div>
-                                        <p class="font-weight-bold ">Online Payment</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-
-
-
-
-
-                    <div class="py-10 d-flex flex-column gap-4">
-                        <div class="d-flex justify-content-space-between align-items-center">
-                            <div class="d-flex gap-3 align-items-center font-weight-bold">
-                                <div
-                                    class="d-flex align-items-center justify-content-center py-1 px-1 radius-all-full background-color bw-4 border-style-solid border-on-secondary-color">
-                                    <svg xmlns="http://www.w3.org/2000/svg" width="23" height="23" viewBox="0 0 23 23"
-                                        fill="none" class="w-80">
-                                        <path
-                                            d="M20.5794 11.4889C20.5794 16.5489 16.4728 20.6556 11.4128 20.6556C6.35276 20.6556 2.24609 16.5489 2.24609 11.4889C2.24609 6.42893 6.35276 2.32227 11.4128 2.32227C16.4728 2.32227 20.5794 6.42893 20.5794 11.4889Z"
-                                            stroke="#021959" stroke-width="1.5" stroke-linecap="round"
-                                            stroke-linejoin="round"></path>
-                                        <path
-                                            d="M14.8142 14.4039L11.9726 12.708C11.4776 12.4147 11.0742 11.7089 11.0742 11.1314V7.37305"
-                                            stroke="#021959" stroke-width="1.5" stroke-linecap="round"
-                                            stroke-linejoin="round"></path>
-                                    </svg>
-                                </div>
-                                <span class="txt-title font-weight-bold text-color">Delivery Time</span>
-                            </div>
-                            <div class="d-flex gap-10">
-                                <div class="d-flex gap-1">
-                                    <span class="txt-big secondary-text-color font-weight-bold">Delivery Time</span>
-                                    <span class="txt-big font-weight-bold">Not Selected</span>
-                                </div>
-                                <div class="d-flex gap-1">
-                                    <span class="txt-big secondary-text-color font-weight-bold">Max Delivery Time
-                                    </span>
-                                    <span class="txt-big font-weight-bold">2025.01.18</span>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="choices d-grid grid-6 gap-3 grid-md-3">
-                            <div
-                                class="button-date active bw-1 border-color text-color border-style-solid d-flex flex-column radius-all-small py-4 px-4">
-                                <div class="d-flex justify-content-start">
-                                    <p class="font-weight-bold txt-extra-title">Saturday</p>
-                                </div>
-                                <div class="d-flex justify-content-end">
-                                    <p class="font-weight-bold">2025.01.18</p>
-                                </div>
-                            </div>
-                            <div
-                                class="button-date bw-1 border-color border-style-solid text-color d-flex flex-column radius-all-small py-4 px-4">
-                                <div class="d-flex justify-content-start">
-                                    <p class="font-weight-bold txt-extra-title">Saturday</p>
-                                </div>
-                                <div class="d-flex justify-content-end">
-                                    <p class="font-weight-bold">2025.01.18</p>
-                                </div>
-                            </div>
-                            <div
-                                class="button-date bw-1 border-color border-style-solid text-color d-flex flex-column radius-all-small py-4 px-4">
-                                <div class="d-flex justify-content-start">
-                                    <p class="font-weight-bold txt-extra-title">Saturday</p>
-                                </div>
-                                <div class="d-flex justify-content-end">
-                                    <p class="font-weight-bold">2025.01.18</p>
-                                </div>
-                            </div>
-                            <div
-                                class="button-date bw-1 border-color border-style-solid text-color d-flex flex-column radius-all-small py-4 px-4">
-                                <div class="d-flex justify-content-start">
-                                    <p class="font-weight-bold txt-extra-title">Saturday</p>
-                                </div>
-                                <div class="d-flex justify-content-end">
-                                    <p class="font-weight-bold">2025.01.18</p>
-                                </div>
-                            </div>
-                            <div
-                                class="button-date bw-1 border-color border-style-solid text-color d-flex flex-column radius-all-small py-4 px-4">
-                                <div class="d-flex justify-content-start">
-                                    <p class="font-weight-bold txt-extra-title">Saturday</p>
-                                </div>
-                                <div class="d-flex justify-content-end">
-                                    <p class="font-weight-bold">2025.01.18</p>
-                                </div>
-                            </div>
-                            <div
-                                class="button-date bw-1 border-color border-style-solid text-color d-flex flex-column radius-all-small py-4 px-4">
-                                <div class="d-flex justify-content-start">
-                                    <p class="font-weight-bold txt-extra-title">Saturday</p>
-                                </div>
-                                <div class="d-flex justify-content-end">
-                                    <p class="font-weight-bold">2025.01.18</p>
-                                </div>
-                            </div>
-                        </div>
-
-                    </div>
-                </div>
-
-                <aside class="w-25 w-xl-100 d-flex flex-column gap-2 position-sticky top-0 ">
-
-                    <div
-                        class="total-cost bg-on-primary-color w-100 d-flex flex-column py-5 px-8 top-0 bw-1 border-style-solid radius-all-medium border-color">
-
-                        <p class="txt-mid-title text-color font-weight-bold py-4">Cart Total</p>
-                        <div class="off-code d-flex gap-4 gap-xl-2 w-100 py-4">
-                            <input type="text" placeholder=" Enter discount code" id="press"
-                                style=" background-color: #F5FCFF; border-color: #C2E8EB; color: #b3e8ed; "
-                                class="w-70 txt-title py-2 px-2 radius-all-small bw-2 border-style-solid font-wight-black ">
-                            <button id="press" style="background-color: #16A8B3;"
-                                class="py-3 px-3 radius-all-small txt-small font-weight-bold button-text-color w-30">Apply
-                                Code</button>
-                        </div>
-                        <div
-                            class="d-flex justify-content-space-between bw-1 bb-style-solid border-color py-3 align-items-center">
-                            <div>
-                                <p class="txt-title font-weight-semi-bold">Standard Shipping</p>
-                            </div>
-                            <div class="d-flex gap-1 align-items-center">
-                                <span class="font-weight-bold text-color txt-mid-title">$</span>
-                                <span class="txt-mid-title font-weight-bold">25,000</span>
-                            </div>
-                        </div>
-                        <div
-                            class="d-flex justify-content-space-between bw-1 bb-style-solid border-color py-3 align-items-center">
-                            <div>
-                                <p class="txt-title font-weight-semi-bold">Insurance</p>
-                            </div>
-                            <div class="d-flex gap-1 align-items-center">
-                                <span class="font-weight-bold text-color txt-mid-title">$</span>
-                                <span class="txt-mid-title font-weight-bold">100,000</span>
-                            </div>
-                        </div>
-                        <div
-                            class="d-flex justify-content-space-between bw-1 bb-style-solid border-color py-3 align-items-center">
-                            <div>
-                                <p class="txt-title font-weight-semi-bold">Packaging</p>
-                            </div>
-                            <div class="d-flex gap-1 align-items-center">
-                                <span class="font-weight-bold text-color txt-mid-title">$</span>
-                                <span class="txt-mid-title font-weight-bold">50,000</span>
-                            </div>
-                        </div>
-                        <div class="d-flex justify-content-space-between py-4 align-items-center text-color">
-                            <div>
-                                <p class="txt-extra-title font-weight-bold">Total Amount</p>
-                            </div>
-                            <div class="d-flex gap-1 align-items-center">
-                                <span class="font-weight-bold text-color txt-mid-title">$</span>
-                                <span class="txt-big-title font-weight-bold">195,175,000</span>
-                            </div>
-                        </div>
-
-                    </div>
-                    <p class="txt-small secondary-text-color font-weight-bold">Your personal information will be used to
-                        process your order, support your experience throughout this website, and for other purposes
-                        described in our Privacy Policy.</p>
-                    <a class="w-100" href="./cart4.html">
-                        <button
-                            class="bg-primary-color w-100 txt-nowrap on-primary-color txt-extra-title font-weight-bold py-4 radius-all-small txt-align-center cart-button bg-btn-hover">Place
-                            Order</button>
-                    </a>
-
-                </aside>
-
-
-
-            </div>
-        </section>
-    </main>
-
-    <script src="../assets/js/mizchin.min.js"></script>
-</body>
-
+		<script src="../assets/js/mizchin.min.js"></script>
+	</body>
 </html>
