@@ -111,6 +111,13 @@ const componentJson = {
             "category": "certificate-of-appreciation"
         }
     ],
+    "comments-like": [
+        {
+            "code": "<div class=\"like-box div gap-2 align-items-center\">\r\n        <div class=\"btn positive radius-all-small cursor-pointer\">\r\n            <p class=\"count user-select-none\">25</p>\r\n            <i class=\"fa-regular fa-thumbs-up\"></i>\r\n        </div>\r\n        <div class=\"btn negative radius-all-small cursor-pointer\">\r\n            <p class=\"count user-select-none\">3</p>\r\n            <i class=\"fa-regular fa-thumbs-down\"></i>\r\n        </div>\r\n    </div>\r\n\r\n    <script src=\"./assets/js/mizchin.min.js\" defer></script>",
+            "icon": "",
+            "category": "comments-like"
+        }
+    ],
     "commodity-pack": [
         {
             "code": "<!-- <div class=\"d-flex align-items-center w-100 gap-4 px-8\">\r\n            <div class=\"w-18 badge-wrapper\">\r\n                <img class=\"w-100\" src=\"./assets/media/images/component/1-11.webp\" alt=\"\">\r\n                <span class=\"badge bottom-0 right-0 bg-primary-color aspect-ratio-1x1 secondary-color radius-all-full\">1</span>\r\n            </div>\r\n            <p class=\"w-40\">kfjaskfskl lskd ;lskdl;fksadkfslds sksd; sdl;fkl;f1</p>\r\n            <span class=\"secondary-color txt-extra-title font-weight-bold\">1</span>\r\n        </div> -->\r\n\r\n\r\n\r\n        <div class=\"commodity-pack \">\r\n            <a class=\"d-flex align-items-center gap-5\">\r\n                <div class=\"w-20 badge-wrapper\">\r\n                    <img class=\"w-100\" src=\"./assets/media/images/component/1-11.webp\" alt=\"\">\r\n                    <span class=\"badge bottom-0 right-0 bg-primary-color aspect-ratio-1x1 secondary-color radius-all-full\">1</span>\r\n                </div>\r\n                <span class=\"txt-big on-secondary-color txt-ellipsis\">Sony PlayStation PULSE Elite Wireless\r\n                    <br> Slim Cherry Headset</span>\r\n                <span class=\"secondary font-weight-bold txt-extra-title\">1</span>\r\n            </a>\r\n        </div>",
