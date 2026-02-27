@@ -26778,6 +26778,25 @@ dialog {
 .accordion-group.scroll-accordion {
   max-height: 500px;
 }
+header .secondary-part {
+  transform: translateY(0%);
+  box-shadow: 0px 6px 7px 0px rgba(135, 145, 172, 0.07);
+  z-index: 99;
+  transition: 1s ease;
+}
+
+header .secondary-part.hide-submenu {
+  transform: translateY(-100%);
+}
+
+header .container:has(.secondary-part.hide-submenu) {
+  height: var(--height-primary-part);
+}
+
+header .container {
+  transition: 1s ease;
+}
+
 .ellipsis-4 {
   overflow: hidden;
   display: -webkit-box;
@@ -27479,6 +27498,19 @@ img {
 }
 .commodity-pack:hover::after {
   opacity: 1;
+}
+
+.like-box .positive, .like-box .negative {
+  cursor: pointer;
+}
+.like-box i {
+  transition: 0.3ms ease;
+}
+.like-box .btn.active.positive i {
+  color: #22c55e;
+}
+.like-box .btn.active.negative i {
+  color: #ef4444;
 }
 
 .description-header {
@@ -28355,25 +28387,6 @@ div:has(.product-detail) {
 .switcher.active .ball {
   background-color: white;
   transform: translateX(20px);
-}
-
-header .secondary-part {
-  transform: translateY(0%);
-  box-shadow: 0px 6px 7px 0px rgba(135, 145, 172, 0.07);
-  z-index: 99;
-  transition: 1s ease;
-}
-
-header .secondary-part.hide-submenu {
-  transform: translateY(-100%);
-}
-
-header .container:has(.secondary-part.hide-submenu) {
-  height: var(--height-primary-part);
-}
-
-header .container {
-  transition: 1s ease;
 }
 
 /*# sourceMappingURL=miz.min.css.map */
