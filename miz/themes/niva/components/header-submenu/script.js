@@ -1,6 +1,8 @@
 let headerContainer = document.querySelector("header .container");
-let height = headerContainer.querySelector(".primary-part").offsetHeight + "px";
-headerContainer.style.setProperty("--height-primary-part", height);
+if(headerContainer){
+  let height = headerContainer.querySelector(".primary-part").offsetHeight + "px";
+  headerContainer.style.setProperty("--height-primary-part", height);
+}
 
 class ScrollHeader {
   constructor() {
