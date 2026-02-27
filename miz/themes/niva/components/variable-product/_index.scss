@@ -50,5 +50,9 @@
 }
 
 .product-wrapper-sticky {
-    transition: 200ms ease; 
+    transition: 200ms ease;
+}
+.description-header{
+    transition: 100ms ease !important; 
+    z-index: 9;
 }

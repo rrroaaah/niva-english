@@ -16,7 +16,7 @@ const getImageUrls = () => {
 
     const files = fs.readdirSync(imagesFolder);
 
-    const imageExtensions = ['.jpg', '.jpeg', '.png', '.gif', '.bmp', '.svg', '.webp'];
+    const imageExtensions = ['.webp', '.jpeg', '.webp', '.gif', '.bmp', '.svg', '.webp'];
     const imageUrls = files
         .filter(file => imageExtensions.includes(path.extname(file).toLowerCase()))
         .map(file => `${window.location.origin}/assets/media/images/${file}`);

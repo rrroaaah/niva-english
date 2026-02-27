@@ -1,6 +1,6 @@
 #mobile-products .banner-category::after {
   content: "";
-  background-image: url("../../assets/media/images/homepage/abc11.png");
+  background-image: url("../../assets/media/images/homepage/abc11.webp");
   background-repeat: no-repeat;
   position: absolute;
   background-size: 100% 100%;
@@ -15,7 +15,7 @@
 }
 
 .bartt {
-  background-image: url(../../assets/media/images/homepage/frame.png);
+  background-image: url(../../assets/media/images/homepage/frame.webp);
   background-repeat: no-repeat;
   background-size: 100% 100%;
 }
@@ -311,7 +311,7 @@
     transform: translateY(70px);
   }
   #credit-purchase .devicebanner img {
-    transform: translateY(30px);
+    transform: translateY(-18px);
   }
   #credit-purchase .devicebanner:hover .title {
     transform: translateY(60px);
@@ -1158,6 +1158,10 @@
   border: none;
 }
 
+.product-details a svg {
+  transform: rotateY(180deg) !important;
+}
+
 @media screen and (width < 1400px) {
   .gap-xxl-0 {
     gap: 0rem !important;
@@ -1702,6 +1706,10 @@ header .secondary-part .submenu-hover > li:hover > a {
 header .megamenu > ul > .submenu-parent:hover > i,
 header .megamenu > ul > .submenu-parent:hover > span {
   color: var(--primary);
+}
+
+header #search {
+  width: 400px;
 }
 
 @media screen and (width < 1200px) {
