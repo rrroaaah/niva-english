@@ -1,4 +1,3 @@
-// قبل از init Swiper، المنت رو چک می‌کنیم
 const bannerSwiperEl = document.querySelector(".banner-card-content");
 
 if (bannerSwiperEl) {
